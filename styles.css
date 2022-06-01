@@ -1,0 +1,17 @@
+/* css styles */
+
+/* vapor theme Sass 
+
+https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/vapor.scss
+
+*/
+body{
+  color: #e6b3ff; /* light purple */
+  
+}
+
+
+code {
+  color: white;
+}
+

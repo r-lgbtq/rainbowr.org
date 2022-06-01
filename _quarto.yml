@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "RainbowR"
+  
+  
+  navbar:
+    right:
+      - about.qmd
+      - text: "Code of Conduct"
+        file: CoC.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+        
+format:
+  html:
+    theme: vapor # solar, morph
+    css: styles.css
+
+editor: visual
+
+# https://quarto.org/docs/websites/website-blog.html#themes

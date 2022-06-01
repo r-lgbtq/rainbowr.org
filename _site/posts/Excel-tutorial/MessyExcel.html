@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.334">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Zane Dax (She/They)">
+<meta name="dcterms.date" content="2022-05-26">
+<meta name="description" content="Clean messy heavily formatted Excel spreadsheets and tables.">
+
+<title>RainbowR - Messy Excel Tables</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">RainbowR</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">Blog</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../CoC.html">Code of Conduct</a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Messy Excel Tables</h1>
+                          <div class="quarto-categories">
+                <div class="quarto-category">excel</div>
+                <div class="quarto-category">data tables</div>
+                <div class="quarto-category">analysis</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div>
+    <div class="description">
+      Clean messy heavily formatted Excel spreadsheets and tables.
+    </div>
+  </div>
+
+
+
+
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Zane Dax (She/They) </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 26, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<section id="messy-excel-spreadsheets" class="level2">
+<h2 class="anchored" data-anchor-id="messy-excel-spreadsheets">Messy Excel spreadsheets</h2>
+<p>Finding LGBTQ datasets in the world, I often find <code>.xlsx</code> files, these are often very messy or formatted in a way that is less than ideal. This blog will show how to convert the Excel spreadsheet into a <code>tidyverse</code> dataset.</p>
+</section>
+<section id="book-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="book-tutorial">Book Tutorial</h2>
+<p>We will first use a eBook tutorial <strong>Spreadsheet Munging Strategies</strong> but I will provide details on each step of the process. The data tables for this tutorial are Australian Bureau of Statistics, download the data <a href="https://github.com/nacnudus/smungs/blob/master/inst/extdata/ozmarriage.xlsx?raw=true">here</a>.</p>
+<p>The data tables look like this <img src="AUS-table1.png" class="img-fluid" alt="table 1"></p>
+<p><img src="AUS-table2.png" class="img-fluid" alt="table 2"> Notice on the left side the rows have nested State Divisions with regions, and the columns are response and participants.</p>
+<section id="libraries" class="level3">
+<h3 class="anchored" data-anchor-id="libraries">Libraries</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyxl)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages('unpivotr')</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(unpivotr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="data-tables" class="level3">
+<h3 class="anchored" data-anchor-id="data-tables">Data tables</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>cells <span class="ot">=</span> <span class="fu">xlsx_cells</span>(<span class="st">"ozmarriage.xlsx"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cells</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4,699 × 21
+   sheet    address   row   col is_blank data_type error logical numeric
+   &lt;chr&gt;    &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;lgl&gt;    &lt;chr&gt;     &lt;chr&gt; &lt;lgl&gt;     &lt;dbl&gt;
+ 1 Contents A1          1     1 FALSE    character &lt;NA&gt;  NA           NA
+ 2 Contents B1          1     2 TRUE     blank     &lt;NA&gt;  NA           NA
+ 3 Contents C1          1     3 TRUE     blank     &lt;NA&gt;  NA           NA
+ 4 Contents D1          1     4 TRUE     blank     &lt;NA&gt;  NA           NA
+ 5 Contents E1          1     5 TRUE     blank     &lt;NA&gt;  NA           NA
+ 6 Contents F1          1     6 TRUE     blank     &lt;NA&gt;  NA           NA
+ 7 Contents G1          1     7 TRUE     blank     &lt;NA&gt;  NA           NA
+ 8 Contents H1          1     8 TRUE     blank     &lt;NA&gt;  NA           NA
+ 9 Contents I1          1     9 TRUE     blank     &lt;NA&gt;  NA           NA
+10 Contents J1          1    10 TRUE     blank     &lt;NA&gt;  NA           NA
+# … with 4,689 more rows, and 12 more variables: date &lt;dttm&gt;, character &lt;chr&gt;,
+#   character_formatted &lt;list&gt;, formula &lt;chr&gt;, is_array &lt;lgl&gt;,
+#   formula_ref &lt;chr&gt;, formula_group &lt;int&gt;, comment &lt;chr&gt;, height &lt;dbl&gt;,
+#   width &lt;dbl&gt;, style_format &lt;chr&gt;, local_format_id &lt;int&gt;</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># allows for getting table formatting </span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>formats <span class="ot">=</span> <span class="fu">xlsx_formats</span>(<span class="st">"ozmarriage.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>The whole Excel data is 4699 rows and 21 variables, all table (sheets) combined. We want to just get table 1.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Table 1</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 162 × 21
+   sheet   address   row   col is_blank data_type error logical numeric
+   &lt;chr&gt;   &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;lgl&gt;    &lt;chr&gt;     &lt;chr&gt; &lt;lgl&gt;     &lt;dbl&gt;
+ 1 Table 1 B5          5     2 FALSE    character &lt;NA&gt;  NA           NA
+ 2 Table 1 I5          5     9 FALSE    character &lt;NA&gt;  NA           NA
+ 3 Table 1 B6          6     2 FALSE    character &lt;NA&gt;  NA           NA
+ 4 Table 1 D6          6     4 FALSE    character &lt;NA&gt;  NA           NA
+ 5 Table 1 F6          6     6 FALSE    character &lt;NA&gt;  NA           NA
+ 6 Table 1 I6          6     9 FALSE    character &lt;NA&gt;  NA           NA
+ 7 Table 1 K6          6    11 FALSE    character &lt;NA&gt;  NA           NA
+ 8 Table 1 M6          6    13 FALSE    character &lt;NA&gt;  NA           NA
+ 9 Table 1 O6          6    15 FALSE    character &lt;NA&gt;  NA           NA
+10 Table 1 B7          7     2 FALSE    character &lt;NA&gt;  NA           NA
+# … with 152 more rows, and 12 more variables: date &lt;dttm&gt;, character &lt;chr&gt;,
+#   character_formatted &lt;list&gt;, formula &lt;chr&gt;, is_array &lt;lgl&gt;,
+#   formula_ref &lt;chr&gt;, formula_group &lt;int&gt;, comment &lt;chr&gt;, height &lt;dbl&gt;,
+#   width &lt;dbl&gt;, style_format &lt;chr&gt;, local_format_id &lt;int&gt;</code></pre>
+</div>
+</div>
+<p>So far this looks like nothing like the picture, so we will need pull out the column headers by using the <code>unpivotr::behead()</code> function to chop away all that formatting. The image below will help make sense of what is being beheaded.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="AUS-step.png" class="img-fluid figure-img"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">table 2</figcaption><p></p>
+</figure>
+</div>
+<p>The image shows Table 2 as it is similar to table 1, except for the nested regions under state. The column names we will use are basic generalized variables of what the columns store, name the column <code>response</code> instead of “response clear” and <code>population</code> instead of “eligible participants”. The regions under <code>state</code> will be moved.</p>
+</section>
+<section id="step-2" class="level3">
+<h3 class="anchored" data-anchor-id="step-2">Step 2</h3>
+<p>Using the image above as a guide in what we are chopping is the response and population columns, the direction of where they are located is important to have. These beheaded columns are at the end of the data table, but will be moved soon.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 153 × 23
+   sheet   address   row   col is_blank data_type error logical   numeric
+   &lt;chr&gt;   &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;lgl&gt;    &lt;chr&gt;     &lt;chr&gt; &lt;lgl&gt;       &lt;dbl&gt;
+ 1 Table 1 B7          7     2 FALSE    character &lt;NA&gt;  NA           NA  
+ 2 Table 1 C7          7     3 FALSE    character &lt;NA&gt;  NA           NA  
+ 3 Table 1 B8          8     2 FALSE    numeric   &lt;NA&gt;  NA      2374362  
+ 4 Table 1 C8          8     3 FALSE    numeric   &lt;NA&gt;  NA           57.8
+ 5 Table 1 B9          9     2 FALSE    numeric   &lt;NA&gt;  NA      2145629  
+ 6 Table 1 C9          9     3 FALSE    numeric   &lt;NA&gt;  NA           64.9
+ 7 Table 1 B10        10     2 FALSE    numeric   &lt;NA&gt;  NA      1487060  
+ 8 Table 1 C10        10     3 FALSE    numeric   &lt;NA&gt;  NA           60.7
+ 9 Table 1 B11        11     2 FALSE    numeric   &lt;NA&gt;  NA       592528  
+10 Table 1 C11        11     3 FALSE    numeric   &lt;NA&gt;  NA           62.5
+# … with 143 more rows, and 14 more variables: date &lt;dttm&gt;, character &lt;chr&gt;,
+#   character_formatted &lt;list&gt;, formula &lt;chr&gt;, is_array &lt;lgl&gt;,
+#   formula_ref &lt;chr&gt;, formula_group &lt;int&gt;, comment &lt;chr&gt;, height &lt;dbl&gt;,
+#   width &lt;dbl&gt;, style_format &lt;chr&gt;, local_format_id &lt;int&gt;, population &lt;chr&gt;,
+#   response &lt;chr&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="step-3" class="level3">
+<h3 class="anchored" data-anchor-id="step-3">Step 3</h3>
+<p>This step we are grabbing the <code>no.</code> and <code>%</code> columns underneath the response and population columns. The unit column will be nested and is placed at the end of the data table.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 139 × 24
+   sheet   address   row   col is_blank data_type error logical   numeric
+   &lt;chr&gt;   &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;lgl&gt;    &lt;chr&gt;     &lt;chr&gt; &lt;lgl&gt;       &lt;dbl&gt;
+ 1 Table 1 B8          8     2 FALSE    numeric   &lt;NA&gt;  NA      2374362  
+ 2 Table 1 C8          8     3 FALSE    numeric   &lt;NA&gt;  NA           57.8
+ 3 Table 1 B9          9     2 FALSE    numeric   &lt;NA&gt;  NA      2145629  
+ 4 Table 1 C9          9     3 FALSE    numeric   &lt;NA&gt;  NA           64.9
+ 5 Table 1 B10        10     2 FALSE    numeric   &lt;NA&gt;  NA      1487060  
+ 6 Table 1 C10        10     3 FALSE    numeric   &lt;NA&gt;  NA           60.7
+ 7 Table 1 B11        11     2 FALSE    numeric   &lt;NA&gt;  NA       592528  
+ 8 Table 1 C11        11     3 FALSE    numeric   &lt;NA&gt;  NA           62.5
+ 9 Table 1 B12        12     2 FALSE    numeric   &lt;NA&gt;  NA       801575  
+10 Table 1 C12        12     3 FALSE    numeric   &lt;NA&gt;  NA           63.7
+# … with 129 more rows, and 15 more variables: date &lt;dttm&gt;, character &lt;chr&gt;,
+#   character_formatted &lt;list&gt;, formula &lt;chr&gt;, is_array &lt;lgl&gt;,
+#   formula_ref &lt;chr&gt;, formula_group &lt;int&gt;, comment &lt;chr&gt;, height &lt;dbl&gt;,
+#   width &lt;dbl&gt;, style_format &lt;chr&gt;, local_format_id &lt;int&gt;, population &lt;chr&gt;,
+#   response &lt;chr&gt;, unit &lt;chr&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="step-4" class="level3">
+<h3 class="anchored" data-anchor-id="step-4">Step 4</h3>
+<p>This step is grabbing the states located on the left side. The left location is left of the formatted columns, there will often be 2 left columns next to each other, yet the locations for <code>behead()</code> are left. The state is placed at the end of the data table.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'left'</span>,<span class="st">'state'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(row, col)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 126 × 25
+   sheet   address   row   col is_blank data_type error logical   numeric
+   &lt;chr&gt;   &lt;chr&gt;   &lt;int&gt; &lt;int&gt; &lt;lgl&gt;    &lt;chr&gt;     &lt;chr&gt; &lt;lgl&gt;       &lt;dbl&gt;
+ 1 Table 1 B8          8     2 FALSE    numeric   &lt;NA&gt;  NA      2374362  
+ 2 Table 1 C8          8     3 FALSE    numeric   &lt;NA&gt;  NA           57.8
+ 3 Table 1 D8          8     4 FALSE    numeric   &lt;NA&gt;  NA      1736838  
+ 4 Table 1 E8          8     5 FALSE    numeric   &lt;NA&gt;  NA           42.2
+ 5 Table 1 F8          8     6 FALSE    numeric   &lt;NA&gt;  NA      4111200  
+ 6 Table 1 G8          8     7 FALSE    numeric   &lt;NA&gt;  NA          100  
+ 7 Table 1 I8          8     9 FALSE    numeric   &lt;NA&gt;  NA      4111200  
+ 8 Table 1 J8          8    10 FALSE    numeric   &lt;NA&gt;  NA           79.2
+ 9 Table 1 K8          8    11 FALSE    numeric   &lt;NA&gt;  NA        11036  
+10 Table 1 L8          8    12 FALSE    numeric   &lt;NA&gt;  NA            0.2
+# … with 116 more rows, and 16 more variables: date &lt;dttm&gt;, character &lt;chr&gt;,
+#   character_formatted &lt;list&gt;, formula &lt;chr&gt;, is_array &lt;lgl&gt;,
+#   formula_ref &lt;chr&gt;, formula_group &lt;int&gt;, comment &lt;chr&gt;, height &lt;dbl&gt;,
+#   width &lt;dbl&gt;, style_format &lt;chr&gt;, local_format_id &lt;int&gt;, population &lt;chr&gt;,
+#   response &lt;chr&gt;, unit &lt;chr&gt;, state &lt;chr&gt;</code></pre>
+</div>
+</div>
+</section>
+<section id="step-5" class="level3">
+<h3 class="anchored" data-anchor-id="step-5">Step 5</h3>
+<p>In this step we arrange the data table by row and column, selecting the columns we want from the Excel data table. The columns <code>row</code>, <code>data_type</code> and <code>numeric</code> are required here, before the selection of the columns. You will see that unit remains nested.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'left'</span>,<span class="st">'state'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(row, col) <span class="sc">%&gt;%</span> </span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( row, data_type, numeric, <span class="co"># required columns</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>          state, population, response, unit</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>          )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 126 × 7
+     row data_type   numeric state           population           response unit 
+   &lt;int&gt; &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;                &lt;chr&gt;    &lt;chr&gt;
+ 1     8 numeric   2374362   New South Wales Response clear       Yes      no.  
+ 2     8 numeric        57.8 New South Wales Response clear       Yes      %    
+ 3     8 numeric   1736838   New South Wales Response clear       No       no.  
+ 4     8 numeric        42.2 New South Wales Response clear       No       %    
+ 5     8 numeric   4111200   New South Wales Response clear       Total    no.  
+ 6     8 numeric       100   New South Wales Response clear       Total    %    
+ 7     8 numeric   4111200   New South Wales Eligible Participan… Respons… no.  
+ 8     8 numeric        79.2 New South Wales Eligible Participan… Respons… %    
+ 9     8 numeric     11036   New South Wales Eligible Participan… Respons… no.  
+10     8 numeric         0.2 New South Wales Eligible Participan… Respons… %    
+# … with 116 more rows</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the rows of states are now a column !!!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="step-6" class="level3">
+<h3 class="anchored" data-anchor-id="step-6">Step 6</h3>
+<p>In step 5 we grabbed the columns we wanted, along with the ones we rather not have like the row and data_type. The column numeric held the numeric data we care about. To unnest the unit column that has <code>%</code> and <code>no.</code>, we use <code>spatter()</code> function, which will move them into separated columns.</p>
+<p>This step we want the units separated and to have state as first column. We have a tidy data table, which could be saved as a <code>.csv</code> file. We selected our columns in the order we want, <code>spatter()</code> the nested column into separate column, and to drop the row column.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'left'</span>,<span class="st">'state'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(row, col) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( row, data_type, numeric, state, population, response, unit) <span class="sc">%&gt;%</span> </span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">spatter</span>(unit) <span class="sc">%&gt;%</span> <span class="co"># breaks up the % no. into columns</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>row)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 63 × 5
+   state           population            response                  `%`     no.
+   &lt;chr&gt;           &lt;chr&gt;                 &lt;chr&gt;                   &lt;dbl&gt;   &lt;dbl&gt;
+ 1 New South Wales Eligible Participants "Non-responding"         20.5 1065445
+ 2 New South Wales Eligible Participants "Response clear"         79.2 4111200
+ 3 New South Wales Eligible Participants "Response not clear(a)"   0.2   11036
+ 4 New South Wales Eligible Participants "Total "                100   5187681
+ 5 New South Wales Response clear        "No"                     42.2 1736838
+ 6 New South Wales Response clear        "Total"                 100   4111200
+ 7 New South Wales Response clear        "Yes"                    57.8 2374362
+ 8 Victoria        Eligible Participants "Non-responding"         18.3  743634
+ 9 Victoria        Eligible Participants "Response clear"         81.4 3306727
+10 Victoria        Eligible Participants "Response not clear(a)"   0.3   11028
+# … with 53 more rows</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>This tutorial was my version of a eBook tutorial on cleaning Excel spreadsheets, broken down into steps with some explanations on each function. Although this blog showed how to do Table 1, the same process is applied to other messy Excel spreadsheets. I recommend going in steps as sometimes you <code>unhead()</code> a column which sometimes has nested data meant for another column.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,5 +1,3 @@
 # rainbowrBlog
-the repo for RainbowR Blog
 
-
-test
+quarto blog => RainbowR blog 

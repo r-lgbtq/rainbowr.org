@@ -1,0 +1,84 @@
+
+# RainbowR Relaunch notes
+
+## Goals
+
+- make RainbowR like RLadies (welcoming, positive learning)
+
+## Best way to serve community
+
+- LGBTQ+ datasets
+- mentoring and support for new learners
+- international (not geographically focused)
+- support community (feel safe) + allyships 
+- all activities online for full participation
+- build links with Python and Julia, Queer in AI
+
+## Activities (every 3 months)
+
+- Hackathons
+- meetup tutorials
+- TidyTuesday like events
+- projects short/long term on LGBTQ issues
+- Slack office hours
+- tutorial on Rpkgs
+- LGBTQ color palette based on pride flags
+- Support meetings + 1:1 counselling
+- Seminars on data/coding ethics & inclusive practices
+
+
+## Blog post ideas
+
+- steps to get involved
+- guest posts
+- data analyses with LGBTQ+ datasets
+- RainbowR colors = who we are
+
+
+## Dataset driven activism
+
+- host on GitHub inclusive datasets
+- Kelsey Campbell (Gayta Science) - https://www.gaytascience.com/
+- Twitter API
+- http://www.lgbtdata.com/data.html
+- https://opendata.stackexchange.com/questions/6961/looking-for-open-source-lgbt-datasets
+- https://guides.library.ucla.edu/lgbt/statistics
+- https://libguides.gvsu.edu/c.php?g=108409&p=8294841
+
+- [Gender neutral bathrooms](https://twitter.com/evanodell/status/989813052076908545?s=20&t=VLkuUDVJZhJz6k6k_LIsjA - API to access data on trans-friendly restrooms)
+
+- [same sex marriage](https://ourworldindata.org/marriages-and-divorces#same-sex-marriage-has-become-possible-in-many-countries)
+
+
+## Contributions
+
+- an illustrator
+- GitHub maintainer
+- R pkg dev 
+- code and datasets
+- [inclusive bioinformatic conference](https://biovcnet.github.io/_pages/conference-2021/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

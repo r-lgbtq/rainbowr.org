@@ -1,0 +1,15 @@
+---
+title: "RainbowR History"
+author: "Ella (She/Her)"
+date: "2022-05-11"
+description: "Learn about the history of RainbowR and how it came to be."
+categories: [History, RainbowR]
+image: "history.png"
+format: 
+  html:
+    code-fold: true
+---
+
+## History of RainbowR
+
+The RainbowR origin story ...

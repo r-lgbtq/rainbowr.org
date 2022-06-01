@@ -1,0 +1,44 @@
+---
+title: "RainbowR"
+image: profile.png
+# about:
+  # template: jolla
+links:
+  - icon: twitter
+    text: Twitter
+    href: https://twitter.com
+  - icon: linkedin
+    text: LinkedIn
+    href: https://linkedin.com
+  - icon: github
+    text: Github
+    href: https://github.com
+---
+
+# About RainbowR
+
+RainbowR is a community that supports, promotes and connects LGBTQ+ people who code in the R language.
+
+Not every work or social environment is safe or supportive for LGBTQ+ people, so the need to have a dedicated community continues.
+
+We use LGBTQ+ people as a term to cover
+
+-   those who identify as being a minority sexual orientation, i.e. those who are not straight/heterosexual
+
+-   those who are not cisgender, i.e. those whose sense of personal identity and gender does not correspond with their birth sex
+
+To our straight, cis friends: we very much appreciate your allyship and your support of RainbowR, e.g. by sharing our information and posts on social media and by telling your friends and colleagues about us.
+
+## Our Mission
+
+Our mission is to support, promote and connect LGBTQ+ people in the R community and to and spread awareness of LGBTQ+ issues through data-driven activism.
+
+## Involvement
+
+If you want to get involved, please click below (COMING SOON!) for an invitation to our Slack. Please note that this group is for LGBTQ+ people.
+
+We welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on Twitter, [\@R_LGBTQ](https://twitter.com/R_LGBTQ).
+
+## Partnerships
+
+We partner with fellow R diversity and inclusion-orientated groups such as [R Forwards](https://forwards.github.io) and [Minorities in R (MiR)](https://mircommunity.com).
