@@ -12,7 +12,7 @@ format:
 
 ## Past
 
-<<<<<<< HEAD
+
 The RainbowR origin story ...
 =======
 "My wife is really interested in wine." Little did I know, when I said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. 
@@ -20,4 +20,5 @@ The RainbowR origin story ...
 ## Present
 
 ## Future
->>>>>>> 1a6870597a4bff5b9f4966d68c089d6b52afd972
+
+
