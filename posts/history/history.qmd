@@ -1,8 +1,8 @@
 ---
-title: "RainbowR History"
+title: "(Re)launching RainbowR"
 author: "Ella (She/Her)"
 date: "2022-05-11"
-description: "Learn about the history of RainbowR and how it came to be."
+description: "RainbowR: then and now"
 categories: [History, RainbowR]
 image: "history.png"
 format: 
@@ -10,6 +10,10 @@ format:
     code-fold: true
 ---
 
-## History of RainbowR
+## Past
 
-The RainbowR origin story ...
+"My wife is really interested in wine." Little did I know, when I said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. 
+
+## Present
+
+## Future
