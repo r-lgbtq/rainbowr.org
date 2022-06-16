@@ -8,6 +8,7 @@ categories: [excel, data tables, analysis]
 format: html
 editor: visual
 theme: vapor
+draft: true
 tags: 
   - excel
   - data-table

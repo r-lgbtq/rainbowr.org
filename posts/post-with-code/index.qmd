@@ -1,10 +1,12 @@
 ---
-title: "Blog Post With Code"
+title: "RainbowR theme demo"
+subtitle: "A blog post with code and a plot"
 author: "Zane (She/They)"
 date: "2022-05-11"
 description: "Run R code inside your Blog post, inside R code chunks."
 categories: [Star Wars, code, analysis]
 image: "IMAGE-03.png"
+draft: true
 format: 
   html:
     code-fold: true
@@ -12,7 +14,7 @@ format:
 
 ## Post with Code
 
-Welcome to RainbowR blog post! You have a blog post idea that has LGBTQ data and want the community to see it? Here is now the data will look on this blog within the RainbowR theme.
+Welcome to a RainbowR blog post! Do you have a blog post idea that has LGBTQ data and want the community to see it? Here is how the data will look on this blog within the RainbowR theme.
 
 For this demo post, we will show what Star Wars data looks like.
 
@@ -52,7 +54,7 @@ rainbow_theme = function(){
 
 ## Star Wars
 
-Let us look at Star Wars inside a blog
+Let us look at some Star Wars data, which is available in the `dplyr` package:
 
 ```{r, dpi=300, width=10, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -68,4 +70,4 @@ ggplot(
   rainbow_theme()
 ```
 
-This ggplot shows Star Wars height vs eye color of the characters, the `geom_point()` colors really work well with oranges against the purple background.
+This graph, made with `ggplot` shows height vs eye color of the Star Wars characters. The `geom_point()` colors really work well with oranges against the purple background.
