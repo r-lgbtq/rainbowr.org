@@ -1,0 +1,33 @@
+---
+title: "(Re)launching RainbowR"
+author:
+  - Ella Kaye (She/Her)
+  - Zane Dax (She/They)
+date: "2022-05-11"
+description: "RainbowR: past, present and future"
+categories: [History, RainbowR]
+image: "rainbowR-square.png"
+format: 
+  html:
+    code-fold: true
+---
+
+## Past: The RainbowR origin story
+
+"My wife is really interested in wine." Little did Ella know, when she said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. It was in that moment that Ben realised that he was talking to a fellow gay person. useR!2017 was large - around 1000 attendees - and knowing that he had found someone with this in common made the scale of the conference less overwhelming. He had a sense of community within the larger R community.
+
+The following day Ben broached Ella with the idea formalising an LGBTQ+ community for R users and she leapt at the idea. Along with Erin LeDell and a couple of other conference attendees that they knew to be part of this community, they pitched the idea to Heather Turner and Kevin O'Brien from [R Forwards](https://forwards.github.io), who fully supported it.
+
+After the conference, Ben and Ella, with input from Erin (who came up with the name RainbowR) and Heather, quickly went about building the community, establishing the [Slack group](https://rainbowr.slack.com) and [twitter](https://twitter.com/R_LGBTQ) account. Soon there were 60 people in the Slack. Conversations started and members shared ideas and opportunities online and met in person at other conferences and events. There was a datathon, in collaboration with R Forwards and the Cardiff R User Group, for the Transgender Day of Rememberance in 2018.
+
+Unfortunately, not long after the group's founding, both Ella and Ben were pulled away by other personal and profession commitments. By 2019 the Slack group had gone dormant and, the odd tweet aside, RainbowR had stalled.
+
+## Present: Reviving RainbowR
+
+Earlier this year Zane came across RainbowR and wanted to get involved, particularly in the creation of a website for the community. Pretty much simultaneously, Ella was looking to revive the group. Because we both have links to Forwards, fortuitously Heather was able to connect us. Over the past couple of months, we've been busy readying the community for relaunch: we have this new website, a fresh [Code of Conduct](https://rainbowr.netlify.app/coc) and a new [sign-up form](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) for the Slack.
+
+We also ran an open Zoom call and, despite the short notice, were delighted that we had thirty people sign up and eighteen attend. It was great to see a lot of excitement for the community and the relaunch, to gather ideas for the future, and to hear the participants confirm our feeling that there is indeed a need for the RainbowR community within the broader R community. 
+
+## Future: Keeping it going!
+
+Plans...

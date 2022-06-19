@@ -56,25 +56,25 @@
     "text": "make RainbowR like RLadies (welcoming, positive learning)\n\n\n\n\n\nLGBTQ+ datasets\nmentoring and support for new learners\ninternational (not geographically focused)\nsupport community (feel safe) + allyships\nall activities online for full participation\nbuild links with Python and Julia, Queer in AI\n\n\n\n\n\nHackathons\nmeetup tutorials\nTidyTuesday like events\nprojects short/long term on LGBTQ issues\nSlack office hours\ntutorial on Rpkgs\nLGBTQ color palette based on pride flags\nSupport meetings + 1:1 counselling\nSeminars on data/coding ethics & inclusive practices\n\n\n\n\n\nsteps to get involved\nguest posts\ndata analyses with LGBTQ+ datasets\nRainbowR colors = who we are\n\n\n\n\n\nhost on GitHub inclusive datasets\nKelsey Campbell (Gayta Science) - https://www.gaytascience.com/\nTwitter API\nhttp://www.lgbtdata.com/data.html\nhttps://opendata.stackexchange.com/questions/6961/looking-for-open-source-lgbt-datasets\nhttps://guides.library.ucla.edu/lgbt/statistics\nhttps://libguides.gvsu.edu/c.php?g=108409&p=8294841\nGender neutral bathrooms\nsame sex marriage\n\n\n\n\n\nan illustrator\nGitHub maintainer\nR pkg dev\ncode and datasets\ninclusive bioinformatic conference"
   },
   {
-    "objectID": "posts/history/history.html",
-    "href": "posts/history/history.html",
+    "objectID": "posts/reviving-rainbowr/reviving-rainbowr.html",
+    "href": "posts/reviving-rainbowr/reviving-rainbowr.html",
     "title": "(Re)launching RainbowR",
     "section": "",
-    "text": "“My wife is really interested in wine.” Little did Ella know, when she said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. It was in that moment that Ben realised that he was talking to a fellow gay person. useR!2017 was large - around 1000 attendees - and knowing that he had found someone with this in common made the scale of the conference less overwhelming. He had a sense of community within the larger R community.\nThe following day Ben broached Ella with the idea formalising an LGBTQ+ community for R users and she leapt at the idea. Along with Erin LeDell and a couple of other conference attendees that they knew to be part of this community, they pitched the idea to Heather Turner and Kevin O’Brien from R Forwards, who fully supported it.\nAfter the conference, Ben and Ella, with input from Erin (who came up with the name RainbowR) and Heather, quickly went about building the community, establishing the Slack group and twitter account. Soon there were 60 people in the Slack. Conversations started and members used it both to share ideas online and meet in person at other conferences and events.\nNot long after the group’s founding, both Ella and Ben were pulled away"
+    "text": "“My wife is really interested in wine.” Little did Ella know, when she said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. It was in that moment that Ben realised that he was talking to a fellow gay person. useR!2017 was large - around 1000 attendees - and knowing that he had found someone with this in common made the scale of the conference less overwhelming. He had a sense of community within the larger R community.\nThe following day Ben broached Ella with the idea formalising an LGBTQ+ community for R users and she leapt at the idea. Along with Erin LeDell and a couple of other conference attendees that they knew to be part of this community, they pitched the idea to Heather Turner and Kevin O’Brien from R Forwards, who fully supported it.\nAfter the conference, Ben and Ella, with input from Erin (who came up with the name RainbowR) and Heather, quickly went about building the community, establishing the Slack group and twitter account. Soon there were 60 people in the Slack. Conversations started and members shared ideas and opportunities online and met in person at other conferences and events. There was a datathon, in collaboration with R Forwards and the Cardiff R User Group, for the Transgender Day of Rememberance in 2018.\nUnfortunately, not long after the group’s founding, both Ella and Ben were pulled away by other personal and profession commitments. By 2019 the Slack group had gone dormant and, the odd tweet aside, RainbowR had stalled."
   },
   {
-    "objectID": "posts/history/history.html#present",
-    "href": "posts/history/history.html#present",
+    "objectID": "posts/reviving-rainbowr/reviving-rainbowr.html#present-reviving-rainbowr",
+    "href": "posts/reviving-rainbowr/reviving-rainbowr.html#present-reviving-rainbowr",
     "title": "(Re)launching RainbowR",
-    "section": "Present",
-    "text": "Present"
+    "section": "Present: Reviving RainbowR",
+    "text": "Present: Reviving RainbowR\nEarlier this year Zane came across RainbowR and wanted to get involved, particularly in the creation of a website for the community. Pretty much simultaneously, Ella was looking to revive the group. Because we both have links to Forwards, fortuitously Heather was able to connect us. Over the past couple of months, we’ve been busy readying the community for relaunch: we have this new website, a fresh Code of Conduct and a new sign-up form for the Slack.\nWe also ran an open Zoom call and, despite the short notice, were delighted that we had thirty people sign up and eighteen attend. It was great to see a lot of excitement for the community and the relaunch, to gather ideas for the future, and to hear the participants confirm our feeling that there is indeed a need for the RainbowR community within the broader R community."
   },
   {
-    "objectID": "posts/history/history.html#future",
-    "href": "posts/history/history.html#future",
+    "objectID": "posts/reviving-rainbowr/reviving-rainbowr.html#future-keeping-it-going",
+    "href": "posts/reviving-rainbowr/reviving-rainbowr.html#future-keeping-it-going",
     "title": "(Re)launching RainbowR",
-    "section": "Future",
-    "text": "Future"
+    "section": "Future: Keeping it going!",
+    "text": "Future: Keeping it going!\nPlans…"
   },
   {
     "objectID": "index.html#our-mission",
@@ -109,6 +109,6 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "History\n\n\nRainbowR\n\n\n\n\nRainbowR: then and now\n\n\n\n\n\n\nMay 11, 2022\n\n\nElla Kaye (She/Her), Zane Dax (She/They)\n\n\n\n\n\n\nNo matching items"
+    "text": "History\n\n\nRainbowR\n\n\n\n\nRainbowR: past, present and future\n\n\n\n\n\n\nMay 11, 2022\n\n\nElla Kaye (She/Her), Zane Dax (She/They)\n\n\n\n\n\n\nNo matching items"
   }
 ]

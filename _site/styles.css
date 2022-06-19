@@ -15,12 +15,13 @@ code {
   color: white;
 }
 
+/* styling for icon-link buttons (see distilltools::icon_link()) */
 .icon-link {
     background-color: transparent;
-    color: #e6b3ff;
-    border: 1px solid;
-    border-color: #e6b3ff;
-    padding: 5px .4rem 5px .4rem;
+    color: #32fbe2;
+    border: 1.5px solid;
+    border-color: #32fbe2;
+    padding: 1px .4rem 1px .4rem;
     /*margin: 4px;*/
     margin-top: 4px;
     margin-right: 8px;
@@ -30,8 +31,8 @@ code {
 }
 
 .icon-link:hover {
-    background-color: #e6b3ff;
-    border-color: #e6b3ff;
-    color: #180931;
+    /*background-color: #e6b3ff;*/
+    border-color: #29C9B5;
+    color: #29C9B5;
     text-decoration: none;
 }
