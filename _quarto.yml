@@ -5,6 +5,9 @@ project:
 
 website:
   title: "RainbowR"
+  favicon: rainbowR-square.png
+  twitter-card: true
+  open-graph: true
   
   
   navbar:
