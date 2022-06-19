@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-image: rainbowR-square.png
+#image: rainbowR-square.png
 listing:
   contents: posts
   sort: "date desc"
@@ -9,16 +9,5 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
-
-about:
-  template: jolla
-  links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
- 
-    - icon: github
-      text: Github
-      href: https://github.com
+title-block-banner: false
 ---

@@ -1,6 +1,8 @@
 ---
 title: "(Re)launching RainbowR"
-author: "Ella (She/Her)"
+author:
+  - Ella Kaye (She/Her)
+  - Zane Dax (She/They)
 date: "2022-05-11"
 description: "RainbowR: then and now"
 categories: [History, RainbowR]
@@ -10,15 +12,10 @@ format:
     code-fold: true
 ---
 
-## Past
+## Past: The RainbowR origin story
 
-
-The RainbowR origin story ...
-=======
-"My wife is really interested in wine." Little did I know, when I said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. 
+"My wife is really interested in wine." Little did I (Ella) know, when I said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. It was in that moment that Ben realised that he was talking to a fellow gay person. useR!2017 was large - around 1000 attendees - and realising 
 
 ## Present
 
 ## Future
-
-
