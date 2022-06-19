@@ -15,3 +15,23 @@ code {
   color: white;
 }
 
+.icon-link {
+    background-color: transparent;
+    color: #e6b3ff;
+    border: 1px solid;
+    border-color: #e6b3ff;
+    padding: 5px .4rem 5px .4rem;
+    /*margin: 4px;*/
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border-radius: 5px; /* Rounded edges */
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    background-color: #e6b3ff;
+    border-color: #e6b3ff;
+    color: #180931;
+    text-decoration: none;
+}

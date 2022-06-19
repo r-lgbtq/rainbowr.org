@@ -35,10 +35,22 @@ Our mission is to support, promote and connect LGBTQ+ people in the R community 
 
 ## Involvement
 
-If you want to get involved, please click below (COMING SOON!) for an invitation to our Slack. Please note that this group is for LGBTQ+ people.
+If you want to join our Slack, please fill in the [sign-up form](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) for an invitation. Please note that this group is for LGBTQ+ people.
 
 We welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on Twitter, [\@R_LGBTQ](https://twitter.com/R_LGBTQ).
 
 ## Partnerships
 
 We partner with fellow R diversity and inclusion-orientated groups such as [R Forwards](https://forwards.github.io) and [Minorities in R (MiR)](https://mircommunity.com).
+
+## Meet the team!
+
+Ella Kaye (She/Her), community co-founder and co-lead: [website](https://ellakaye.rbind.io), [twitter](https://twitter.com/ellamkaye), [GitHub](https://github.com/EllaKaye)
+
+Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [twitter](https://twitter.com/StarTrek_Lt), [GitHub](https://github.com/PythonCoderUnicorn)
+
+### Previous team members
+
+Ben Ulloa Ortiz, community co-founder: [twitter](https://twitter.com/plzbeemyfriend)
+
+Erin LeDell, community co-founder: [twitter](https://twitter.com/ledell)
