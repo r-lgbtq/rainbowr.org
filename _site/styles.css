@@ -11,6 +11,7 @@ https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bo
 body{
   color: #e6b3ff; /* light purple */
   font-family: "Jost", Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 
