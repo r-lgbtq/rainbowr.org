@@ -8,7 +8,7 @@ description: "RainbowR: past, present and future"
 categories: [History, RainbowR]
 image: "rainbowR-square.png"
 twitter-card:
-  image: "/posts/relaunching-rainbowR-square.png"
+  image: "https://rainbowr.netlify.app/posts/relaunching-rainbowr/rainbowR-square.png"
 format: 
   html:
     code-fold: true
@@ -20,6 +20,7 @@ format:
 #| warning: false
 #| include: false
 #| echo: false
+#| eval: false
 
 library(metathis)
 
