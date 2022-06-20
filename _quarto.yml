@@ -8,7 +8,7 @@ website:
   favicon: rainbowR-square.png
   twitter-card: true
   open-graph: true
-  
+  site-url: "https://rainbowr.netlify.app"
   
   navbar:
     #logo: rainbowR-square.png

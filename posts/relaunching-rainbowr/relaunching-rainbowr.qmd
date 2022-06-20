@@ -7,6 +7,8 @@ date: "2022-06-20"
 description: "RainbowR: past, present and future"
 categories: [History, RainbowR]
 image: "rainbowR-square.png"
+twitter-card:
+  image: "/posts/relaunching-rainbowR-square.png"
 format: 
   html:
     code-fold: true
