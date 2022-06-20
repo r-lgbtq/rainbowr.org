@@ -14,6 +14,28 @@ format:
     code-fold: true
 ---
 
+```{r}
+#| label: metathis
+#| message: false
+#| warning: false
+#| include: false
+#| echo: false
+
+library(metathis)
+
+meta() %>%
+  meta_name("github-repo" = "r-lgbtq/rainbowrBlog") %>%
+  meta_viewport() %>%
+  meta_social(
+    title = "(Re)launching RainbowR", 
+    image = "https://rainbowr.netlify.app/posts/relaunching-rainbowr/rainbowR-square.png", 
+    image_alt = "A circle with a rainbow background inside a square with a rainbow background, with the word RainbowR in grey text, and a letter R, also liffed with a rainbow",
+    og_type = "website",
+    og_author = c("Ella Kaye (She/Her)", "Zane Dax (She/They)"),
+    twitter_card_type = "summary_large_image", # can also be summary
+  )
+```
+
 ## Past: The RainbowR origin story
 
 "My wife is really interested in wine." Little did Ella know, when she said this to Ben Ortiz Ulloa during a casual conversation at useR!2017, that the seed had been sown for the idea of RainbowR. It was in that moment that Ben realised that he was talking to a fellow gay person. useR!2017 was large - around 1000 attendees - and knowing that he had found someone with this in common made the scale of the conference less overwhelming. He had a sense of community within the larger R community.
