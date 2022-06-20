@@ -5,9 +5,12 @@
 https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/vapor.scss
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+
 body{
   color: #e6b3ff; /* light purple */
-  
+  font-family: "Jost";
 }
 
 
@@ -21,7 +24,7 @@ code {
     color: #32fbe2;
     border: 1.5px solid;
     border-color: #32fbe2;
-    padding: 1px .4rem 1px .4rem;
+    padding: 0px .4rem 0px .4rem;
     /*margin: 4px;*/
     margin-top: 4px;
     margin-right: 8px;
