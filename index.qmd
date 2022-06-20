@@ -47,6 +47,23 @@ We partner with fellow R diversity and inclusion-orientated groups such as [R Fo
 
 Ella Kaye (She/Her), community co-founder and co-lead: [website](https://ellakaye.rbind.io), [twitter](https://twitter.com/ellamkaye), [GitHub](https://github.com/EllaKaye)
 
+```{r}
+#| echo: false
+#| eval: false
+
+library(distilltools)
+icon_link(icon = "globe",
+          text = "website",
+          url = "https://ellakaye.rbind.io")
+icon_link(icon = "twitter",
+          text = "twitter",
+          url = "https://twitter.com/ellamkaye")
+icon_link(icon = "github",
+          text = "GitHub",
+          url = "https://github.com/EllaKaye")
+```
+
+
 Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [twitter](https://twitter.com/StarTrek_Lt), [GitHub](https://github.com/PythonCoderUnicorn)
 
 ### Previous team members

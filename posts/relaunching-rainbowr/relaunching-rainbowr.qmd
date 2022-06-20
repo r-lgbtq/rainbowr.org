@@ -3,14 +3,39 @@ title: "(Re)launching RainbowR"
 author:
   - Ella Kaye (She/Her)
   - Zane Dax (She/They)
-date: "2022-05-11"
+date: "2022-06-20"
 description: "RainbowR: past, present and future"
 categories: [History, RainbowR]
 image: "rainbowR-square.png"
+twitter-card:
+  image: "https://rainbowr.netlify.app/posts/relaunching-rainbowr/rainbowR-square.png"
 format: 
   html:
     code-fold: true
 ---
+
+```{r}
+#| label: metathis
+#| message: false
+#| warning: false
+#| include: false
+#| echo: false
+#| eval: false
+
+library(metathis)
+
+meta() %>%
+  meta_name("github-repo" = "r-lgbtq/rainbowrBlog") %>%
+  meta_viewport() %>%
+  meta_social(
+    title = "(Re)launching RainbowR", 
+    image = "https://rainbowr.netlify.app/posts/relaunching-rainbowr/rainbowR-square.png", 
+    image_alt = "A circle with a rainbow background inside a square with a rainbow background, with the word RainbowR in grey text, and a letter R, also liffed with a rainbow",
+    og_type = "website",
+    og_author = c("Ella Kaye (She/Her)", "Zane Dax (She/They)"),
+    twitter_card_type = "summary_large_image", # can also be summary
+  )
+```
 
 ## Past: The RainbowR origin story
 
@@ -33,6 +58,7 @@ We also ran an open Zoom call and, despite the short notice, were delighted that
 We can't wait to get conversation started in the Slack group again, reconnecting with those still there and welcoming new folks. Most importantly, we recognise the need to be proactive in keeping the community alive. We have lots of plans for the future, including (but not limited to):
 
 -   **#TidyRainbow:** We will post data sets related to LGBTQ+ issues, for exploration and visualisation
+<<<<<<< HEAD
 
 -   **Community Calls:** Once every three months (and possibly more often if popular) we will host an open Zoom call. These will be a mixture of whole-group time, e.g. for presentations, and breakout rooms, for community members to have a chance to meet and get to know each other
 
@@ -41,3 +67,19 @@ We can't wait to get conversation started in the Slack group again, reconnecting
 -   **More blog posts:** Highlighting the work of the RainbowR community and its members
 
 We are also very open to other suggestions for activities and ways to grow and support the community. Please share your ideas, either via Twitter or on Slack. This is your community!
+=======
+
+-   **Community Calls:** Once every three months (and possibly more often if popular) we will host an open Zoom call. These will be a mixture of whole-group time, e.g. for presentations, and breakout rooms, for community members to have a chance to meet and get to know each other
+
+-   **A RainbowR colour-palette package:** An R package featuring colour-palettes for a range of LGBTQ+ flags
+
+-   **More blog posts:** Highlighting the work of the RainbowR community and its members
+
+We are also very open to other suggestions for activities and ways to grow and support the community. Please share your ideas, either via Twitter or on Slack. This is your community!
+
+[SIGN UP FOR THE SLACK GROUP!](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/)
+
+[GO TO THE SLACK GROUP!](https://rainbowr.slack.com)
+
+[FOLLOW US ON TWITTER!](https://twitter.com/R_LGBTQ)
+>>>>>>> b25aeee074deb942784688689225e903d78ba3ae
