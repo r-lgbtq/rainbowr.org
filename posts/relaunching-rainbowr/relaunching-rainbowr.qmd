@@ -53,21 +53,15 @@ Earlier this year Zane came across RainbowR and wanted to get involved, particul
 
 We also ran an open Zoom call and, despite the short notice, were delighted that we had thirty people sign up and eighteen attend. It was great to see a lot of excitement for the group and the relaunch, to gather ideas for the future, and to hear the participants confirm our feeling that there is indeed a need for the RainbowR community within the broader R community.
 
+There's little point having a group without defining what it's *for*. Our mission statement, which will form the basis of everything we do is
+
+> to support, promote and connect LGBTQ+ people in the R community and to and spread awareness of LGBTQ+ issues through data-driven activism.
+
 ## Future: Keeping it going!
 
 We can't wait to get conversation started in the Slack group again, reconnecting with those still there and welcoming new folks. Most importantly, we recognise the need to be proactive in keeping the community alive. We have lots of plans for the future, including (but not limited to):
 
 -   **#TidyRainbow:** We will post data sets related to LGBTQ+ issues, for exploration and visualisation
-<<<<<<< HEAD
-
--   **Community Calls:** Once every three months (and possibly more often if popular) we will host an open Zoom call. These will be a mixture of whole-group time, e.g. for presentations, and breakout rooms, for community members to have a chance to meet and get to know each other
-
--   **A RainbowR colour-palette package:** An R package featuring colour-palettes for a range of LGBTQ+ flags
-
--   **More blog posts:** Highlighting the work of the RainbowR community and its members
-
-We are also very open to other suggestions for activities and ways to grow and support the community. Please share your ideas, either via Twitter or on Slack. This is your community!
-=======
 
 -   **Community Calls:** Once every three months (and possibly more often if popular) we will host an open Zoom call. These will be a mixture of whole-group time, e.g. for presentations, and breakout rooms, for community members to have a chance to meet and get to know each other
 
@@ -82,4 +76,3 @@ We are also very open to other suggestions for activities and ways to grow and s
 [GO TO THE SLACK GROUP!](https://rainbowr.slack.com)
 
 [FOLLOW US ON TWITTER!](https://twitter.com/R_LGBTQ)
->>>>>>> b25aeee074deb942784688689225e903d78ba3ae
