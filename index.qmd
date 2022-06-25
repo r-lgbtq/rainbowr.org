@@ -63,7 +63,6 @@ icon_link(icon = "github",
           url = "https://github.com/EllaKaye")
 ```
 
-
 Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [twitter](https://twitter.com/StarTrek_Lt), [GitHub](https://github.com/PythonCoderUnicorn)
 
 ### Previous team members
