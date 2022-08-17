@@ -17,8 +17,8 @@ website:
   navbar:
     #logo: rainbowR-square.png
     right:
-      - text: "BLOG"
-        file: blog.qmd
+      - text: "POSTS"
+        file: posts.qmd
       - text: "JOIN"
         href: https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/
       - text: "CODE OF CONDUCT"
