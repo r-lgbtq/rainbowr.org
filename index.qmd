@@ -13,7 +13,7 @@ links:
     href: https://github.com
 ---
 
-![](banner-light.png)
+![](images/banner-light.png)
 
 # About RainbowR
 

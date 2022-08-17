@@ -1,0 +1,30 @@
+---
+title: "Your 1st Blog Post"
+author: "Zane (She/They)"
+date: "2022-05-31"
+description: "Learn how to make your 1st blog post on RainbowR blog! "
+categories: [Blog Post, RainbowR]
+image: "start.png"
+draft: true
+format: 
+  html:
+    code-fold: true
+---
+
+![](blog.png)
+
+## Start writing blogs
+
+This is how to start writing blogs for RainbowR. First off, since this is a R language based community you can write your blog post in `.Rmd` files or Quarto `.qmd` files. Both types of files render with no problems.
+
+RainbowR is a Quarto based blog, so this means we need a few things from you in order for your post to succeed in getting posted. Here is a list of items to include when submitting a post:
+
+1.  create a folder, name it
+2.  create a `.Rmd` or `.qmd` file
+3.  create a README markdown file, this is where you provide context to your data and post, including color (hex values) for ggplot output
+4.  place all data in this folder or ensure that the `url` you provide is working and is stated in your README file
+5.  include images related to post, but not the ggplot output ones, those will be rendered with RainbowR theme.
+
+## Check your output
+
+Having a dark purple background blog comes with some colors better suited for ggplot output, to help define what color palettes or hex values to provide in your README file, the `blog purple background color` is `#1A0933`. To quickly see what ggplot output looks like, see the [post with code]() post.

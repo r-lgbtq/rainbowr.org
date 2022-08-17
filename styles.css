@@ -24,6 +24,7 @@ a {
 }
 
 /* styling for icon-link buttons (see distilltools::icon_link()) */
+/* This isn't right for Quarto but EK now knows how to fix it - will do so later*/
 .icon-link {
     background-color: transparent;
     color: #32fbe2;

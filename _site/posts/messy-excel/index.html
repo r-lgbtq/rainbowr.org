@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.594">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -91,7 +91,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../rainbowR-square.png" rel="icon" type="image/png">
+<link href="../../images/rainbowR-square.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -100,7 +100,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -299,7 +299,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="AUS-step.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">table 2</figcaption><p></p>
+<p></p><figcaption class="figure-caption">table 2</figcaption><p></p>
 </figure>
 </div>
 <p>The image shows Table 2 as it is similar to table 1, except for the nested regions under state. The column names we will use are basic generalized variables of what the columns store, name the column <code>response</code> instead of “response clear” and <code>population</code> instead of “eligible participants”. The regions under <code>state</code> will be moved.</p>
@@ -414,18 +414,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>          )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 126 × 7
-     row data_type   numeric state           population      response      unit 
-   &lt;int&gt; &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;           &lt;chr&gt;         &lt;chr&gt;
- 1     8 numeric   2374362   New South Wales Response clear  Yes           no.  
- 2     8 numeric        57.8 New South Wales Response clear  Yes           %    
- 3     8 numeric   1736838   New South Wales Response clear  No            no.  
- 4     8 numeric        42.2 New South Wales Response clear  No            %    
- 5     8 numeric   4111200   New South Wales Response clear  Total         no.  
- 6     8 numeric       100   New South Wales Response clear  Total         %    
- 7     8 numeric   4111200   New South Wales Eligible Parti… Response cle… no.  
- 8     8 numeric        79.2 New South Wales Eligible Parti… Response cle… %    
- 9     8 numeric     11036   New South Wales Eligible Parti… Response not… no.  
-10     8 numeric         0.2 New South Wales Eligible Parti… Response not… %    
+     row data_type   numeric state           population           response unit 
+   &lt;int&gt; &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;                &lt;chr&gt;    &lt;chr&gt;
+ 1     8 numeric   2374362   New South Wales Response clear       Yes      no.  
+ 2     8 numeric        57.8 New South Wales Response clear       Yes      %    
+ 3     8 numeric   1736838   New South Wales Response clear       No       no.  
+ 4     8 numeric        42.2 New South Wales Response clear       No       %    
+ 5     8 numeric   4111200   New South Wales Response clear       Total    no.  
+ 6     8 numeric       100   New South Wales Response clear       Total    %    
+ 7     8 numeric   4111200   New South Wales Eligible Participan… Respons… no.  
+ 8     8 numeric        79.2 New South Wales Eligible Participan… Respons… %    
+ 9     8 numeric     11036   New South Wales Eligible Participan… Respons… no.  
+10     8 numeric         0.2 New South Wales Eligible Participan… Respons… %    
 # … with 116 more rows</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the rows of states are now a column !!!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -473,9 +473,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 
 </main> <!-- /main -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

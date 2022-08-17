@@ -5,7 +5,11 @@ project:
 
 website:
   title: "RainbowR"
-  favicon: rainbowR-square.png
+  image: images/profile.png
+  image-alt: |
+    A hexagon with a rainbow gradient fill backbround, the word RainbowR in gray 
+    and a bit capital letter R, also with a rainbow gradient fill
+  favicon: images/rainbowR-square.png
   twitter-card: true
   open-graph: true
   site-url: "https://rainbowr.netlify.app"
@@ -28,8 +32,7 @@ format:
   html:
     theme: vapor # solar, morph
     css: styles.css
-    include-after-body: fontawesome.html
 
-editor: visual
+editor: source
 
 # https://quarto.org/docs/websites/website-blog.html#themes

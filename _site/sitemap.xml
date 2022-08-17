@@ -2,26 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rainbowr.netlify.app/CoC.html</loc>
-    <lastmod>2022-06-22T11:55:21.321Z</lastmod>
+    <lastmod>2022-08-17T20:16:15.546Z</lastmod>
   </url>
   <url>
-    <loc>https://rainbowr.netlify.app/RainbowRelaunch.html</loc>
-    <lastmod>2022-06-25T20:33:48.933Z</lastmod>
+    <loc>https://rainbowr.netlify.app/posts/2022-06-05_tidyrainbow/index.html</loc>
+    <lastmod>2022-08-17T20:16:15.945Z</lastmod>
   </url>
   <url>
-    <loc>https://rainbowr.netlify.app/posts/tidyrainbow/rainbow.html</loc>
-    <lastmod>2022-06-25T20:33:54.190Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rainbowr.netlify.app/blog.html</loc>
-    <lastmod>2022-06-25T20:33:53.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rainbowr.netlify.app/posts/relaunching-rainbowr/relaunching-rainbowr.html</loc>
-    <lastmod>2022-06-25T20:33:52.010Z</lastmod>
+    <loc>https://rainbowr.netlify.app/posts/2022-06-20_relaunching-rainbowr/index.html</loc>
+    <lastmod>2022-08-17T20:16:16.978Z</lastmod>
   </url>
   <url>
     <loc>https://rainbowr.netlify.app/index.html</loc>
-    <lastmod>2022-06-25T20:33:53.036Z</lastmod>
+    <lastmod>2022-08-17T20:16:20.445Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rainbowr.netlify.app/blog.html</loc>
+    <lastmod>2022-08-17T20:16:20.774Z</lastmod>
   </url>
 </urlset>
