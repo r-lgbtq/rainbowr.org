@@ -6,11 +6,11 @@ image: rainbowR-square.png
 links:
   - icon: twitter
     text: Twitter
-    href: https://twitter.com
+    href: https://twitter.com/R_LGBTQ
 
   - icon: github
     text: Github
-    href: https://github.com
+    href: https://github.com/r-lgbtq
 ---
 
 ![](images/banner-light.png)
@@ -70,3 +70,31 @@ Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [tw
 Ben Ulloa Ortiz, community co-founder: [twitter](https://twitter.com/plzbeemyfriend)
 
 Erin LeDell, community co-founder: [twitter](https://twitter.com/ledell)
+
+```{r}
+#| echo: false
+
+# redirects strategy from djnavarro
+# https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#netlify-redirects
+# list names of post folders
+posts <- list.dirs(
+  path = here::here("posts"),
+  full.names = FALSE,
+  recursive = FALSE
+)
+
+# extract the slugs
+slugs <- gsub("^.*_", "", posts)
+
+# fix some early mistakes
+fix_mistakes <- c("/posts/tidyrainbow/rainbow /posts/2022-06-05_tidyrainbow",
+                  "/posts/relaunching-rainbowr/relaunching-rainbowr /posts/2022-06-20_relaunching-rainbowr")
+
+# lines to insert to a netlify _redirect file
+new_redirects <- paste0("/", slugs, " ", "/posts/", posts)
+redirects <- c(fix_mistakes, new_redirects)
+
+# write the _redirect file
+writeLines(redirects, here::here("_site", "_redirects"))
+```
+
