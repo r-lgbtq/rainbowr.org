@@ -6,3 +6,10 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+toc: true    
+toc-title: Contents
+
+code-fold: show
+code-summary: "Toggle the code"
+code-tools: true

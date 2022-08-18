@@ -8,9 +8,18 @@ website:
   image: images/profile.png
   image-alt: |
     A hexagon with a rainbow gradient fill backbround, the word RainbowR in gray 
-    and a bit capital letter R, also with a rainbow gradient fill
+    and a big capital letter R, also with a rainbow gradient fill
   favicon: images/rainbowR-square.png
-  twitter-card: true
+  twitter-card: 
+    image: images/rainowR-square.png
+    image-width: 500
+    image-height: 500
+    image-alt: |
+      A square with a rainbow gradient fill backbround. 
+      Inside it, a circle also with a rainbow gradient fill background,
+      slightly off-set from the baackground of the square.
+      Inside the circle, the word RainbowR in gray 
+      and a big capital letter R, also with a rainbow gradient fill      
   open-graph: true
   site-url: "https://rainbowr.netlify.app"
   

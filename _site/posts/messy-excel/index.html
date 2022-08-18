@@ -131,13 +131,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <meta property="og:image:width" content="470">
 <meta name="twitter:title" content="RainbowR - Messy Excel Tables">
 <meta name="twitter:description" content="Clean messy heavily formatted Excel spreadsheets and tables.">
-<meta name="twitter:image" content="https://rainbowr.netlify.app/posts/messy-excel/excel-img.png">
-<meta name="twitter:image-height" content="367">
-<meta name="twitter:image-width" content="470">
+<meta name="twitter:image" content="https://rainbowr.netlify.app/posts/messy-excel/images/rainowR-square.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -180,7 +178,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Messy Excel Tables</h1>
+      <div class="quarto-title-block"><div><h1 class="title">Messy Excel Tables</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button">View Source</a></li></ul></div></div>
                   <div>
         <div class="description">
           Clean messy heavily formatted Excel spreadsheets and tables.
@@ -217,7 +215,26 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#messy-excel-spreadsheets" id="toc-messy-excel-spreadsheets" class="nav-link active" data-scroll-target="#messy-excel-spreadsheets">Messy Excel spreadsheets</a></li>
+  <li><a href="#book-tutorial" id="toc-book-tutorial" class="nav-link" data-scroll-target="#book-tutorial">Book Tutorial</a>
+  <ul class="collapse">
+  <li><a href="#libraries" id="toc-libraries" class="nav-link" data-scroll-target="#libraries">Libraries</a></li>
+  <li><a href="#data-tables" id="toc-data-tables" class="nav-link" data-scroll-target="#data-tables">Data tables</a></li>
+  <li><a href="#step-2" id="toc-step-2" class="nav-link" data-scroll-target="#step-2">Step 2</a></li>
+  <li><a href="#step-3" id="toc-step-3" class="nav-link" data-scroll-target="#step-3">Step 3</a></li>
+  <li><a href="#step-4" id="toc-step-4" class="nav-link" data-scroll-target="#step-4">Step 4</a></li>
+  <li><a href="#step-5" id="toc-step-5" class="nav-link" data-scroll-target="#step-5">Step 5</a></li>
+  <li><a href="#step-6" id="toc-step-6" class="nav-link" data-scroll-target="#step-6">Step 6</a></li>
+  </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -236,18 +253,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="libraries" class="level3">
 <h3 class="anchored" data-anchor-id="libraries">Libraries</h3>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyxl)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages('unpivotr')</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(unpivotr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 </section>
 <section id="data-tables" class="level3">
 <h3 class="anchored" data-anchor-id="data-tables">Data tables</h3>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>cells <span class="ot">=</span> <span class="fu">xlsx_cells</span>(<span class="st">"ozmarriage.xlsx"</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cells</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 4,699 × 21
    sheet    address   row   col is_blank data_type error logical numeric
@@ -267,14 +290,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 #   formula_ref &lt;chr&gt;, formula_group &lt;int&gt;, comment &lt;chr&gt;, height &lt;dbl&gt;,
 #   width &lt;dbl&gt;, style_format &lt;chr&gt;, local_format_id &lt;int&gt;</code></pre>
 </div>
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># allows for getting table formatting </span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>formats <span class="ot">=</span> <span class="fu">xlsx_formats</span>(<span class="st">"ozmarriage.xlsx"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 <p>The whole Excel data is 4699 rows and 21 variables, all table (sheets) combined. We want to just get table 1.</p>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Table 1</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 162 × 21
    sheet   address   row   col is_blank data_type error logical numeric
@@ -308,10 +337,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 class="anchored" data-anchor-id="step-2">Step 2</h3>
 <p>Using the image above as a guide in what we are chopping is the response and population columns, the direction of where they are located is important to have. These beheaded columns are at the end of the data table, but will be moved soon.</p>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 153 × 23
    sheet   address   row   col is_blank data_type error logical   numeric
@@ -338,11 +370,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 class="anchored" data-anchor-id="step-3">Step 3</h3>
 <p>This step we are grabbing the <code>no.</code> and <code>%</code> columns underneath the response and population columns. The unit column will be nested and is placed at the end of the data table.</p>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 139 × 24
    sheet   address   row   col is_blank data_type error logical   numeric
@@ -369,6 +404,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 class="anchored" data-anchor-id="step-4">Step 4</h3>
 <p>This step is grabbing the states located on the left side. The left location is left of the formatted columns, there will often be 2 left columns next to each other, yet the locations for <code>behead()</code> are left. The state is placed at the end of the data table.</p>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
@@ -376,6 +413,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'left'</span>,<span class="st">'state'</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(row, col)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 126 × 25
    sheet   address   row   col is_blank data_type error logical   numeric
@@ -402,6 +440,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h3 class="anchored" data-anchor-id="step-5">Step 5</h3>
 <p>In this step we arrange the data table by row and column, selecting the columns we want from the Excel data table. The columns <code>row</code>, <code>data_type</code> and <code>numeric</code> are required here, before the selection of the columns. You will see that unit remains nested.</p>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
@@ -412,6 +452,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( row, data_type, numeric, <span class="co"># required columns</span></span>
 <span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>          state, population, response, unit</span>
 <span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>          )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 126 × 7
      row data_type   numeric state           population           response unit 
@@ -428,7 +469,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 10     8 numeric         0.2 New South Wales Eligible Participan… Respons… %    
 # … with 116 more rows</code></pre>
 </div>
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># the rows of states are now a column !!!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 </section>
 <section id="step-6" class="level3">
@@ -436,6 +480,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>In step 5 we grabbed the columns we wanted, along with the ones we rather not have like the row and data_type. The column numeric held the numeric data we care about. To unnest the unit column that has <code>%</code> and <code>no.</code>, we use <code>spatter()</code> function, which will move them into separated columns.</p>
 <p>This step we want the units separated and to have state as first column. We have a tidy data table, which could be saved as a <code>.csv</code> file. We selected our columns in the order we want, <code>spatter()</code> the nested column into separate column, and to drop the row column.</p>
 <div class="cell">
+<details open="">
+<summary>Toggle the code</summary>
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
 <span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
@@ -446,6 +492,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( row, data_type, numeric, state, population, response, unit) <span class="sc">%&gt;%</span> </span>
 <span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">spatter</span>(unit) <span class="sc">%&gt;%</span> <span class="co"># breaks up the % no. into columns</span></span>
 <span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>row)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 63 × 5
    state           population            response                  `%`     no.
@@ -469,6 +516,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>Conclusion</h1>
 <p>This tutorial was my version of a eBook tutorial on cleaning Excel spreadsheets, broken down into steps with some explanations on each function. Although this blog showed how to do Table 1, the same process is applied to other messy Excel spreadsheets. I recommend going in steps as sometimes you <code>unhead()</code> a column which sometimes has nested data meant for another column.</p>
 
+
+<!-- -->
 
 </section>
 
@@ -521,6 +570,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -569,7 +669,148 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     });
   }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb18" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Messy Excel Tables"</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Zane Dax (She/They)"</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> "May 26, 2022"</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="an">image:</span><span class="co"> excel-img.png</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> "Clean messy heavily formatted Excel spreadsheets and tables."</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span><span class="co"> [excel, data tables, analysis]</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> html</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a><span class="an">editor:</span><span class="co"> visual</span></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="an">theme:</span><span class="co"> vapor</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a><span class="an">draft:</span><span class="co"> true</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="an">tags:</span><span class="co"> </span></span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a><span class="co">  - excel</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a><span class="co">  - data-table</span></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a><span class="fu">## Messy Excel spreadsheets</span></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>Finding LGBTQ datasets in the world, I often find <span class="in">`.xlsx`</span> files, these are often very messy or formatted in a way that is less than ideal. This blog will show how to convert the Excel spreadsheet into a <span class="in">`tidyverse`</span> dataset.</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Book Tutorial</span></span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>We will first use a eBook tutorial **Spreadsheet Munging Strategies** but I will provide details on each step of the process. The data tables for this tutorial are Australian Bureau of Statistics, download the data <span class="co">[</span><span class="ot">here</span><span class="co">](https://github.com/nacnudus/smungs/blob/master/inst/extdata/ozmarriage.xlsx?raw=true)</span>.</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>The data tables look like this <span class="al">![table 1](AUS-table1.png)</span></span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a><span class="al">![table 2](AUS-table2.png)</span> Notice on the left side the rows have nested State Divisions with regions, and the columns are response and participants.</span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a><span class="fu">### Libraries</span></span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, message=FALSE, warning=FALSE}</span></span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyxl)</span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages('unpivotr')</span></span>
+<span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(unpivotr)</span>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-38"><a href="#cb18-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-39"><a href="#cb18-39" aria-hidden="true" tabindex="-1"></a><span class="fu">### Data tables</span></span>
+<span id="cb18-40"><a href="#cb18-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-43"><a href="#cb18-43" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb18-44"><a href="#cb18-44" aria-hidden="true" tabindex="-1"></a>cells <span class="ot">=</span> <span class="fu">xlsx_cells</span>(<span class="st">"ozmarriage.xlsx"</span>)</span>
+<span id="cb18-45"><a href="#cb18-45" aria-hidden="true" tabindex="-1"></a>cells</span>
+<span id="cb18-46"><a href="#cb18-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-47"><a href="#cb18-47" aria-hidden="true" tabindex="-1"></a><span class="co"># allows for getting table formatting </span></span>
+<span id="cb18-48"><a href="#cb18-48" aria-hidden="true" tabindex="-1"></a>formats <span class="ot">=</span> <span class="fu">xlsx_formats</span>(<span class="st">"ozmarriage.xlsx"</span>)</span>
+<span id="cb18-49"><a href="#cb18-49" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-50"><a href="#cb18-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-51"><a href="#cb18-51" aria-hidden="true" tabindex="-1"></a>The whole Excel data is 4699 rows and 21 variables, all table (sheets) combined. We want to just get table 1.</span>
+<span id="cb18-52"><a href="#cb18-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-55"><a href="#cb18-55" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb18-56"><a href="#cb18-56" aria-hidden="true" tabindex="-1"></a><span class="co"># Table 1</span></span>
+<span id="cb18-57"><a href="#cb18-57" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb18-58"><a href="#cb18-58" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank)</span>
+<span id="cb18-59"><a href="#cb18-59" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-60"><a href="#cb18-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-61"><a href="#cb18-61" aria-hidden="true" tabindex="-1"></a>So far this looks like nothing like the picture, so we will need pull out the column headers by using the <span class="in">`unpivotr::behead()`</span> function to chop away all that formatting. The image below will help make sense of what is being beheaded.</span>
+<span id="cb18-62"><a href="#cb18-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-63"><a href="#cb18-63" aria-hidden="true" tabindex="-1"></a><span class="al">![table 2](AUS-step.png)</span></span>
+<span id="cb18-64"><a href="#cb18-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-65"><a href="#cb18-65" aria-hidden="true" tabindex="-1"></a>The image shows Table 2 as it is similar to table 1, except for the nested regions under state. The column names we will use are basic generalized variables of what the columns store, name the column <span class="in">`response`</span> instead of "response clear" and <span class="in">`population`</span> instead of "eligible participants". The regions under <span class="in">`state`</span> will be moved.</span>
+<span id="cb18-66"><a href="#cb18-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-67"><a href="#cb18-67" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 2</span></span>
+<span id="cb18-68"><a href="#cb18-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-69"><a href="#cb18-69" aria-hidden="true" tabindex="-1"></a>Using the image above as a guide in what we are chopping is the response and population columns, the direction of where they are located is important to have. These beheaded columns are at the end of the data table, but will be moved soon.</span>
+<span id="cb18-70"><a href="#cb18-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-73"><a href="#cb18-73" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb18-74"><a href="#cb18-74" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb18-75"><a href="#cb18-75" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-76"><a href="#cb18-76" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-77"><a href="#cb18-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>)</span>
+<span id="cb18-78"><a href="#cb18-78" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-79"><a href="#cb18-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-80"><a href="#cb18-80" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 3</span></span>
+<span id="cb18-81"><a href="#cb18-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-82"><a href="#cb18-82" aria-hidden="true" tabindex="-1"></a>This step we are grabbing the <span class="in">`no.`</span> and <span class="in">`%`</span> columns underneath the response and population columns. The unit column will be nested and is placed at the end of the data table.</span>
+<span id="cb18-83"><a href="#cb18-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-86"><a href="#cb18-86" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb18-87"><a href="#cb18-87" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb18-88"><a href="#cb18-88" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-89"><a href="#cb18-89" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-90"><a href="#cb18-90" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-91"><a href="#cb18-91" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>)</span>
+<span id="cb18-92"><a href="#cb18-92" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-93"><a href="#cb18-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-94"><a href="#cb18-94" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 4</span></span>
+<span id="cb18-95"><a href="#cb18-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-96"><a href="#cb18-96" aria-hidden="true" tabindex="-1"></a>This step is grabbing the states located on the left side. The left location is left of the formatted columns, there will often be 2 left columns next to each other, yet the locations for <span class="in">`behead()`</span> are left. The state is placed at the end of the data table.</span>
+<span id="cb18-97"><a href="#cb18-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-100"><a href="#cb18-100" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb18-101"><a href="#cb18-101" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb18-102"><a href="#cb18-102" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-103"><a href="#cb18-103" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-104"><a href="#cb18-104" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-105"><a href="#cb18-105" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-106"><a href="#cb18-106" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'left'</span>,<span class="st">'state'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-107"><a href="#cb18-107" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(row, col)</span>
+<span id="cb18-108"><a href="#cb18-108" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-109"><a href="#cb18-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-110"><a href="#cb18-110" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 5</span></span>
+<span id="cb18-111"><a href="#cb18-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-112"><a href="#cb18-112" aria-hidden="true" tabindex="-1"></a>In this step we arrange the data table by row and column, selecting the columns we want from the Excel data table. The columns <span class="in">`row`</span>, <span class="in">`data_type`</span> and <span class="in">`numeric`</span> are required here, before the selection of the columns. You will see that unit remains nested.</span>
+<span id="cb18-113"><a href="#cb18-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-116"><a href="#cb18-116" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb18-117"><a href="#cb18-117" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb18-118"><a href="#cb18-118" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-119"><a href="#cb18-119" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-120"><a href="#cb18-120" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-121"><a href="#cb18-121" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-122"><a href="#cb18-122" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'left'</span>,<span class="st">'state'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-123"><a href="#cb18-123" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(row, col) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-124"><a href="#cb18-124" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( row, data_type, numeric, <span class="co"># required columns</span></span>
+<span id="cb18-125"><a href="#cb18-125" aria-hidden="true" tabindex="-1"></a>          state, population, response, unit</span>
+<span id="cb18-126"><a href="#cb18-126" aria-hidden="true" tabindex="-1"></a>          )</span>
+<span id="cb18-127"><a href="#cb18-127" aria-hidden="true" tabindex="-1"></a><span class="co"># the rows of states are now a column !!!</span></span>
+<span id="cb18-128"><a href="#cb18-128" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-129"><a href="#cb18-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-130"><a href="#cb18-130" aria-hidden="true" tabindex="-1"></a><span class="fu">### Step 6</span></span>
+<span id="cb18-131"><a href="#cb18-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-132"><a href="#cb18-132" aria-hidden="true" tabindex="-1"></a>In step 5 we grabbed the columns we wanted, along with the ones we rather not have like the row and data_type. The column numeric held the numeric data we care about. To unnest the unit column that has <span class="in">`%`</span> and <span class="in">`no.`</span>, we use <span class="in">`spatter()`</span> function, which will move them into separated columns.</span>
+<span id="cb18-133"><a href="#cb18-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-134"><a href="#cb18-134" aria-hidden="true" tabindex="-1"></a>This step we want the units separated and to have state as first column. We have a tidy data table, which could be saved as a <span class="in">`.csv`</span> file. We selected our columns in the order we want, <span class="in">`spatter()`</span> the nested column into separate column, and to drop the row column.</span>
+<span id="cb18-135"><a href="#cb18-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-138"><a href="#cb18-138" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb18-139"><a href="#cb18-139" aria-hidden="true" tabindex="-1"></a>cells <span class="sc">%&gt;%</span> </span>
+<span id="cb18-140"><a href="#cb18-140" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sheet <span class="sc">==</span> <span class="st">"Table 1"</span>, row <span class="sc">&gt;=</span> 5L, <span class="sc">!</span>is_blank) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-141"><a href="#cb18-141" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">"up-left"</span>,<span class="st">'population'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-142"><a href="#cb18-142" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up-left'</span>,<span class="st">'response'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-143"><a href="#cb18-143" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'up'</span>,<span class="st">'unit'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-144"><a href="#cb18-144" aria-hidden="true" tabindex="-1"></a>  <span class="fu">behead</span>(<span class="st">'left'</span>,<span class="st">'state'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-145"><a href="#cb18-145" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(row, col) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-146"><a href="#cb18-146" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>( row, data_type, numeric, state, population, response, unit) <span class="sc">%&gt;%</span> </span>
+<span id="cb18-147"><a href="#cb18-147" aria-hidden="true" tabindex="-1"></a>  <span class="fu">spatter</span>(unit) <span class="sc">%&gt;%</span> <span class="co"># breaks up the % no. into columns</span></span>
+<span id="cb18-148"><a href="#cb18-148" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>row)</span>
+<span id="cb18-149"><a href="#cb18-149" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb18-150"><a href="#cb18-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-151"><a href="#cb18-151" aria-hidden="true" tabindex="-1"></a><span class="fu"># Conclusion</span></span>
+<span id="cb18-152"><a href="#cb18-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-153"><a href="#cb18-153" aria-hidden="true" tabindex="-1"></a>This tutorial was my version of a eBook tutorial on cleaning Excel spreadsheets, broken down into steps with some explanations on each function. Although this blog showed how to do Table 1, the same process is applied to other messy Excel spreadsheets. I recommend going in steps as sometimes you <span class="in">`unhead()`</span> a column which sometimes has nested data meant for another column.</span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 
