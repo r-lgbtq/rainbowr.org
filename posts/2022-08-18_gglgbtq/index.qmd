@@ -9,7 +9,7 @@ categories: ["r", "turtletools", "ggplot2", "pride", "lgbtq", "palettes"]
 image: palettes.png
 twitter-card:
   image: palettes.png
-  card-style: "summary_card_large"
+  card-style: "summary_large_image"
   creator: "@Rturtletopia"
   site: "@Rturtletopia"
 format: 
