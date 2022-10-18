@@ -1,14 +1,13 @@
 project:
   type: website
-  
 
 
 website:
   title: "RainbowR"
   image: images/profile.png
-  image-alt: |
-    A hexagon with a rainbow gradient fill backbround, the word RainbowR in gray 
-    and a big capital letter R, also with a rainbow gradient fill
+  # image-alt: |
+  #   A hexagon with a rainbow gradient fill backbround, the word RainbowR in gray 
+  #   and a big capital letter R, also with a rainbow gradient fill
   favicon: images/rainbowR-square.png
   twitter-card: 
     image: images/rainowR-square.png
