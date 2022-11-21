@@ -11,6 +11,7 @@ links:
   - icon: github
     text: Github
     href: https://github.com/r-lgbtq
+include-in-header: _includes/mastodon.html
 ---
 
 ![](images/banner-light.png)

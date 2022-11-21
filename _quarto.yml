@@ -1,6 +1,8 @@
 project:
   type: website
 
+execute:
+  freeze: true
 
 website:
   title: "RainbowR"
@@ -25,16 +27,19 @@ website:
   navbar:
     #logo: rainbowR-square.png
     right:
-      - text: "POSTS"
+      - text: "Posts"
         file: posts.qmd
-      - text: "JOIN"
+      - text: "Join"
         href: https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/
-      - text: "CODE OF CONDUCT"
+      - text: "Code of Conduct"
         file: CoC.qmd
       - icon: github
         href: https://github.com/r-lgbtq
+      - icon: mastodon
+        href: https://tech.lgbt/@rainbowR
       - icon: twitter
         href: https://twitter.com/R_LGBTQ
+      
         
 format:
   html:
