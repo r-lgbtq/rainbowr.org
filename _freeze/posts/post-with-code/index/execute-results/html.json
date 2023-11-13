@@ -1,0 +1,17 @@
+{
+  "hash": "179956ea4c23fff3737912cc13c989c8",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"RainbowR theme demo\"\nsubtitle: \"A blog post with code and a plot\"\nauthor: \"Zane (She/They)\"\ndate: \"2022-05-11\"\ndescription: \"Run R code inside your Blog post, inside R code chunks.\"\ncategories: [Star Wars, code, analysis]\nimage: \"IMAGE-03.png\"\ndraft: true\nformat: \n  html:\n    code-fold: true\n---\n\n\n## Post with Code\n\nWelcome to a RainbowR blog post! Do you have a blog post idea that has LGBTQ data and want the community to see it? Here is how the data will look on this blog within the RainbowR theme.\n\nFor this demo post, we will show what Star Wars data looks like.\n\n\n::: {.cell}\n\n:::\n\n\n## Star Wars\n\nLet us look at some Star Wars data, which is available in the `dplyr` package:\n\n\n::: {.cell width='10'}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(paletteer)\nstarwars = starwars\n\nggplot(\n  starwars,\n  aes(x= height, y= eye_color, color=height)\n)+\n  geom_point(size= 2)+\n  scale_color_paletteer_c(`\"ggthemes::Orange\"`)+\n  rainbow_theme()\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=2100}\n:::\n:::\n\n\nThis graph, made with `ggplot` shows height vs eye color of the Star Wars characters. The `geom_point()` colors really work well with oranges against the purple background.\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
