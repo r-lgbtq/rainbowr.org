@@ -17,3 +17,27 @@ $violet: #732982;
 $purple: #732982;
 
 $primary: $blue;
+$body-bg: #fff;
+
+// icon-links
+.icon-link, div.quarto-about-jolla .about-link {
+    background-color: transparent;
+    color: $violet;
+    //border: 2px solid !important;
+    border: 2px solid;
+    border-color: $violet;
+    padding: 5px .4rem 5px .4rem !important;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border-radius: 5px; 
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icon-link:hover, div.quarto-about-jolla .about-link:hover{
+    background-color: $violet;
+    color: $body-bg;
+    border-color: $violet;
+    text-decoration: none;
+}

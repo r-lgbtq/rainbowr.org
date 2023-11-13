@@ -1,0 +1,229 @@
+---
+title: Introducing the buddies scheme
+author: Ella Kaye
+date: 2023-11-16
+image: rainbow-buddies.png
+description: |
+  The buddies scheme is a new initiative to connect members of the rainbowR community. This post introduces the scheme, outlines its implementation and explains how to get involved.
+categories: ["R", "buddies", "community", "LGBTQ+", "emails", "data wrangling"]
+---
+
+The rainbowR buddy scheme is designed to connect LGBTQ+ people who code in the R language. We hope it's fun for the folks who take part, and that it helps foster the community. We envisage this buddy scheme as primarily **social**, though you know that anyone who takes part will have a shared interest in R. Any experience level with R is welcome! 
+
+## How it works
+
+- Folks opt-in via this [sign-up form](https://docs.google.com/forms/d/1XdTvtKkVF8Ek7MJ5CYbh6PV8oR72zIV9wRUVTHUP5yQ)
+- Buddy pairs are randomly assigned
+- E-mails are sent to each pair making the introduction.
+
+This is implemented in R, as outlined below.
+
+We'll send the emails on November 30th. We trust that the assigned buddies will want to communicate with each other, and get in touch with each other via email. We anticipate that buddies will arrange a meet-up (most likely online), though there are no firm expectations/requirements to do so. Maybe they'll just meet once. Maybe they'll become friends for life! 
+
+In the form we ask for a little about yourself and things that you'd be interested in talking about or doing together, and give some examples of things you might consider:
+
+- Discuss/get feedback on a project you're working on (either R-related or something completely different)
+- Explore a [TidyRainbow](https://github.com/r-lgbtq/tidyrainbow) dataset together
+- Work on some [Advent of Code](https://adventofcode) puzzles together (either new ones in December or some from previous years)
+- Do some [pair programming](https://en.wikipedia.org/wiki/Pair_programming) together
+- Play some online games, e.g. some of those listed [here](https://www.google.com/url?sa=j&url=https%3A%2F%2Fwww.thegamer.com%2Fbest-free-web-browser-party-games%2F&uct=1694511574&usg=t0zNc9gJyPFNYBSey58bx0wl2w8.&source=editors)
+- General chat is fine too!
+
+To help get the conversation started, what you write about yourself and your interests will be included in the emails introducing each buddy pair (though buddies are assigned randomly, not on mutual interests).
+
+## Keeping it safe
+We want the scheme to be fun and safe for everyone, so it operates under the rainbowR [code of conduct](../../CoC.qmd). All the information entered in the sign-up form is confidential. It is seen just by me ([Ella Kaye](https://ellakaye.co.uk), the organiser of rainbowR) and the assigned buddies. There is a GitHub [repo](https://github.com/r-lgbtq/buddies) for the implementation of the scheme, but no personal details will ever be checked in there. If you're interested in taking part but have any questions or concerns, please email [rlgbtq@gmail.com](mailto:rlgbtq@gmail.com) and I will do my best to address them. 
+
+## Get involved
+It would be wonderful to get a good number of people involved in the scheme, so please do sign up if you're interested! If you know anyone else who might be interested, please do share this post with them. The deadline for signing up for the first round of the scheme is **November 29th**. We plan to run the scheme every three months (people will need to opt-in each time).
+
+<a href="https://docs.google.com/forms/d/1XdTvtKkVF8Ek7MJ5CYbh6PV8oR72zIV9wRUVTHUP5yQ" class="icon-link" target="_blank" rel="noopener">Sign-up now!</a>
+
+## Implementation
+
+Since rainbowR members are interested in R, I'll wrap up this post with an outline of how this scheme is implemented. For the full implementation, here's the [code on GitHub](https://github.com/r-lgbtq/buddies/blob/main/buddies.R).
+
+The sign-up form is a Google Form, and the responses are stored in a Google Sheet. The data is read into R using the [**googlesheets4**](https://googlesheets4.tidyverse.org) package. 
+
+```{r}
+#| eval: false
+library(googlesheets4)
+url <- "https://docs.google.com/spreadsheets/d/BUDDIES_SHEET_ID/"
+buddy_form <- read_sheet(url)
+```
+
+The code chunk above isn't evaluated in this post, so here's a dummy table to demonstrate on instead:
+
+```{r}
+#| message: false
+library(dplyr)
+buddy_df <- tribble(
+  ~first_name, ~last_name,  ~email, ~about, ~interests,
+  "Alice", "S", "alice@example.com", "I'm a data scientist at a small company in London", "I'm interested in data visualisation and machine learning. I'd like to discuss a project I'm working on, and maybe do some pair programming.",
+  "Bob", "T", "bob@example.com", "I'm a student in a small town in California", "I'd like to chat and play some online games.",
+  "Charlie", "U", "charlie@example,com", "I'm an author and just starting to explore R", "I'd love to explore a TidyRainbow dataset together.",
+  "Dana", "V", "dana@example.com", "I'm a software engineer in a big company in New York", "Doing some Advent of Code puzzles together sounds fun!"
+)
+```
+
+Then there's some code to check the number of responses, and prompt me to sign-up if there's an odd number. Everyone who signs up will get a buddy!
+
+Next, we define a function that randomly assigns pairs, using some [**dplyr**](https://dplyr.tidyverse.org) wrangling:
+
+```{r}
+make_buddy_pairs <- function(buddy_df, seed = 1) {
+  
+  # set the seed to seed
+  set.seed(seed)
+  
+  # create a vector pairs which repeats each of the numbers from 1
+  # to half the number in buddy_df and shuffles them (assume even number)
+  pairs <- sample(rep(1:(nrow(buddy_df)/2), 2))
+  
+  # add pairs to buddy_df
+  buddy_df <- buddy_df |>
+    mutate(pair = pairs) |> 
+    arrange(pair)
+  
+  # from buddy_df create a tibble buddy_pairs with half the rows of buddy_df 
+  # with a column called pair with the numbers 1 to half the number of rows in buddy_df
+  # a column called buddy1 with the first email associated with pair 
+  # and a column called buddy2 with the second email associated with pair
+  buddy_pairs <- buddy_df |>
+    group_by(pair) |>
+    summarise(buddy1 = email[1],
+              buddy2 = email[2])
+  
+  # in buddy_pairs, create first_buddy which is the lesser of buddy1 and buddy2
+  # and create second_buddy which is the greater of buddy1 and buddy2
+  # then select first_buddy and second_buddy
+  # this will make it easier to compare buddy_pairs with previous_buddy_pairs later
+  buddy_pairs <- buddy_pairs |>
+    mutate(first_buddy = pmin(buddy1, buddy2),
+           second_buddy = pmax(buddy1, buddy2)) |>
+    select(first_buddy, second_buddy)
+  
+  return(list(buddy_pairs = buddy_pairs,
+              buddy_df = buddy_df))
+}
+```
+
+Running that would be enough to determine the pairings, but we're already thinking ahead to future runs, and want to set things up so that people don't get the same buddy twice. We'll manage that by storing previous pairings in `previous_buddy_pairs.csv`, checking if any of the new pairings match any of those, and rerunning `make_buddy_pairs()` with different seeds until there are no matches. The `make_buddies()` function does that:
+
+```{r}
+make_buddies <- function(buddy_df, seed = 1) {
+  
+  # sanity check if buddy_df has an odd number of rows
+  if(nrow(buddy_df) %% 2 == 1) {
+    stop("buddy_df must have an even number of rows")
+  }
+  
+  # first run
+  buddies <- make_buddy_pairs(buddy_df, seed)
+  buddy_pairs <- buddies$buddy_pairs
+  buddy_df <- buddies$buddy_df
+  
+  # if previous_buddy_pairs.csv exists, read it into previous_buddy_pairs
+  # if not, create it
+  if(file.exists("previous_buddy_pairs.csv")) {
+    previous_buddy_pairs <- read_csv("previous_buddy_pairs.csv")
+  } else {
+    previous_buddy_pairs <- tibble(first_buddy = character(),
+                                   second_buddy = character())
+  }
+  
+  # while any of the rows in buddy_pairs are in previous_buddy_pairs
+  # increment seed by 1 and run make_buddy_pairs again, 
+  # updating buddy_pairs and buddy_df
+  while(any(apply(buddy_pairs, 1, function(x) paste(x, collapse = " ")) %in% 
+            apply(previous_buddy_pairs, 1, function(x) paste(x, collapse = " ")))) {
+    seed <- seed + 1
+    updated_buddies <- make_buddy_pairs(buddy_df, seed)
+    buddy_pairs <- updated_buddies$buddy_pairs
+    buddy_df <- updated_buddies$buddy_df
+  }
+    
+  # create updated_buddy_pairs and write it to previous_buddy_pairs.csv
+  updated_buddy_pairs <- bind_rows(previous_buddy_pairs, buddy_pairs)
+  # Don't write the csv during the blog post demo!
+  # write_csv(updated_buddy_pairs, "previous_buddy_pairs.csv")
+  
+  # return a list with buddy_pairs, buddy_df, and seed
+  return(list(buddy_pairs = buddy_pairs,
+              buddy_df = buddy_df,
+              final_seed = seed))
+}
+```
+
+We're now ready assign buddies!
+
+```{r}
+#| message: false
+buddies <- make_buddies(buddy_df)
+buddies_df <- buddies$buddy_df
+```
+
+Next, we need to wrangle the data into a format that's useful for sending emails. We're going to use the [**blastula**](https://pkgs.rstudio.com/blastula/index.html) package to send emails, which requires a data frame with one row per pair:
+
+```{r}
+buddies_for_email <- buddies_df |>
+  group_by(pair) |>
+  summarise(first_name1 = first_name[1],
+            first_name2 = first_name[2],
+            last_name1 = last_name[1],
+            last_name2 = last_name[2],
+            email1 = email[1],
+            email2 = email[2],
+            about1 = about[1],
+            about2 = about[2],
+            interests1 = interests[1],
+            interests2 = interests[2])
+```
+
+Adapting an [example by James Balamuta](https://thecoatlessprofessor.com/programming/r/sending-an-email-from-r-with-blastula-to-groups-of-students/), we next create a function that takes a data frame with one row per pair and composes an email from a template, for example:
+
+```{r}
+buddies_email_template = function(buddies) {
+
+  buddies |> 
+    glue_data(
+      "Hello {first_name1} {last_name1} and {first_name2} {last_name2},\n\n\n\n",
+      "You are now rainbowR buddies! \n\n\n\n",
+      "**About {first_name1}**: {about1} \n\n\n\n",
+      "**About {first_name2}**: {about2} \n\n\n\n",
+      "**{first_name1}** is interested in {interests1}. \n\n\n\n",
+      "**{first_name2}** is interested in {interests2}. \n\n\n\n",
+      "You can contact each other at [{email1}](mailto:{email1}) and [{email2}](mailto:{email2}).\n\n\n\n",
+      "Over to you! \n\n\n\n"
+    )  |> 
+    md()  |> 
+    compose_email()
+}
+```
+
+Finally, we loop over the rows of `buddies_for_email`, compose an email for each pair, and send it, using previously stored credentials:^[[Instructions for setting up SMTP cedentials](https://pkgs.rstudio.com/blastula/articles/sending_using_smtp.html)]
+
+```{r}
+#| eval: false
+for (i in seq_len(nrow(buddies_for_email))) {
+  # Retrieve current buddies
+  buddy_pair <- buddies_for_email[i, ] 
+  
+  # get email addresses
+  to <- c(buddy_pair$email1, buddy_pair$email2)
+  
+  # Construct the e-mail using our custom template.
+  email_contents <- buddies_email_template(buddy_pair)
+  
+  # Send e-mail
+  email_contents %>%
+    smtp_send(
+      from = "rlgbtq@gmail.com",
+      to = to,
+      subject = "Your new rainbowR buddy!",
+      credentials = creds_key(id = "gmail_rlgbtq")
+    )
+}
+```
+
+That's it! Buddy pairs are now introduced and it's over to them to get to know each other.

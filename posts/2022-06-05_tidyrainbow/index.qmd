@@ -4,7 +4,7 @@ subtitle: "A repo for LGBTQ data"
 author: "Zane (She/They)"
 date: "2022-06-25"
 description: "The one stop for finding and using LGBTQ data for your data science, machine learning and research needs."
-categories: [tidyrainbow, data, LGBTQ]
+categories: [TidyRainbow, data, LGBTQ+]
 image: "rainbow-cube.png"
 
 format: 
