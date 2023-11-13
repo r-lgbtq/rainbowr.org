@@ -12,6 +12,7 @@ links:
     text: Github
     href: https://github.com/r-lgbtq
 include-in-header: _includes/mastodon.html
+freeze: false
 ---
 
 ![](images/banner-light.png)
@@ -46,7 +47,7 @@ We partner with fellow R diversity and inclusion-orientated groups such as [R Fo
 
 ## Meet the team!
 
-Ella Kaye (She/Her), community co-founder and co-lead: [website](https://ellakaye.rbind.io), [twitter](https://twitter.com/ellamkaye), [GitHub](https://github.com/EllaKaye)
+Ella Kaye (She/Her), community co-founder and co-lead: [website](https://ellakaye.co.uk), [mastodon](https://fosstodon.org/@ellakaye), [GitHub](https://github.com/EllaKaye)
 
 ```{r}
 #| echo: false
@@ -56,26 +57,23 @@ library(distilltools)
 icon_link(icon = "globe",
           text = "website",
           url = "https://ellakaye.rbind.io")
-icon_link(icon = "twitter",
-          text = "twitter",
-          url = "https://twitter.com/ellamkaye")
 icon_link(icon = "github",
           text = "GitHub",
           url = "https://github.com/EllaKaye")
 ```
 
-Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [twitter](https://twitter.com/StarTrek_Lt), [GitHub](https://github.com/PythonCoderUnicorn)
+Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [GitHub](https://github.com/PythonCoderUnicorn)
 
 ### Previous team members
 
-Ben Ulloa Ortiz, community co-founder: [twitter](https://twitter.com/plzbeemyfriend)
+Ben Ulloa Ortiz, community co-founder
 
-Erin LeDell, community co-founder: [twitter](https://twitter.com/ledell)
+Erin LeDell, community co-founder
 
 ```{r}
 #| echo: false
 
-# redirects strategy from djnavarro
+# redirects strategy adapted from djnavarro
 # https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/#netlify-redirects
 # list names of post folders
 posts <- list.dirs(
@@ -96,6 +94,6 @@ new_redirects <- paste0("/", slugs, " ", "/posts/", posts)
 redirects <- c(fix_mistakes, new_redirects)
 
 # write the _redirect file
-writeLines(redirects, here::here("_site", "_redirects"))
+writeLines(redirects, here::here("_redirects"))
 ```
 
