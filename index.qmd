@@ -1,5 +1,5 @@
 ---
-title: "RainbowR"
+title: "rainbowR"
 image: rainbowR-square.png
 # about:
   # template: jolla
@@ -16,9 +16,9 @@ include-in-header: _includes/mastodon.html
 
 ![](images/banner-light.png)
 
-# About RainbowR
+# About rainbowR
 
-RainbowR is a community that supports, promotes and connects LGBTQ+ people who code in the R language.
+rainbowR is a community that supports, promotes and connects LGBTQ+ people who code in the R language.
 
 Not every work or social environment is safe or supportive for LGBTQ+ people, so the need to have a dedicated community continues.
 
@@ -28,7 +28,7 @@ We use LGBTQ+ people as a term to cover
 
 -   those who are not cisgender, i.e. those whose sense of personal identity and gender does not correspond with their birth sex
 
-To our straight, cis friends: we very much appreciate your allyship and your support of RainbowR, e.g. by sharing our information and posts on social media and by telling your friends and colleagues about us.
+To our straight, cis friends: we very much appreciate your allyship and your support of rainbowR, e.g. by sharing our information and posts on social media and by telling your friends and colleagues about us.
 
 ## Our Mission
 

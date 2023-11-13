@@ -1,0 +1,48 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+// colors
+$light-purple: #e6b3ff;
+$white: #ffffff;
+$cyan: #32fbe2;
+$dark-cyan: #29C9B5;
+
+body{
+  color: $light-purple; 
+  font-family: Figtree, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+code {
+  color: $white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* styling for icon-link buttons (see distilltools::icon_link()) */
+/* This isn't right for Quarto but EK now knows how to fix it - will do so later*/
+.icon-link {
+    background-color: transparent;
+    color: $cyan;
+    border: 1.5px solid;
+    border-color: $cyan;
+    padding: 0px .4rem 0px .4rem;
+    /*margin: 4px;*/
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    border-radius: 5px; /* Rounded edges */
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    /*background-color: #e6b3ff;*/
+    border-color: $dark-cyan;
+    color: $dark-cyan;
+    text-decoration: none;
+}

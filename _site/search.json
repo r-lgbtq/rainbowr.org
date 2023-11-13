@@ -1,7 +1,28 @@
 [
   {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Show Pride on Your Plots\n\n\n\n\n\n\nr\n\n\nturtletools\n\n\nggplot2\n\n\npride\n\n\nlgbtq\n\n\npalettes\n\n\n\nUse gglgbtq to customize your plots with LGBTQ+ palettes and tailored themes. Pride aside, flag colors usually make good categorical palettes. \n\n\n\n\n\nAug 20, 2022\n\n\nLaura Bakala\n\n\n\n\n\n\n\n\n\n\n\n\nTidyRainbow\n\n\nA repo for LGBTQ data\n\n\n\ntidyrainbow\n\n\ndata\n\n\nLGBTQ\n\n\n\nThe one stop for finding and using LGBTQ data for your data science, machine learning and research needs.\n\n\n\n\n\nJun 25, 2022\n\n\nZane (She/They)\n\n\n\n\n\n\n\n\n\n\n\n\n(Re)launching RainbowR\n\n\n\n\n\n\nHistory\n\n\nRainbowR\n\n\n\nRainbowR: past, present and future\n\n\n\n\n\nJun 20, 2022\n\n\nElla Kaye (She/Her), Zane Dax (She/They)\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2022-08-18_gglgbtq/index.html",
+    "href": "posts/2022-08-18_gglgbtq/index.html",
+    "title": "Show Pride on Your Plots",
+    "section": "",
+    "text": "Note\n\n\n\nThis post originally appeared on the Turtletopia blog.\nIf you use the gglgbtq palettes, we’d love you to share them on twitter with #RainbowR.\nIt was always the plan for pridepalettes to become a package and here at RainbowR we are very grateful to our friends at Turtletopia for taking this on!\nN.B. for LGBTQ+ inclusive datasets, check out TidyRainbow.\n\n\nThis will be a short post, since I’m busy playing blues this week. At least the topic’s short!\nIt all began with a post by RainbowR on Twitter:\n\nAs a very curious person, I had to check their GitHub account. And I found a repository curiously named pridepalettes. I was a little disappointed to find out it’s just a single script with little reusability. I hoped for a package!\nA quick research showed me a few more repos with pride colors, but none I could download from CRAN. In fact, only one was a package at all!\nSo I took matters into my own hands and created gglgbtq.\nIt would be easy to just scrape the colors of multiple flags, slap a palette_lgbtq() function on top of ’em, and call it a day. But it would be barely usable. Have you ever used white for a group with default ggplot2 settings? It’d be barely visible.\n\n\nCode\n# I swear it's the last time I'd use iris dataset\nlibrary(ggplot2)\nlibrary(gglgbtq)\nggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color = Species)) +\n  geom_point(size = 2) +\n  scale_color_manual(values = palette_lgbtq(\"genderqueer\"))\n\n\n\n\n\nThis is why I included theme_lgbtq(). Each palette has its own custom theme for increased readability (although many themes are reused across multiple palettes). Check out the difference!\n\n\nCode\n# Is it considered \"another time\" or just \"the last use part II\"?\nggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color = Species)) +\n  geom_point(size = 2) +\n  scale_color_manual(values = palette_lgbtq(\"genderqueer\")) +\n  theme_lgbtq(\"genderqueer\")\n\n\n\n\n\nThe difference isn’t much, but I found this gray to be the perfect balance for most palettes that include white (which is like 85% or so of all LGBT+ flags). But there are palettes without white, like this one:\n\n\nCode\n# I spent like 10 minutes sifting through the base datasets\n# but - behold! - a non-iris dataset at last\nggplot(warpbreaks, aes(x = wool, y = breaks, fill = tension)) +\n  geom_bar(stat = \"identity\", position = \"dodge\") +\n  scale_fill_manual(values = palette_lgbtq(\"pansexual\")) +\n  theme_lgbtq(\"pansexual\")\n\n\n\n\n\nFor now I included 16 palettes, but expect more (and if you want a specific flag to be included in the next release, write an issue on GitHub, strike a message on Twitter, or send a pigeon with a letter):\n\n\n\nThe Pride Palettes (edition gglgbtq 0.1.0)\n\n\nLike what you see? You can get it from CRAN or GitHub, whichever suits you best:\n\n\nCode\ninstall.packages(\"gglgbtq\")\nremotes::install_github(\"turtletopia/gglgbtq\")\n\n\nShow us your pride plots on Twitter, we’d love to see them!"
+  },
+  {
     "objectID": "CoC.html",
     "href": "CoC.html",
+    "title": "Code of Conduct",
+    "section": "",
+    "text": "We as members, contributors, and leaders pledge to make participation in RainbowR a harassment-free experience for everyone, regardless of sexual identity and orientation, sex characteristics, gender identity and expression, age, body size, visible or invisible disability, ethnicity, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, or religion.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
+  },
+  {
+    "objectID": "CoC.html#our-pledge",
+    "href": "CoC.html#our-pledge",
     "title": "Code of Conduct",
     "section": "",
     "text": "We as members, contributors, and leaders pledge to make participation in RainbowR a harassment-free experience for everyone, regardless of sexual identity and orientation, sex characteristics, gender identity and expression, age, body size, visible or invisible disability, ethnicity, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, or religion.\nWe pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community."
@@ -84,45 +105,31 @@
     "text": "Future: Keeping it going!\nWe can’t wait to get conversation started in the Slack group again, reconnecting with those still there and welcoming new folks. Most importantly, we recognise the need to be proactive in keeping the community alive. We have lots of plans for the future, including (but not limited to):\n\n#TidyRainbow: We will post data sets related to LGBTQ+ issues, for exploration and visualisation\nCommunity Calls: Once every three months (and possibly more often if popular) we will host an open Zoom call. These will be a mixture of whole-group time, e.g. for presentations, and breakout rooms, for community members to have a chance to meet and get to know each other\nA RainbowR colour-palette package: An R package featuring colour-palettes for a range of LGBTQ+ flags\nMore blog posts: Highlighting the work of the RainbowR community and its members\n\nWe are also very open to other suggestions for activities and ways to grow and support the community. Please share your ideas, either via Twitter or on Slack. This is your community!\nSIGN UP FOR THE SLACK GROUP!\nGO TO THE SLACK GROUP!\nFOLLOW US ON TWITTER!"
   },
   {
-    "objectID": "posts/2022-08-18_gglgbtq/index.html",
-    "href": "posts/2022-08-18_gglgbtq/index.html",
-    "title": "Show Pride on Your Plots",
-    "section": "",
-    "text": "Note\n\n\n\nThis post originally appeared on the Turtletopia blog.\nIf you use the gglgbtq palettes, we’d love you to share them on twitter with #RainbowR.\nIt was always the plan for pridepalettes to become a package and here at RainbowR we are very grateful to our friends at Turtletopia for taking this on!\nN.B. for LGBTQ+ inclusive datasets, check out TidyRainbow.\n\n\nThis will be a short post, since I’m busy playing blues this week. At least the topic’s short!\nIt all began with a post by RainbowR on Twitter:\n\nAs a very curious person, I had to check their GitHub account. And I found a repository curiously named pridepalettes. I was a little disappointed to find out it’s just a single script with little reusability. I hoped for a package!\nA quick research showed me a few more repos with pride colors, but none I could download from CRAN. In fact, only one was a package at all!\nSo I took matters into my own hands and created gglgbtq.\nIt would be easy to just scrape the colors of multiple flags, slap a palette_lgbtq() function on top of ’em, and call it a day. But it would be barely usable. Have you ever used white for a group with default ggplot2 settings? It’d be barely visible.\n\n\nToggle the code\n# I swear it's the last time I'd use iris dataset\nlibrary(ggplot2)\nlibrary(gglgbtq)\nggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color = Species)) +\n  geom_point(size = 2) +\n  scale_color_manual(values = palette_lgbtq(\"genderqueer\"))\n\n\n\n\n\nThis is why I included theme_lgbtq(). Each palette has its own custom theme for increased readability (although many themes are reused across multiple palettes). Check out the difference!\n\n\nToggle the code\n# Is it considered \"another time\" or just \"the last use part II\"?\nggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color = Species)) +\n  geom_point(size = 2) +\n  scale_color_manual(values = palette_lgbtq(\"genderqueer\")) +\n  theme_lgbtq(\"genderqueer\")\n\n\n\n\n\nThe difference isn’t much, but I found this gray to be the perfect balance for most palettes that include white (which is like 85% or so of all LGBT+ flags). But there are palettes without white, like this one:\n\n\nToggle the code\n# I spent like 10 minutes sifting through the base datasets\n# but - behold! - a non-iris dataset at last\nggplot(warpbreaks, aes(x = wool, y = breaks, fill = tension)) +\n  geom_bar(stat = \"identity\", position = \"dodge\") +\n  scale_fill_manual(values = palette_lgbtq(\"pansexual\")) +\n  theme_lgbtq(\"pansexual\")\n\n\n\n\n\nFor now I included 16 palettes, but expect more (and if you want a specific flag to be included in the next release, write an issue on GitHub, strike a message on Twitter, or send a pigeon with a letter):\n\n\n\nThe Pride Palettes (edition gglgbtq 0.1.0)\n\n\nLike what you see? You can get it from CRAN or GitHub, whichever suits you best:\n\n\nToggle the code\ninstall.packages(\"gglgbtq\")\nremotes::install_github(\"turtletopia/gglgbtq\")\n\n\nShow us your pride plots on Twitter, we’d love to see them!"
-  },
-  {
     "objectID": "index.html#our-mission",
     "href": "index.html#our-mission",
-    "title": "RainbowR",
+    "title": "rainbowR",
     "section": "Our Mission",
     "text": "Our Mission\nOur mission is to support, promote and connect LGBTQ+ people in the R community and to and spread awareness of LGBTQ+ issues through data-driven activism."
   },
   {
     "objectID": "index.html#involvement",
     "href": "index.html#involvement",
-    "title": "RainbowR",
+    "title": "rainbowR",
     "section": "Involvement",
     "text": "Involvement\nIf you want to join our Slack, please fill in the sign-up form for an invitation. Please note that this group is for LGBTQ+ people.\nWe welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on Twitter, @R_LGBTQ."
   },
   {
     "objectID": "index.html#partnerships",
     "href": "index.html#partnerships",
-    "title": "RainbowR",
+    "title": "rainbowR",
     "section": "Partnerships",
     "text": "Partnerships\nWe partner with fellow R diversity and inclusion-orientated groups such as R Forwards and Minorities in R (MiR)."
   },
   {
     "objectID": "index.html#meet-the-team",
     "href": "index.html#meet-the-team",
-    "title": "RainbowR",
+    "title": "rainbowR",
     "section": "Meet the team!",
-    "text": "Meet the team!\nElla Kaye (She/Her), community co-founder and co-lead: website, twitter, GitHub\n\n\n\nZane Dax (She/They), community co-lead: website, twitter, GitHub\n\nPrevious team members\nBen Ulloa Ortiz, community co-founder: twitter\nErin LeDell, community co-founder: twitter"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Show Pride on Your Plots\n\n\n\n\n\n\n\nr\n\n\nturtletools\n\n\nggplot2\n\n\npride\n\n\nlgbtq\n\n\npalettes\n\n\n\n\nUse gglgbtq to customize your plots with LGBTQ+ palettes and tailored themes. Pride aside, flag colors usually make good categorical palettes.\n\n\n\n\n\n\nAug 20, 2022\n\n\nLaura Bakala\n\n\n\n\n\n\n  \n\n\n\n\nTidyRainbow\n\n\nA repo for LGBTQ data\n\n\n\n\ntidyrainbow\n\n\ndata\n\n\nLGBTQ\n\n\n\n\nThe one stop for finding and using LGBTQ data for your data science, machine learning and research needs.\n\n\n\n\n\n\nJun 25, 2022\n\n\nZane (She/They)\n\n\n\n\n\n\n  \n\n\n\n\n(Re)launching RainbowR\n\n\n\n\n\n\n\nHistory\n\n\nRainbowR\n\n\n\n\nRainbowR: past, present and future\n\n\n\n\n\n\nJun 20, 2022\n\n\nElla Kaye (She/Her), Zane Dax (She/They)\n\n\n\n\n\n\nNo matching items"
+    "text": "Meet the team!\nElla Kaye (She/Her), community co-founder and co-lead: website, twitter, GitHub\nZane Dax (She/They), community co-lead: website, twitter, GitHub\n\nPrevious team members\nBen Ulloa Ortiz, community co-founder: twitter\nErin LeDell, community co-founder: twitter"
   }
 ]
