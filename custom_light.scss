@@ -18,6 +18,7 @@ $purple: #732982;
 
 $primary: $blue;
 $body-bg: #fff;
+$navbar-bg: #f8f9fa;
 
 // icon-links
 .icon-link, div.quarto-about-jolla .about-link {
@@ -40,4 +41,8 @@ $body-bg: #fff;
     color: $body-bg;
     border-color: $violet;
     text-decoration: none;
+}
+
+.btn {
+  border-radius: 5px;
 }

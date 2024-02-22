@@ -1,16 +1,12 @@
 ---
 title: "rainbowR"
-image: rainbowR-square.png
+#image: rainbowR-square.png
 # about:
   # template: jolla
-links:
-  - icon: twitter
-    text: Twitter
-    href: https://twitter.com/R_LGBTQ
-
-  - icon: github
-    text: Github
-    href: https://github.com/r-lgbtq
+# 
+#   - icon: github
+#     text: Github
+#     href: https://github.com/r-lgbtq
 include-in-header: _includes/mastodon.html
 freeze: false
 ---
@@ -39,11 +35,11 @@ Our mission is to support, promote and connect LGBTQ+ people in the R community 
 
 If you want to join our Slack, please fill in the [sign-up form](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) for an invitation. Please note that this group is for LGBTQ+ people.
 
-We welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on Twitter, [\@R_LGBTQ](https://twitter.com/R_LGBTQ).
+We welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on Mastodon, [tech.lgbt/@rainbowR](https://tech.lgbt/@rainbowR).
 
 ## Partnerships
 
-We partner with fellow R diversity and inclusion-orientated groups such as [R Forwards](https://forwards.github.io) and [Minorities in R (MiR)](https://mircommunity.com).
+We partner with fellow R diversity and inclusion-orientated groups such as [R Forwards](https://forwards.github.io) and [R Ladies](https://rladies.org).
 
 ## Meet the team!
 
@@ -62,9 +58,14 @@ icon_link(icon = "github",
           url = "https://github.com/EllaKaye")
 ```
 
-Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [GitHub](https://github.com/PythonCoderUnicorn)
+Hanne Oberman (She/Her, They/Them), community co-lead: [website](https://hanneoberman.github.io), [mastodon](https://mastodon.social/@oberman), [GitHub](https://github.com/hanneoberman)
+
+Daniel D. Sjoberg (He/Him)
+[website](https://www.danieldsjoberg.com), [mastodon](https://mastodon.social/@ddsjoberg), [GitHub](https://github.com/ddsjoberg)
 
 ### Previous team members
+
+Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [GitHub](https://github.com/PythonCoderUnicorn)
 
 Ben Ulloa Ortiz, community co-founder
 
