@@ -1,0 +1,20 @@
+## Next meetup
+
+🌈 **February 22nd, 2024, 5pm UTC, Zoom** 🌈
+
+[Register](https://us02web.zoom.us/meeting/register/tZItdOyoqDMjHtOtrFxqo9sViCpXDPyscoqj){.btn .btn-primary}
+
+## About our meetups
+
+We hold online meetups, over Zoom, approximately monthly. 
+We usually announce meetups a couple of weeks before they take place.
+The best place to hear about them is on [Mastodon](https://tech.lgbt/@rainbowR) or via our mailing list, which you can opt in to when you [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/).
+
+These are friendly, informal gatherings, to connect with fellow community members and chat (mostly about R).
+
+Each meetup starts with a round of introductions. The majority of the meetup is usually spent on a 'show and tell'. Participants can share something related to R or Quarto. 
+It could be something they're working on, or a resource/package they've found that they're enjoying using. It's also a chance to ask R-related questions -- there's probably someone on the call who can help! Of course, you don't have to show something -- there's no pressure to do so!
+
+We may also use some of the meetup to talk about rainbowR matters, e.g. discussing initiatives for the group, community organisation etc.
+
+We require registration in advance. This helps keep the meetup safe.
