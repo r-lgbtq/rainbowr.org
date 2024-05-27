@@ -89,10 +89,11 @@ slugs <- gsub("^.*_", "", posts)
 # fix some early mistakes
 fix_mistakes <- c("/posts/tidyrainbow/rainbow.html /posts/2022-06-05_tidyrainbow",
                   "/posts/relaunching-rainbowr/relaunching-rainbowr.html /posts/2022-06-20_relaunching-rainbowr")
+joining <- "/join https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/"
 
 # lines to insert to a netlify _redirect file
 new_redirects <- paste0("/", slugs, " ", "/posts/", posts)
-redirects <- c(fix_mistakes, new_redirects)
+redirects <- c(fix_mistakes, joining, new_redirects)
 
 # write the _redirect file
 writeLines(redirects, here::here("_redirects"))
