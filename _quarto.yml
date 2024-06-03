@@ -8,16 +8,15 @@ execute:
 
 website:
   title: "rainbowR"
-  image: images/profile.png
+  image: images/rainbowR-hex.png
   # image-alt: |
-  #   A hexagon with a rainbow gradient fill backbround, the word RainbowR in gray 
-  #   and a big capital letter R, also with a rainbow gradient fill
-  favicon: images/rainbowR-square.png
+  #   A hexagon comprised of six diagonal stripes, in rainbow coulours, with a white horizonal stripe accross the centre containing the word rainbowR.
+  favicon: images/rainbowR.png
   open-graph: true
   site-url: "https://rainbowr.netlify.app"
   
   navbar:
-    #logo: rainbowR-square.png
+   # logo: rainbowR-square.svg
     right:
       - text: "Posts"
         file: posts.qmd
