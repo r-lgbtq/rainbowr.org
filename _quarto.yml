@@ -35,8 +35,8 @@ website:
 format:
   html:
     theme: 
-      light: [cosmo, custom_light.scss]
-      dark: [vapor, custom_dark.scss]
+      light: custom_light.scss
+      dark: custom_dark.scss
     css: styles.css
 
 editor: source
