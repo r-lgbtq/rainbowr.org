@@ -3,30 +3,40 @@
 // fonts
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
 
+@font-face {
+  font-family: 'Gilbert';
+  src: local('GilbertBoldPreview5'), url('fonts/GilbertBoldPreview5.woff') format('woff');
+}
+
 $font-family-sans-serif: Figtree, Helvetica, sans-serif;
-$headings-font-family: Figtree, Helvetica, sans-serif;
+$headings-font-family: Gilbert, Figtree, Helvetica, sans-serif;
 
 // colors
-$red: #E40303;
-$orange: #FF8C00;
-$yellow: #FFED00;
-$green: #008026;
-$indigo: #24408E;
-$blue: #24408E;
-$violet: #732982;
-$purple: #732982;
+$red: #FF4239;
+$orange: #FF6B00;
+$yellow: #FFC843;
+$green: #09CE7C;
+$blue: #02B3E3;
+$pink: #DA3AB3;
+$purple: #DA3AB3;
+$dark-blue: #000752;
 
-$primary: $blue;
+$primary: $orange;
 $body-bg: #fff;
-$navbar-bg: #f8f9fa;
+$navbar-bg: #fff;
+
+.top-quote {
+  font-family: $headings-font-family;
+  font-size: 250%;
+}
 
 // icon-links
 .icon-link, div.quarto-about-jolla .about-link {
     background-color: transparent;
-    color: $violet;
+    color: $purple;
     //border: 2px solid !important;
     border: 2px solid;
-    border-color: $violet;
+    border-color: $purple;
     padding: 5px .4rem 5px .4rem !important;
     margin-top: 4px;
     margin-right: 8px;
@@ -37,12 +47,115 @@ $navbar-bg: #f8f9fa;
 }
 
 .icon-link:hover, div.quarto-about-jolla .about-link:hover{
-    background-color: $violet;
+    background-color: $purple;
     color: $body-bg;
-    border-color: $violet;
+    border-color: $purple;
     text-decoration: none;
 }
 
 .btn {
   border-radius: 5px;
 }
+
+/*
+#navbarCollapse {
+	font-family: $headings-font-family;
+	font-size: 150%;
+}
+*/
+
+/*
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link.active {
+	font-family: $gilbert-font-family;
+}
+*/
+
+// hover on navbar
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: $primary;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: $primary;
+}
+
+// then override colors so they match cards
+#navbarCollapse > ul > li:nth-child(1) > a:hover,
+#navbarCollapse > ul > li:nth-child(1) > a.nav-link.active {
+  color: $red;
+}
+
+#navbarCollapse > ul > li:nth-child(2) > a:hover,
+#navbarCollapse > ul > li:nth-child(2) > a.nav-link.active {
+  color: $orange;
+}
+
+#navbarCollapse > ul > li:nth-child(3) > a:hover,
+#navbarCollapse > ul > li:nth-child(3) > a.nav-link.active {
+  color: $yellow;
+}
+
+#navbarCollapse > ul > li:nth-child(4) > a:hover,
+#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active {
+  color: $green;
+}
+
+#navbarCollapse > ul > li:nth-child(5) > a:hover,
+#navbarCollapse > ul > li:nth-child(5) > a.nav-link.active {
+  color: $blue;
+}
+
+#navbarCollapse > ul > li:nth-child(6) > a:hover,
+#navbarCollapse > ul > li:nth-child(6) > a.nav-link.active {
+  color: $pink;
+}
+
+/*
+// animated underline on hover, when navbar shows as row
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: $red;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.3s;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(2)::after {
+    background-color: $orange;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(3)::after {
+    background-color: $yellow;
+  }
+  
+    .navbar .navbar-nav .nav-item:nth-child(4)::after {
+    background-color: $green;
+  }
+  
+    .navbar .navbar-nav .nav-item:nth-child(5)::after {
+    background-color: $blue;
+  }
+  
+    .navbar .navbar-nav .nav-item:nth-child(6)::after {
+    background-color: $pink;
+  }
+
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 90%;
+  }
+}
+*/

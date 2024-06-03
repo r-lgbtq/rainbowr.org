@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+
+// fonts
+@font-face {
+  font-family: 'GilbertColor';
+  src: local('GilbertColorBoldPreview5'), url('fonts/GilbertColorBoldPreview5.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gilbert';
+  src: local('GilbertBoldPreview5'), url('fonts/GilbertBoldPreview5.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap');
+
+$font-family-sans-serif: Figtree, Helvetica, sans-serif;
+$headings-font-family: "GilbertColor", Figtree, Helvetica, sans-serif !default;
+$gilbert-font-family: "Gilbert", Figtree, Helvetica, sans-serif !default;
+// colors
+// colors
+$navbar-bg: white;
+
+
+$font-size-base:   1rem; //!default; // Assumes the browser default, typically `16px`
+
+#navbarCollapse {
+	font-family: $headings-font-family;
+	font-size: $font-size-base * 2;
+}
+
+// #navbarCollapse > ul > li:nth-child(1) > a > span

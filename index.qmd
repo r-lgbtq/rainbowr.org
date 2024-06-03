@@ -1,5 +1,4 @@
 ---
-title: "rainbowR"
 #image: rainbowR-square.png
 # about:
   # template: jolla
@@ -11,7 +10,7 @@ include-in-header: _includes/mastodon.html
 freeze: false
 ---
 
-![](images/banner-light.png)
+![](images/rainbowR-banner-1500-500.svg)
 
 # About rainbowR
 
