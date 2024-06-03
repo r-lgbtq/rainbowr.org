@@ -11,7 +11,7 @@ website:
   image: images/rainbowR-hex.png
   # image-alt: |
   #   A hexagon comprised of six diagonal stripes, in rainbow coulours, with a white horizonal stripe accross the centre containing the word rainbowR.
-  favicon: images/rainbowR.png
+  favicon: images/rainbow-hex.png
   open-graph: true
   site-url: "https://rainbowr.netlify.app"
   
