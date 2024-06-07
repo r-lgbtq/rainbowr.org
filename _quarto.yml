@@ -8,8 +8,8 @@ execute:
 
 website:
   title: "rainbowR"
-  image: images/rainbowR-hex-square.png
-  image-alt: A hexagon comprised of six diagonal stripes, in rainbow colours, with a white horizonal stripe accross the centre containing the word rainbowR. The letters in the word 'rainbow' are also created from geometric shapes in the same six colours, are where those shapes overlap, their colours overlap too. The capital 'R' is the same R as in the R language logo. It is orange.
+  image: images/rainbowR-square.png
+  image-alt: A square comprised of six vertical stripes, in rainbow colours, with a white horizonal stripe accross the centre containing the word rainbowR. The letters in the word 'rainbow' are also created from geometric shapes in the same six colours, are where those shapes overlap, their colours overlap too. The capital 'R' is the same R as in the R language logo. It is orange.
   favicon: images/rainbow-hex-square.png
   open-graph: true
   site-url: "https://rainbowr.netlify.app"
