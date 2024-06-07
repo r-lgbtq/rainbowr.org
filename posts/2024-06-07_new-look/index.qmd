@@ -1,8 +1,8 @@
 ---
 title: A new look for rainbowR
 author: Ella Kaye
-date: 2024-06-04
-image: ../../images/rainbowR-hex.svg
+date: 2024-06-07
+image: ../../images/rainbowR-hex-square.png
 description: |
   rainbowR has a new look! This post reveals our new visual identity and describes the process of putting it together. In particular, it highlights the LGBTQ+ designs that inspired and are incorporated into the imagery.
 categories: ["LGBTQ+", "design", "history"]
