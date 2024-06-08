@@ -1,14 +1,35 @@
-## Next meetups
+---
+toc: true
+---
 
-🌈 **Monday June 24th 2024, 3pm UTC, Zoom** 🌈
+## Next meetup
+
+:::: {.columns}
+
+::: {.column width="45%"}
+![](images/rainbowR-meetup.png)
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="45%"}
+**Monday June 24th 2024, 3pm UTC, Zoom**
 
 Note the time of 3pm UTC, an hour earlier than we usually run these meetups.
 
 [Register](https://us02web.zoom.us/meeting/register/tZEqcOCpqjosG9PKxbHILu8keiWcBtyvOhv6){.btn .btn-primary target="_blank"} 
+:::
 
-</br>
+::::
 
-**🌈 SAVE THE DATES 🌈**
+
+
+
+
+
+## Save the dates
 
 Our following meet-ups will be:
 
@@ -17,6 +38,14 @@ Our following meet-ups will be:
 **Wednesday August 21st 2024, 4pm UTC, Zoom**
 
 Sign-up links will be posted here and shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"} and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
+
+
+
+
+
+
+
+
 
 ## About our meetups
 
