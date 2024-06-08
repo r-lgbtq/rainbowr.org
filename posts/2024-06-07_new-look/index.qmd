@@ -16,7 +16,7 @@ This summer, we're giving two talks about rainbowR at the season's biggest R con
 The brief for the new imagery was that it should be identifiable **LGBTQ+** (i.e. rooted in LGBTQ+ graphic design history) and that should be linked to the **R** language by incorporating the R from the R logo. Since the community name is rainbowR, we also felt that the new designs should incorporate rainbow colours. It was also really important that the design should feel inclusive (just as the community is). Moreover, we wanted the designs to be *bright*, *clean*, *fun*, *modern*, and *geometric*.
 
 :::{.aside}
-![The R logo](../../images/new-look-post/Rlogo.svg)
+![The R logo](../../images/new-look-post/Rlogo.svg){fig-alt="The R logo: A large, chunky blue R over a grey ellipse ring"}
 :::
 
 ## The inspirations
@@ -26,11 +26,11 @@ I began the research by searching online for 'LGBTQ+ graphic design' and 'pride 
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](../../images/new-look-post/MoMA-2023-pride-invitation.png)
+![](../../images/new-look-post/MoMA-2023-pride-invitation.png){fig-alt="A rainbow pride flag where, in each stripe, the word 'MoMA' appears repeatedly, in the colour of the previous stripe, e.g. the orange stripe has the word MoMA repeated in red."}
 :::
 
 ::: {.column width="50%"}
-![](../../images/new-look-post/MoMA-pride-logo-2023.png)
+![](../../images/new-look-post/MoMA-pride-logo-2023.png){fig-alt="A square with six vertical stripes in rainbow colours, with the word 'MoMA' in bold white in the center."}
 :::
 
 ::::
@@ -38,11 +38,11 @@ I began the research by searching online for 'LGBTQ+ graphic design' and 'pride 
 
 I also came across an excellent, beautiful book, [Queer x Design](https://www.queerlit.co.uk/products/queer-x-design), by Andy Campbell. I highly recommend it. There's an interview with the author on [Dezeen](https://www.dezeen.com/2019/10/23/queer-design-andrew-campbell-50-years-lgbt-graphic-design/), which also highlights some of the designs featured in the book.
 
-![The cover of Queer x Design](../../images/new-look-post/queer-x-design.webp)
+![The cover of Queer x Design](../../images/new-look-post/queer-x-design.webp){fig-alt="The book cover of Queer x Design. The original Gilber Baker pride flag makes, vertically, makes the background - eight rainbow stripes. The words 'QUEER' and 'DESIGN' sit atop, in bold black letters on white rectangular backgrounds, with a black 'x' between. Underneath the title is the subtitle '50 years of signs, symbols, banners, logos and graphic art of LGBQT' and the author 'Andy Campbell'."}
 
 From that book, as well as my online searches, I came across the [Gilbert typeface](https://www.behance.net/gallery/51634631/Type-With-Pride-Gilbert-font):
 
-![](../../images/new-look-post/gilbert-type-with-pride.jpg)
+![](../../images/new-look-post/gilbert-type-with-pride.jpg){fig-alt="the words 'type with pride' in the gilbert typeface. The letters are made up of geometrical shapes in rainbow colours, and where the shapes overlap, their colours blend."}
 
 The Gilbert typeface was designed in 2017 (incidentally, the year that rainbowR was founded), in response to the death of Gilbert Baker, the designer of the original rainbow flag. It was designed to be used at scale -- on posters and protest banners. Importantly, it is free, and released under the Creative Commons license, meaning it can be adapted. 
 
@@ -54,15 +54,15 @@ The font immediately resonated with me and seemed like a great fit for rainbowR.
 
 With Queer x Design, the MoMA designs and, most importantly, the Gilbert typeface as inspirations on the LGBTQ+ front, plus the R from the R logo and the hexagon to represent our links to the R language and community, this is the new rainbowR hex sticker:
 
-![](../../images/rainbowR-hex.svg){width="50%" fig-align="center"}
+![](../../images/rainbowR-hex.svg){width="50%" fig-align="center"}{fig-alt="Hexagonal logo with diagonal rainbow stripes and the word 'rainbowR' in colorful letters, on a white horizontal stripe, across the middle. The word 'rainbow' is comprised of letters made of colourful shapes. The 'R' is from the R logo, in bright orange."}
 
 For use on social media, there's also a square version:
 
-![](../../images/rainbowR-square.svg){width="50%" fig-align="center"}
+![](../../images/rainbowR-square.svg){width="50%" fig-align="center"}{fig-alt="A square with six vertical stripes in rainbow colours, and the word 'rainbowR' in colorful letters, on a white horizontal stripe, across the middle. The word 'rainbow' is comprised of letters made of colourful shapes. The 'R' is from the R logo, in bright orange."}
 
 And a banner:
 
-![](../../images/rainbowR-banner-1500-500.svg)
+![](../../images/rainbowR-banner-1500-500.svg){fig-alt="A rectangular banner with diagonal rainbow stripes. Across it, there a two horizonal white strips, with the word 'rainbowR' repeared across each, in diffent colourful letter combinations."}
 
 Although Gilbert is a font, it turns out that it's tricky to work with. [Affinity Designer](https://affinity.serif.com/en-gb/designer/) doesn't have full support for colour fonts.^[It is, none the less, a fantastic piece of software. Also, shout out to [Affinity Revolution](https://affinityrevolution.com), whose courses provide a solid grounding in how to use it.] I also wanted control over the colour combinations in each letter. Therefore, in Affinity Designer, I recreated the letters with shapes and used the colour-picker tool on an image of the font to get the palette.^[The colours in the animations of the font in the [Type with Pride gallery](https://www.behance.net/gallery/51634631/Type-With-Pride-Gilbert-font) are slightly more muted than the colours in the still images, and those that come with the [font files](https://fonts.adobe.com/fonts/gilbert#templates-section), now distributed by Adobe. I used the brighter palette of the latter. Also, it seems the font went through a few design iterations. In the 'type with pride' image above, the stem of the 'r' has a curve. In the released version of the typeface (the one I traced), it is straight.]
 
