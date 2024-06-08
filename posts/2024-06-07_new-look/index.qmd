@@ -16,7 +16,7 @@ This summer, we're giving two talks about rainbowR at the season's biggest R con
 The brief for the new imagery was that it should be identifiable **LGBTQ+** (i.e. rooted in LGBTQ+ graphic design history) and that should be linked to the **R** language by incorporating the R from the R logo. Since the community name is rainbowR, we also felt that the new designs should incorporate rainbow colours. It was also really important that the design should feel inclusive (just as the community is). Moreover, we wanted the designs to be *bright*, *clean*, *fun*, *modern*, and *geometric*.
 
 :::{.aside}
-![The R logo](images/Rlogo.svg)
+![The R logo](../../images/new-look-post/Rlogo.svg)
 :::
 
 ## The inspirations
@@ -26,11 +26,11 @@ I began the research by searching online for 'LGBTQ+ graphic design' and 'pride 
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](images/MoMA-2023-pride-invitation.png)
+![](../../images/new-look-post/MoMA-2023-pride-invitation.png)
 :::
 
 ::: {.column width="50%"}
-![](images/MoMA-pride-logo-2023.png)
+![](../../images/new-look-post/MoMA-pride-logo-2023.png)
 :::
 
 ::::
@@ -38,11 +38,11 @@ I began the research by searching online for 'LGBTQ+ graphic design' and 'pride 
 
 I also came across an excellent, beautiful book, [Queer x Design](https://www.queerlit.co.uk/products/queer-x-design), by Andy Campbell. I highly recommend it. There's an interview with the author on [Dezeen](https://www.dezeen.com/2019/10/23/queer-design-andrew-campbell-50-years-lgbt-graphic-design/), which also highlights some of the designs featured in the book.
 
-![The cover of Queer x Design](images/queer-x-design.webp)
+![The cover of Queer x Design](../../images/new-look-post/queer-x-design.webp)
 
 From that book, as well as my online searches, I came across the [Gilbert typeface](https://www.behance.net/gallery/51634631/Type-With-Pride-Gilbert-font):
 
-![](images/gilbert-type-with-pride.jpg)
+![](../../images/new-look-post/gilbert-type-with-pride.jpg)
 
 The Gilbert typeface was designed in 2017 (incidentally, the year that rainbowR was founded), in response to the death of Gilbert Baker, the designer of the original rainbow flag. It was designed to be used at scale -- on posters and protest banners. Importantly, it is free, and released under the Creative Commons license, meaning it can be adapted. 
 
