@@ -70,3 +70,5 @@ The Gilbert font is also released in a monochrome version, which I have now adop
 
 I have presented here the final designs, but it was a long, iterative process to get to them. I experimented with many other ideas. I am extremely grateful for the insightful feedback I received on earlier versions of the design, from members of rainbowR, from colleagues and, most of all, from my wife^[Who never wants to hear the words 'and now what do you think of the design with this change?' again.].
 
+**UPDATE (June 8th 2024)**: After feedback on the legibility of the monochrome version of Gilbert for headers (too thick and poor kerning), I have now reverted to using Figtree for headers on this site. I had hoped to tie some of the text on the website to the font in the visual identity images, but legibility is more important. Moreover, the colours are at the heart of the gilbert typeface, and without them I wasn't even convinced that the link was clear.
+
