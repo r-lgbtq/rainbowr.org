@@ -54,11 +54,11 @@ The font immediately resonated with me and seemed like a great fit for rainbowR.
 
 With Queer x Design, the MoMA designs and, most importantly, the Gilbert typeface as inspirations on the LGBTQ+ front, plus the R from the R logo and the hexagon to represent our links to the R language and community, this is the new rainbowR hex sticker:
 
-![](../../images/rainbowR-hex.svg){width="50%" fig-align="center"}{fig-alt="Hexagonal logo with diagonal rainbow stripes and the word 'rainbowR' in colorful letters, on a white horizontal stripe, across the middle. The word 'rainbow' is comprised of letters made of colourful shapes. The 'R' is from the R logo, in bright orange."}
+![](../../images/rainbowR-hex.svg){width="50%" fig-align="center" fig-alt="Hexagonal logo with diagonal rainbow stripes and the word 'rainbowR' in colorful letters, on a white horizontal stripe, across the middle. The word 'rainbow' is comprised of letters made of colourful shapes. The 'R' is from the R logo, in bright orange."}
 
 For use on social media, there's also a square version:
 
-![](../../images/rainbowR-square.svg){width="50%" fig-align="center"}{fig-alt="A square with six vertical stripes in rainbow colours, and the word 'rainbowR' in colorful letters, on a white horizontal stripe, across the middle. The word 'rainbow' is comprised of letters made of colourful shapes. The 'R' is from the R logo, in bright orange."}
+![](../../images/rainbowR-square.svg){width="50%" fig-align="center" fig-alt="A square with six vertical stripes in rainbow colours, and the word 'rainbowR' in colorful letters, on a white horizontal stripe, across the middle. The word 'rainbow' is comprised of letters made of colourful shapes. The 'R' is from the R logo, in bright orange."}
 
 And a banner:
 
