@@ -216,7 +216,7 @@ if("cli" %in% utils::installed.packages()){
 }
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-5.svg)
+![](../../images/rstartup-post/unnamed-chunk-5.svg)
 
 As with praise, we start with checking if the package is installed. 
 Just to be sure we don't get an error on startup.
@@ -238,7 +238,7 @@ Now that we know where out libraries are set to, we can print this information i
 cli::cli_bullets(.libPaths())
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-7.svg)
+![](../../images/rstartup-post/unnamed-chunk-7.svg)
 
 Now, I can keep it to that, but I'm gonna over-think it. 
 I want my bullets to actually start with bullets! 
@@ -261,7 +261,7 @@ cli::cli_bullets(
                   )))
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-9.svg)
+![](../../images/rstartup-post/unnamed-chunk-9.svg)
 
 Now we have a nice list of library paths, with bullets, in the console. 
 Let's put all we have for now together in our `.Rprofile` file.
@@ -295,7 +295,7 @@ if("praise" %in% instl){
 } # end if praise installed
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-10.svg)
+![](../../images/rstartup-post/unnamed-chunk-10.svg)
 
 ## A colour bar, because we can!
 
@@ -324,7 +324,7 @@ colour <- rep("#88398a", 10)
 lapply(colour, cli::make_ansi_style) 
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-12.svg)
+![](../../images/rstartup-post/unnamed-chunk-12.svg)
 
 Now we have a vector of ANSI colours, next we need to apply them to a character. 
 To make a colourbar, I'm going to use the ANSI character for 'LOWER THREE EIGHTHS BLOCK', which is a thick underscore, and I'm going to make it 6 characters long for each colour.
@@ -350,7 +350,7 @@ style <- cli::make_ansi_style("#88398a")
 style(thick_bar)
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-15.svg)
+![](../../images/rstartup-post/unnamed-chunk-15.svg)
 
 Lastly, we need to `cat` this again, to print it nicely to the console.
 
@@ -360,7 +360,7 @@ style <- cli::make_ansi_style("#88398a")
 cat(style(thick_bar))
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-16.svg)
+![](../../images/rstartup-post/unnamed-chunk-16.svg)
 
 Now, since we want a longer bar, we need to apply across all the 10 colours specified.
 
@@ -372,7 +372,7 @@ lapply(colour, cli::make_ansi_style) |>
     cat(x(thick_bar))
   })
 ```
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-17.svg)
+![](../../images/rstartup-post/unnamed-chunk-17.svg)
 
 The colourbar looks great. But all those NULLs, Ack! 
 We can use `invisible` to suppress the output of the `cat` function.
@@ -388,7 +388,7 @@ invisible(
     })
 )
 ```
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-18.svg)
+![](../../images/rstartup-post/unnamed-chunk-18.svg)
 
 Now we have a nice purple colour bar. 
 We are going to make the pride bar now. 
@@ -409,7 +409,7 @@ invisible(
 )
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-19.svg)
+![](../../images/rstartup-post/unnamed-chunk-19.svg)
 
 Now, we need something that will detect that we are in the month of June, so we can toggle the pride colours rather than the purple.
 
@@ -440,7 +440,7 @@ invisible(
 )
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-21.svg)
+![](../../images/rstartup-post/unnamed-chunk-21.svg)
 
 Alrighty!
 We now have can make a file that:
@@ -496,7 +496,7 @@ if(interactive()){
 
 ```
 
-![](index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-23.svg)
+![](../../images/rstartup-post/unnamed-chunk-23.svg)
 
 
 There you have it!
