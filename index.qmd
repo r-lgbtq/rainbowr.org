@@ -91,7 +91,8 @@ fix_mistakes <- c("/posts/tidyrainbow/rainbow.html /posts/2022-06-05_tidyrainbow
 
 # redirects to other sites
 others <- c("/join https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/",
-            "/useR-2024 https://r-lgbtq.github.io/useR-2024/")
+            "/useR-2024 https://r-lgbtq.github.io/useR-2024/", 
+            "/user-2024 https://r-lgbtq.github.io/useR-2024/")
 
 # lines to insert to a netlify _redirect file
 new_redirects <- paste0("/", slugs, " ", "/posts/", posts)
