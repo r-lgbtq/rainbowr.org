@@ -6,7 +6,9 @@
 #   - icon: github
 #     text: Github
 #     href: https://github.com/r-lgbtq
-include-in-header: _includes/mastodon.html
+include-in-header: 
+  - _includes/mastodon.html
+  - _includes/fontawesome.html
 freeze: false
 ---
 
@@ -42,25 +44,112 @@ We partner with fellow R diversity and inclusion-orientated groups such as [R Fo
 
 ## Meet the team!
 
-Ella Kaye (She/Her), community co-founder and co-lead: [website](https://ellakaye.co.uk), [mastodon](https://fosstodon.org/@ellakaye), [GitHub](https://github.com/EllaKaye)
-
 ```{r}
 #| echo: false
-#| eval: false
-
+#| eval: true
 library(distilltools)
-icon_link(icon = "globe",
-          text = "website",
-          url = "https://ellakaye.rbind.io")
-icon_link(icon = "github",
-          text = "GitHub",
-          url = "https://github.com/EllaKaye")
 ```
 
-Hanne Oberman (She/Her, They/Them), community co-lead: [website](https://hanneoberman.github.io), [mastodon](https://mastodon.social/@oberman), [GitHub](https://github.com/hanneoberman)
+:::: {.columns}
 
-Daniel D. Sjoberg (He/Him)
-[website](https://www.danieldsjoberg.com), [mastodon](https://mastodon.social/@ddsjoberg), [GitHub](https://github.com/ddsjoberg)
+::: {.column width="25%"}
+![](images/people/ella.jpeg)
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+**Ella Kaye (She/Her)**, community co-founder and co-lead
+
+Ella is a Research Software Engineer in the Department of Statistics at the University of Warwick, UK. She works to increase sustainability and EDI (Equality, Diversity and Inclusion) in the R Project. 
+
+`r icon_link(icon = "globe",
+          text = "website",
+          url = "https://ellakaye.co.uk")
+`
+`r icon_link(icon = "github",
+          text = "GitHub",
+          url = "https://github.com/EllaKaye")
+`
+`r icon_link(
+  icon = "mastodon",
+  text = "Mastodon",
+  url = "https://fosstodon.org/@ellakaye",
+  rel = "me noopener"
+)`
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](images/people/hanne.jpeg)
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+**Hanne Oberman (She/Her, They/Them)**, community co-lead
+
+A statistician interested in data visualization, interdisciplinarity, and open science.
+
+`r icon_link(icon = "globe",
+          text = "website",
+          url = "https://hanneoberman.github.io")
+`
+`r icon_link(icon = "github",
+          text = "GitHub",
+          url = "https://github.com/hanneoberman")
+`
+`r icon_link(
+  icon = "mastodon",
+  text = "Mastodon",
+  url = "https://mastodon.social/@oberman",
+  rel = "me noopener"
+)`
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](images/people/daniel.jpeg)
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+**Daniel D. Sjoberg (He/Him)**
+
+Daniel is a Senior Principal Data Scientist at Genentech. He is an avid developer, enjoying writing and collaborating on open-source R packages.
+
+`r icon_link(icon = "globe",
+          text = "website",
+          url = "https://www.danieldsjoberg.com")
+`
+`r icon_link(icon = "github",
+          text = "GitHub",
+          url = "https://github.com/ddsjoberg")
+`
+`r icon_link(
+  icon = "mastodon",
+  text = "Mastodon",
+  url = "https://mastodon.social/@ddsjoberg",
+  rel = "me noopener"
+)`
+:::
+
+::::
+
 
 ### Previous team members
 
