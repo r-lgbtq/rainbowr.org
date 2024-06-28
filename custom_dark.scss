@@ -35,10 +35,10 @@ $body-color: $light;
 // icon-links
 .icon-link, div.quarto-about-jolla .about-link {
     background-color: transparent;
-    color: $purple;
+    color: $yellow;
     //border: 2px solid !important;
     border: 2px solid;
-    border-color: $purple;
+    border-color: $yellow;
     padding: 5px .4rem 5px .4rem !important;
     margin-top: 4px;
     margin-right: 8px;
@@ -49,9 +49,9 @@ $body-color: $light;
 }
 
 .icon-link:hover, div.quarto-about-jolla .about-link:hover{
-    background-color: $purple;
+    background-color: $yellow;
     color: $body-bg;
-    border-color: $purple;
+    border-color: $yellow;
     text-decoration: none;
 }
 
