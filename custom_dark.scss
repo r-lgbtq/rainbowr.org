@@ -20,11 +20,12 @@ $blue: #02B3E3;
 $pink: #DA3AB3;
 $purple: #DA3AB3;
 $dark-blue: #001552;
+$very-dark-blue: #000B29;
 $light: #F2F5FF;
 
 $primary: $orange;
-$body-bg: $dark-blue;
-$navbar-bg: $dark-blue;
+$body-bg: $very-dark-blue;
+$navbar-bg: $very-dark-blue;
 $body-color: $light;
 
 .top-quote {
@@ -59,12 +60,11 @@ $body-color: $light;
   border-radius: 5px;
 }
 
-/*
 #navbarCollapse {
 	font-family: $headings-font-family;
-	font-size: 150%;
+//	font-weight: 700;
+	color: $light;
 }
-*/
 
 /*
 .navbar-expand-lg .navbar-nav .nav-link:hover,
