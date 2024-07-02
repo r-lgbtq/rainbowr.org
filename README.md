@@ -2,4 +2,4 @@
 
 This is the [Quarto](https://quarto.org) source for the rainbowR website.
 
-<https://rainbowr.netlify.app>
+<https://rainbowr.org>
