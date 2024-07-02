@@ -1,0 +1,14 @@
+---
+title: "Book club"
+---
+:::{.aside}
+![](images/book-club/queer-data.jpeg)
+:::
+
+We are planning to start a rainbowR book club. The first book will be **Queer Data: Using Gender, Sex and Sexuality Data for Action** by Kevin Guyan.
+
+We will start actively promoting this in late summer/early autumn 2024, and will then find date/time slots that suit those who are interested in joining.
+
+We'll update this page as plans develop. We'll promote on [Slack](https://rainbowr.slack.com) and through our newsletter, both of which you can access when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}. We'll also promote on [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"}. 
+
+
