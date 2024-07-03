@@ -52,7 +52,7 @@ library(distilltools)
 :::
 
 ::: {.column width="70%"}
-**Ella Kaye (She/Her)**, community co-founder and co-lead
+**Ella Kaye (she/her)**, community co-founder and co-lead
 
 Ella is a Research Software Engineer in the Department of Statistics at the University of Warwick, UK. She works to increase sustainability and EDI (Equality, Diversity and Inclusion) in the R Project. 
 
@@ -86,7 +86,7 @@ Ella is a Research Software Engineer in the Department of Statistics at the Univ
 :::
 
 ::: {.column width="70%"}
-**Hanne Oberman (She/Her, They/Them)**, community co-lead
+**Hanne Oberman (she/her, they/them)**, community co-lead
 
 Hanne is a PhD candidate in the department of Methodology and Statistics at Utrecht University, The Netherlands. As part of their research on missing data methods, Hanne created and maintains R packages for valid analyses on incomplete datasets.
 
@@ -119,7 +119,7 @@ Hanne is a PhD candidate in the department of Methodology and Statistics at Utre
 :::
 
 ::: {.column width="70%"}
-**Daniel D. Sjoberg (He/Him)**
+**Daniel D. Sjoberg (he/him)**
 
 Daniel is a Senior Principal Data Scientist at Genentech. He is an avid developer, enjoying writing and collaborating on open-source R packages.
 
@@ -144,7 +144,7 @@ Daniel is a Senior Principal Data Scientist at Genentech. He is an avid develope
 
 ### Previous team members
 
-Zane Dax (She/They), community co-lead: [website](https://www.trans-can.ca), [GitHub](https://github.com/PythonCoderUnicorn)
+Zane Dax (she/they), community co-lead: [website](https://www.trans-can.ca), [GitHub](https://github.com/PythonCoderUnicorn)
 
 Ben Ulloa Ortiz, community co-founder
 
