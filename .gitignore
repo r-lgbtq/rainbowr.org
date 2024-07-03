@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.vdoc.r
 
 /.quarto/
 .DS_Store

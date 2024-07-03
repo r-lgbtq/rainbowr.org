@@ -17,13 +17,21 @@ website:
   navbar:
    # logo: rainbowR-square.svg
     right:
+      - text: "About"
+        href: about.qmd
       - text: "Posts"
         file: posts.qmd
       - text: "Join"
         href: https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/
         target: _blank
-      - text: "Meetups"
-        href: meetups.qmd
+      - text: Activities
+        menu:
+          - text: "Meetups"
+            href: meetups.qmd
+          - text: "Buddies"
+            href: buddies.qmd
+          - text: "Book club"
+            href: book-club.qmd
       - text: "Code of Conduct"
         file: CoC.qmd
       - icon: github

@@ -18,7 +18,20 @@ toc: true
 **Wednesday July 24th 2024, 4pm UTC, Zoom**
 
 [Register](https://us02web.zoom.us/meeting/register/tZ0kdOCsrjIjEtVGwIa7QghvGHNwhLo-Qj6m){.btn .btn-primary target="_blank"} 
+
+Get the time in your timezone, e.g.
+```{r}
+#| echo: true
+#| warning: false
+#| message: false
+library(lubridate)
+ymd_hms("2024-07-24 16:00:00") |> 
+  with_tz("Europe/Vienna")
+```
 :::
+
+
+
 
 ::::
 
