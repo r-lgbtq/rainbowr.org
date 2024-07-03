@@ -23,15 +23,56 @@ $dark-blue: #001552;
 //$very-dark-blue: #000B29;
 $very-dark-blue: #000D33;
 //$very-dark-blue: #000F3D;
+$light: #F2F5FF;
 
 $primary: $orange;
 $body-bg: #fff;
 $navbar-bg: #fff;
 $body-color: $very-dark-blue;
 
+// colour classes
+.red {
+  color: $red;
+  font-weight: 700;
+}
+
+.orange {
+  color: $orange;
+  font-weight: 700;
+}
+
+.yellow {
+  color: $yellow;
+  font-weight: 700;
+}
+
+.green {
+  color: $green;
+  font-weight: 700;
+}
+
+.blue {
+  color: $blue;
+  font-weight: 700;
+}
+
+.pink {
+  color: $pink;
+  font-weight: 700;
+}
+
+// alignment and spacing
+.center-h {
+  text-align: center;
+}
+
+.right {
+  text-align: right;  
+}
+
 .top-quote {
   font-family: $headings-font-family;
-  font-size: 250%;
+  font-size: 275%;
 }
 
 // icon-links
@@ -113,7 +154,6 @@ $body-color: $very-dark-blue;
   color: $pink;
 }
 
-/*
 // animated underline on hover, when navbar shows as row
 @media screen and (min-width: 992px) {
   a.nav-link {
@@ -161,4 +201,3 @@ $body-color: $very-dark-blue;
     width: 90%;
   }
 }
-*/
