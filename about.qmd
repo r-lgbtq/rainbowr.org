@@ -1,15 +1,13 @@
 ---
-title: About rainbowR
-toc: true
 include-in-header: 
   - _includes/fontawesome.html
 ---
 
-![](images/rainbowR-banner-1500-500.svg)
+![](images/rainbowR-banner-thin1.svg)
 
-rainbowR is a community that supports, promotes and connects LGBTQ+ people who code in the R language.
+rainbowR is a community that supports, promotes and connects LGBTQ+ people who code in the R language, and spreads awareness of LGBTQ+ issues through data-driven activism. 
 
-Not every work or social environment is safe or supportive for LGBTQ+ people, so the need to have a dedicated community continues.
+We are a friendly and safe community, providing opportunities for LGBTQ+ people with an interest in R to meet, chat and learn.
 
 We use LGBTQ+ people as a term to cover
 
@@ -19,19 +17,11 @@ We use LGBTQ+ people as a term to cover
 
 To our straight, cis friends: we very much appreciate your allyship and your support of rainbowR, e.g. by sharing our information and posts on social media and by telling your friends and colleagues about us.
 
-## Our Mission
+## Get involved!
 
-Our mission is to support, promote and connect LGBTQ+ people in the R community and to and spread awareness of LGBTQ+ issues through data-driven activism.
-
-## Involvement
-
-If you want to join our Slack, please fill in the [sign-up form](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) for an invitation. Please note that this group is for LGBTQ+ people.
+If you are LGBTQ+ and want to join the rainbowR community, please fill in the [sign-up form](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/). We aim to respond within a couple of days. You'll receive a personal welcome email and an invitation to the Slack group. In the sign-up form, you can also opt-in to our newsletter.
 
 We welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on Mastodon, [tech.lgbt/@rainbowR](https://tech.lgbt/@rainbowR).
-
-## Partnerships
-
-We partner with fellow R diversity and inclusion-orientated groups such as [R Forwards](https://forwards.github.io) and [R Ladies](https://rladies.org).
 
 ## Meet the team!
 
@@ -149,3 +139,5 @@ Zane Dax (she/they), community co-lead: [website](https://www.trans-can.ca), [Gi
 Ben Ulloa Ortiz, community co-founder
 
 Erin LeDell, community co-founder
+
+![](images/rainbowR-banner-thin2.svg)
