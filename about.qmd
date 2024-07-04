@@ -17,9 +17,11 @@ We use LGBTQ+ people as a term to cover
 
 To our straight, cis friends: we very much appreciate your allyship and your support of rainbowR, e.g. by sharing our information and posts on social media and by telling your friends and colleagues about us.
 
+We run activities and initiatives, including monthly [meet-ups](meetups.qmd) and the [buddies](buddies.qmd) scheme, and we're soon launching a [book club](book-club.qmd).
+
 ## Get involved!
 
-If you are LGBTQ+ and want to join the rainbowR community, please fill in the [sign-up form](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/). We aim to respond within a couple of days. You'll receive a personal welcome email and an invitation to the Slack group. In the sign-up form, you can also opt-in to our newsletter.
+If you are LGBTQ+ and want to join the rainbowR community, please fill in the [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) form. We aim to respond within a couple of days. You'll receive a personal welcome email and an invitation to the Slack group. In the sign-up form, you can also opt-in to our newsletter.
 
 We welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on Mastodon, [tech.lgbt/@rainbowR](https://tech.lgbt/@rainbowR).
 
