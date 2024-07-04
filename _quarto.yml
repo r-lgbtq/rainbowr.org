@@ -38,6 +38,8 @@ website:
         href: https://github.com/r-lgbtq
       - icon: mastodon
         href: https://tech.lgbt/@rainbowR
+      - icon: envelope
+        href: mailto:hello@rainbowr.org
       
         
 format:

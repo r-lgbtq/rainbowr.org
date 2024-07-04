@@ -85,32 +85,44 @@ $body-color: $light;
 
 // then override colors so they match cards
 #navbarCollapse > ul > li:nth-child(1) > a:hover,
-#navbarCollapse > ul > li:nth-child(1) > a.nav-link.active {
+#navbarCollapse > ul > li:nth-child(7) > a:hover,
+#navbarCollapse > ul > li:nth-child(1) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(7) > a.nav-link.active {
   color: $red;
 }
 
 #navbarCollapse > ul > li:nth-child(2) > a:hover,
-#navbarCollapse > ul > li:nth-child(2) > a.nav-link.active {
+#navbarCollapse > ul > li:nth-child(8) > a:hover,
+#navbarCollapse > ul > li:nth-child(2) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(8) > a.nav-link.active {
   color: $orange;
 }
 
 #navbarCollapse > ul > li:nth-child(3) > a:hover,
-#navbarCollapse > ul > li:nth-child(3) > a.nav-link.active {
+#navbarCollapse > ul > li:nth-child(9) > a:hover,
+#navbarCollapse > ul > li:nth-child(3) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(9) > a.nav-link.active  {
   color: $yellow;
 }
 
 #navbarCollapse > ul > li:nth-child(4) > a:hover,
-#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active {
+#navbarCollapse > ul > li:nth-child(10) > a:hover,
+#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(10) > a.nav-link.active {
   color: $green;
 }
 
 #navbarCollapse > ul > li:nth-child(5) > a:hover,
-#navbarCollapse > ul > li:nth-child(5) > a.nav-link.active {
+#navbarCollapse > ul > li:nth-child(11) > a:hover,
+#navbarCollapse > ul > li:nth-child(5) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(11) > a.nav-link.active {
   color: $blue;
 }
 
 #navbarCollapse > ul > li:nth-child(6) > a:hover,
-#navbarCollapse > ul > li:nth-child(6) > a.nav-link.active {
+#navbarCollapse > ul > li:nth-child(12) > a:hover,
+#navbarCollapse > ul > li:nth-child(6) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(12) > a.nav-link.active {
   color: $pink;
 }
 
@@ -137,23 +149,28 @@ $body-color: $light;
     transition: all 0.3s;
   }
   
-  .navbar .navbar-nav .nav-item:nth-child(2)::after {
+  .navbar .navbar-nav .nav-item:nth-child(2)::after,
+  .navbar .navbar-nav .nav-item:nth-child(8)::after {
     background-color: $orange;
   }
   
-  .navbar .navbar-nav .nav-item:nth-child(3)::after {
+  .navbar .navbar-nav .nav-item:nth-child(3)::after,
+  .navbar .navbar-nav .nav-item:nth-child(9)::after {
     background-color: $yellow;
   }
   
-    .navbar .navbar-nav .nav-item:nth-child(4)::after {
+    .navbar .navbar-nav .nav-item:nth-child(4)::after,
+    .navbar .navbar-nav .nav-item:nth-child(10)::after {
     background-color: $green;
   }
   
-    .navbar .navbar-nav .nav-item:nth-child(5)::after {
+    .navbar .navbar-nav .nav-item:nth-child(5)::after,
+    .navbar .navbar-nav .nav-item:nth-child(11)::after {
     background-color: $blue;
   }
   
-    .navbar .navbar-nav .nav-item:nth-child(6)::after {
+    .navbar .navbar-nav .nav-item:nth-child(6)::after,
+    .navbar .navbar-nav .nav-item:nth-child(12)::after {
     background-color: $pink;
   }
 
