@@ -15,7 +15,7 @@ website:
   site-url: "https://rainbowr.org"
   
   navbar:
-   # logo: rainbowR-square.svg
+    logo: images/rainbow-hex.png
     right:
       - text: "About"
         href: about.qmd
