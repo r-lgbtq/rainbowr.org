@@ -34,10 +34,10 @@ website:
             href: book-club.qmd
       - text: "Code of Conduct"
         file: CoC.qmd
-      - icon: github
-        href: https://github.com/r-lgbtq
       - icon: mastodon
         href: https://tech.lgbt/@rainbowR
+      - icon: github
+        href: https://github.com/r-lgbtq
       - icon: envelope
         href: mailto:hello@rainbowr.org
       - icon: slack

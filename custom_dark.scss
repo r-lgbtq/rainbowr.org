@@ -70,6 +70,10 @@ $body-color: $light;
 	color: $light;
 }
 
+.navbar-title:hover {
+  color: $primary;
+}
+
 /*
 .navbar-expand-lg .navbar-nav .nav-link:hover,
 .navbar-expand-lg .navbar-nav .nav-link.active {
