@@ -47,9 +47,11 @@ website:
 format:
   html:
     theme: 
-      light: custom_light.scss
-      dark: custom_dark.scss
-    css: styles.css
+      light: assets/custom_light.scss
+      dark: assets/custom_dark.scss
+    highlight-style: 
+      light: assets/rainbowr-light.theme
+      dark: assets/rainbowr-dark.theme
 
 editor: source
 
