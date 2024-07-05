@@ -32,6 +32,15 @@ $navbar-bg: $very-dark-blue;
 $navbar-fg: $light;
 $body-color: $light;
 
+$primary: $yellow;
+
+// callouts
+$callout-color-note: $blue;
+$callout-color-tip: $green;
+$callout-color-caution: $purple;
+$callout-color-warning: $orange;
+$callout-color-important: $red;
+
 .top-quote {
   font-family: $headings-font-family;
   font-size: 275%;

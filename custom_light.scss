@@ -31,6 +31,15 @@ $navbar-bg: $light;
 $navbar-fg: $very-dark-blue;
 $body-color: $very-dark-blue;
 
+$primary: $pink;
+
+// callouts
+$callout-color-note: $blue;
+$callout-color-tip: $green;
+$callout-color-caution: $purple;
+$callout-color-warning: $orange;
+$callout-color-important: $red;
+
 // colour classes
 .red {
   color: $red;
