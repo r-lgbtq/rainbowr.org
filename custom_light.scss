@@ -23,11 +23,11 @@ $dark-blue: #001552;
 //$very-dark-blue: #000B29;
 $very-dark-blue: #000D33;
 //$very-dark-blue: #000F3D;
-$light: #F2F5FF;
-
+//$light: #F2F5FF;
+$light: #FAFBFF;
 $primary: $orange;
-$body-bg: #fff;
-$navbar-bg: #fff;
+$body-bg: $light;
+$navbar-bg:$light;
 $body-color: $very-dark-blue;
 
 // colour classes
