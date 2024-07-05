@@ -243,10 +243,10 @@ for (i in seq_len(nrow(buddies_for_email))) {
   # Send e-mail
   email_contents %>%
     smtp_send(
-      from = "rlgbtq@gmail.com",
+      from = "hello@rainbowr.org",
       to = to,
       subject = "Your new rainbowR buddy!",
-      credentials = creds_key(id = "gmail_rlgbtq")
+      credentials = creds_key(id = "rainbowr")
     )
 }
 ```
