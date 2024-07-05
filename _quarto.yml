@@ -40,6 +40,8 @@ website:
         href: https://tech.lgbt/@rainbowR
       - icon: envelope
         href: mailto:hello@rainbowr.org
+      - icon: slack
+        href: https://rainbowr.slack.com
       
         
 format:
