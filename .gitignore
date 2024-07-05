@@ -4,6 +4,8 @@
 .Ruserdata
 .vdoc.r
 
-/.quarto/
 .DS_Store
+posts/.DS_Store
+
+/.quarto/
 /_site/
