@@ -4,7 +4,7 @@ title: "Code of Conduct"
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in RainbowR a harassment-free experience for everyone, regardless of sexual identity and orientation, sex characteristics, gender identity and expression, age, body size, visible or invisible disability, ethnicity, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, or religion.
+We as members, contributors, and leaders pledge to make participation in rainbowR a harassment-free experience for everyone, regardless of sexual identity and orientation, sex characteristics, gender identity and expression, age, body size, visible or invisible disability, ethnicity, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, or religion.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
@@ -54,9 +54,10 @@ Examples of unacceptable behavior include:
 
 -   Other conduct which could reasonably be considered inappropriate in a professional setting
 
-RainbowR prioritizes marginalized people's safety over privileged people's comfort. Community leaders will not act on complaints regarding:
+rainbowR prioritizes marginalized people's safety over privileged people's comfort. Community leaders will not act on complaints regarding:
 
 -   'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
+
 
 -   Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you."
 
