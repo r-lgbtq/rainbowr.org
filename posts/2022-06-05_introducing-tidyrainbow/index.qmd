@@ -14,9 +14,7 @@ format:
 
 # TidyRainbow
 
-
-
-![](TidyRainbow-banner.png)
+![](../../images/TidyRainbow-banner.png)
 
 This project started out of the need for representation in data, as a Trans person I hardly see anyone post in the #TidyTuesday or any other #RStats tweet that includes Transgender people. The response I often get in response to why is the data only for cisgender people is that the data has only a gender binary. After seeing so many people in academia post gender binary posts despite that their institutions have LGBTQ students the anger for change started inside me. With the initial relaunch meeting the needs assessment included LGBTQ data, hence the impetus for making #TidyRainbow.
 
