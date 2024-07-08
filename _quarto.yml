@@ -32,6 +32,8 @@ website:
             href: buddies.qmd
           - text: "Book club"
             href: book-club.qmd
+          - text: tidyRainbow
+            href: https://github.com/r-lgbtq/tidyrainbow
       - text: "Code of Conduct"
         file: CoC.qmd
       - icon: mastodon
