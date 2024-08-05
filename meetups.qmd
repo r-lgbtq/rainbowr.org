@@ -17,7 +17,7 @@ include-in-header:
 :::
 
 ::: {.column width="45%"}
-**Wednesday July 24th 2024, 4pm UTC, Zoom**
+**Wednesday August 21st 2024, 4pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -26,7 +26,7 @@ library(distilltools)
 
 `r icon_link(icon = "check",
           text = "register",
-          url = "https://us02web.zoom.us/meeting/register/tZ0kdOCsrjIjEtVGwIa7QghvGHNwhLo-Qj6m")`
+          url = "https://us02web.zoom.us/meeting/register/tZApduCvpz8sHd1kyn_u18hALOOiDd2pIsu4")`
 
 Get the time in your timezone, e.g.
 ```{r}
@@ -34,7 +34,7 @@ Get the time in your timezone, e.g.
 #| warning: false
 #| message: false
 library(lubridate)
-ymd_hms("2024-07-24 16:00:00") |> 
+ymd_hms("2024-08-21 16:00:00") |> 
   with_tz("Europe/Vienna")
 ```
 :::
@@ -48,9 +48,11 @@ ymd_hms("2024-07-24 16:00:00") |>
 
 Our next meet-ups will be:
 
-**[Wednesday July 24th 2024, 4pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZ0kdOCsrjIjEtVGwIa7QghvGHNwhLo-Qj6m){target=+_blank"}**
+**[Wednesday August 21st 2024, 4pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZApduCvpz8sHd1kyn_u18hALOOiDd2pIsu4){target=+_blank"}**
 
-**Wednesday August 21st 2024, 4pm UTC, Zoom**
+**Wednesday September 25th, 4pm UTC, Zoom**
+
+**Wednesday October 23rd, 4pm UTC, Zoom**
 
 Sign-up links will be posted here and shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"} and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
