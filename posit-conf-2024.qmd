@@ -1,0 +1,46 @@
+---
+title: posit::conf(2024)
+toc: true
+---
+
+[posit::conf(2024)](https://posit.co/conference/) is taking place in Seattle, August 12-13, 2024.
+
+## Talk
+
+We're in the conference programme, in the [Lightning Talks](https://reg.conf.posit.co/flow/posit/positconf24/publiccatalog/page/publiccatalog/session/1712003933811001s83h) session, on Tuesday, August 13, 1:00pm -- 2:20pm PDT, in room Columbia A/B. We're the final talk in session: "rainbowR - a community that supports, connects and promotes LGBTQ+ people who code in R".
+
+The talk is being presented as a pre-recorded video, since unfortunately Ella can't be at the conference in-person. The video will be available after the conference.
+
+## People
+
+From the rainbowR team, Daniel Sjoberg will be representing the community in-person at the conference, so look out for him. 
+
+![Daniel Sjoberg](images/people/daniel.jpeg){width="25%" fig-align="left"}
+
+## Lunch
+
+We don't have officially reserved tables for lunch, but Daniel will put a rainbowR poster, and stickers, on a couple of tables in the Regency Ballroom, so come and hang out with the community there, whether you're LGBTQ+ or an ally.
+
+## Birds of a Feather
+
+We'll be at the [BoF session on Wednesday](https://reg.conf.posit.co/flow/posit/positconf24/publiccatalog/page/publiccatalog/session/1713964378486001kNZw), 12:30pm -- 1:00pm, in the Level 5 gallery. We're not officially listed in the session, but we have been promised space in the Level 5 gallery foyer, and Daniel will be there, again with rainbowR posters and stickers.
+
+## Slack
+
+To keep up-to-date with what's happening at the conference, there's a #posit-conf-2024-seattle channel in the rainbowR Slack, so if you'll be a the conference, be sure to add yourself there.^[If you can't see it, go to '+ Add Channels' under your channel list, then 'Browse channels'.] 
+
+If you're not already in the rainbowR Slack, please fill out the [Join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) form and you'll be sent an invitation.
+
+## Posters and stickers
+
+Here's the poster to look for:^[Because this was designed for print, the colours are slightly different to those that we use on the website and for other online images.]
+
+![](images/rainbowR-poster.png){width="33%" fig-align="left"}
+
+We have stickers too!
+
+![](images/rainbowR-stickers.jpg){width="33%" fig-align="left"}
+
+Daniel has them, and there should be some left around the conference space.
+
+If you'd like a sticker and won't be in Seattle, ping Ella a (direct) message in the Slack group, or via [hello@rainbowr.org](mailto:hello@rainbowr.org) with your address and she'll send you some.
