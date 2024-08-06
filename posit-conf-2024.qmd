@@ -3,6 +3,10 @@ title: posit::conf(2024)
 toc: true
 ---
 
+::: {.callout-note}
+Please note that the plans for lunch and the Birds of a Feather session may change as the conference approaches, or even during the conference itself. Be sure to join the Slack for the most up-to-date information.
+:::
+
 [posit::conf(2024)](https://posit.co/conference/) is taking place in Seattle, August 12-13, 2024.
 
 ## Talk
