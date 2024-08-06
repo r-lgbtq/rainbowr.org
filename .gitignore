@@ -9,3 +9,7 @@ posts/.DS_Store
 
 /.quarto/
 /_site/
+
+/.vscode/
+/.vscode/settings.json/
+

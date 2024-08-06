@@ -13,6 +13,12 @@ website:
   favicon: images/rainbow-hex-square.png
   open-graph: true
   site-url: "https://rainbowr.org"
+  announcement:
+    icon: emoji-smile
+    dismissable: true
+    content: "**rainbowR will be at posit::conf(2024).** See our [posit-conf-2024](posit-conf-2024.qmd) page for more info."
+    type: primary
+    position: below-navbar
   
   navbar:
     logo: images/rainbow-hex.png
