@@ -40,6 +40,8 @@ website:
             href: book-club.qmd
           - text: tidyRainbow
             href: https://github.com/r-lgbtq/tidyrainbow
+          - text: "posit::conf(2024)"
+            href: posit-conf-2024.qmd
       - text: "Code of Conduct"
         file: CoC.qmd
       - icon: mastodon
