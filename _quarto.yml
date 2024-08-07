@@ -16,7 +16,7 @@ website:
   announcement:
     icon: emoji-smile
     dismissable: true
-    content: "**rainbowR will be at posit::conf(2024).** See our [posit-conf-2024](posit-conf-2024.qmd) page for more info."
+    content: "**rainbowR will be at posit::conf(2024).** See our [posit-conf-2024](https://rainbowr.org/posit-conf-2024.html) page for more info."
     type: primary
     position: below-navbar
   
