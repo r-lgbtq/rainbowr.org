@@ -25,9 +25,13 @@ From the rainbowR team, Daniel Sjoberg will be representing the community in-per
 
 Daniel will put a rainbowR poster, and stickers, on a couple of lunch tables in the Regency Ballroom on Wednesday, so come and hang out with the community then and there. Everyone welcome, LGBTQ+ folk and allies alike!
 
+## Discord
+
+If you're registered to attend posit::conf(2024), either in-person or virtually, you should have access to the [posit::conf(2024) Discord server](https://discord.com/channels/1223312405552173208). Within that, there's a [#rainbowr](https://discord.com/channels/1223312405552173208/1268265719020392621) channel, so head there to connect with the community during the conference.
+
 ## Slack
 
-To keep up-to-date with what's happening at the conference, there's a #posit-conf-2024-seattle channel in the rainbowR Slack, so if you'll be at the conference, be sure to add yourself there.^[If you can't see it, go to '+ Add Channels' under your channel list, then 'Browse channels'.] 
+To keep up-to-date with what's happening at the conference, there's also a #posit-conf-2024-seattle channel in the rainbowR Slack, so if you'll be at the conference, be sure to add yourself there.^[If you can't see it, go to '+ Add Channels' under your channel list, then 'Browse channels'.] 
 
 If you're not already in the rainbowR Slack, please fill out the [Join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) form and you'll be sent an invitation.
 
