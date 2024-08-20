@@ -13,12 +13,12 @@ website:
   favicon: images/rainbow-hex-square.png
   open-graph: true
   site-url: "https://rainbowr.org"
-  announcement:
-    icon: emoji-smile
-    dismissable: true
-    content: "**rainbowR will be at posit::conf(2024).** See our [posit-conf-2024](https://rainbowr.org/posit-conf-2024.html) page for more info."
-    type: primary
-    position: below-navbar
+  # announcement:
+  #   icon: emoji-smile
+  #   dismissable: true
+  #   content: "**rainbowR will be at posit::conf(2024).** See our [posit-conf-2024](https://rainbowr.org/posit-conf-2024.html) page for more info."
+  #   type: primary
+  #   position: below-navbar
   
   navbar:
     logo: images/rainbow-hex.png
@@ -40,8 +40,6 @@ website:
             href: book-club.qmd
           - text: tidyRainbow
             href: https://github.com/r-lgbtq/tidyrainbow
-          - text: "posit::conf(2024)"
-            href: posit-conf-2024.qmd
       - text: "Code of Conduct"
         file: CoC.qmd
       - icon: mastodon
