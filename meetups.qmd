@@ -17,7 +17,7 @@ include-in-header:
 :::
 
 ::: {.column width="45%"}
-**Wednesday August 21st 2024, 4pm UTC, Zoom**
+**Wednesday September 25th 2024, 4pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -26,7 +26,7 @@ library(distilltools)
 
 `r icon_link(icon = "check",
           text = "register",
-          url = "https://us02web.zoom.us/meeting/register/tZApduCvpz8sHd1kyn_u18hALOOiDd2pIsu4")`
+          url = "https://us02web.zoom.us/meeting/register/tZ0rf-GpqT4pHdSfCnzSNydZnt3Pj_mt8h9v")`
 
 Get the time in your timezone, e.g.
 ```{r}
@@ -34,7 +34,7 @@ Get the time in your timezone, e.g.
 #| warning: false
 #| message: false
 library(lubridate)
-ymd_hms("2024-08-21 16:00:00") |> 
+ymd_hms("2024-09-25 16:00:00") |> 
   with_tz("Europe/Vienna")
 ```
 :::
@@ -48,9 +48,7 @@ ymd_hms("2024-08-21 16:00:00") |>
 
 Our next meet-ups will be:
 
-**[Wednesday August 21st 2024, 4pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZApduCvpz8sHd1kyn_u18hALOOiDd2pIsu4){target=+_blank"}**
-
-**Wednesday September 25th, 4pm UTC, Zoom**
+**[Wednesday September 25th, 4pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZ0rf-GpqT4pHdSfCnzSNydZnt3Pj_mt8h9v)**
 
 **Wednesday October 23rd, 4pm UTC, Zoom**
 
