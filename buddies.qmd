@@ -15,12 +15,10 @@ library(distilltools)
 :::: {.columns}
 
 ::: {.column width="55%"}
-The sign-up form is open for the next round of the buddy scheme.
-It closes on **September 1st, 2024** and e-mails introducing the buddy pairs will be sent on **September 2nd, 2024**.
 
-`r icon_link(icon = "list",
-          text = "sign-up form",
-          url = "https://docs.google.com/forms/d/1pYCUn3zlIsR5TozjLsl99ICKicQcdiCwcfcguCANpUw")`
+The next buddies scheme will run in January 2025. 
+
+Sign-up details will be posted here, and on all the usual rainbowR channels^[Slack, newsletter, [Mastodon](https://tech.lgbt/@rainbowR) -- fill in the community [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) form for access to the first two], nearer the time.
 
 :::
 
