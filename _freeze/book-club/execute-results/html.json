@@ -1,0 +1,15 @@
+{
+  "hash": "3feae269d9c7c2c10108d5d7f1ff8aa4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Book club\"\ninclude-in-header: \n  - _includes/fontawesome.html\n---\n\n\n\n:::{.aside}\n![](images/book-club/queer-data.jpeg)\n:::\n\nWe are planning our first rainbowR book club. The book for discussion is **Queer Data: Using Gender, Sex and Sexuality Data for Action** by Kevin Guyan. See [kevinguyan.com/queer-data/](https://kevinguyan.com/queer-data/){target=\"_blank\"} for more about the book and a variety of gay-friendly places to purchase it.\n\nIf you're interested in participating in the book club, could you please fill in this form by **Sept 30th, 2024**. This will help us guage numbers and determine how many sessions to hold and when. \n\n\n\n\n\n\n\n\n\n`<a href=\"https://docs.google.com/forms/d/e/1FAIpQLScv9r7hkBBubSUibSGQYHWyNZoGTsEbb1aSHAmvTwW_94A32A/viewform\" class=\"icon-link\" target=\"_blank\" rel=\"noopener\"><i class=\"fas fa-list\"></i> register interest</a>`{=html}\n\n\nWe'll update this page as plans develop. We'll promote on [Slack](https://rainbowr.slack.com) and through our newsletter, both of which you can access when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target=\"_blank\"}. We'll also promote on [Mastodon](https://tech.lgbt/@rainbowR){target=\"_blank\"}. \n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
