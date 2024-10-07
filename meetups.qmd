@@ -4,55 +4,10 @@ include-in-header:
   - _includes/fontawesome.html
 ---
 
-## Next meetup
+## Next meet-up
 
-:::: {.columns}
+The next meet-up will be towards the end of October, exact date and time TBD shortly.
 
-::: {.column width="45%"}
-![](images/rainbowR-next-meetup.svg)
-:::
-
-::: {.column width="10%"}
-
-:::
-
-::: {.column width="45%"}
-**Wednesday September 25th 2024, 4pm UTC, Zoom**
-
-```{r}
-#| echo: false
-library(distilltools)
-```
-
-`r icon_link(icon = "check",
-          text = "register",
-          url = "https://us02web.zoom.us/meeting/register/tZ0rf-GpqT4pHdSfCnzSNydZnt3Pj_mt8h9v")`
-
-Get the time in your timezone, e.g.
-```{r}
-#| echo: true
-#| warning: false
-#| message: false
-library(lubridate)
-ymd_hms("2024-09-25 16:00:00") |> 
-  with_tz("Europe/Vienna")
-```
-:::
-
-
-
-
-::::
-
-## Save the dates
-
-Our next meet-ups will be:
-
-**[Wednesday September 25th, 4pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZ0rf-GpqT4pHdSfCnzSNydZnt3Pj_mt8h9v)**
-
-**Wednesday October 23rd, 4pm UTC, Zoom**
-
-Sign-up links will be posted here and shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"} and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
 ## About our meetups
 
