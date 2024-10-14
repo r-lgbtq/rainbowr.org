@@ -6,8 +6,62 @@ include-in-header:
 
 ## Next meet-up
 
-The next meet-up will be towards the end of October, exact date and time TBD shortly.
+:::{.callout-note}
+Please note to the change in UTC time! Since by Oct 30th, the clocks will have shifted in the UK, meet-ups over the next six months will be at **5pm UTC**. For the October meet-up, though, clocks will *not* have shifted yet in the US. 
 
+This meet-up is on the 5th Wednesday of October (not the usual 4th).
+:::
+
+:::: {.columns}
+::: {.column width="45%"}
+![](images/rainbowR-next-meetup.svg)
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+**Wednesday October 30th 2024, 5pm UTC, Zoom**
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+library(distilltools)
+library(lubridate)
+```
+
+`r icon_link(icon = "check",
+text = "register",
+url = "https://us02web.zoom.us/meeting/register/tZUtdO6prj0sGdRq-hNo2neH9wV6g9NDp_fn")`
+
+Get the time in your timezone, e.g.
+
+```{r}
+#| echo: true
+ymd_hms("2024-10-30 17:00:00") |>
+with_tz("Europe/Vienna")
+```
+
+```{r}
+#| echo: true
+ymd_hms("2024-10-30 17:00:00") |>
+with_tz("America/Los_Angeles")
+```
+
+:::
+::::
+
+## Save the dates
+
+We will have two more meet-ups in 2024:
+
+- **[Wednesday October 30th, 5pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZUtdO6prj0sGdRq-hNo2neH9wV6g9NDp_fn)**
+
+- Some time in the first half of December, date TBC.
+  
+
+Sign-up links will be posted here and shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"} and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
 ## About our meetups
 
