@@ -16,7 +16,7 @@ library(distilltools)
 
 ::: {.column width="55%"}
 
-The next buddies scheme will run in January 2025. 
+The next buddies scheme will run in December 2024. 
 
 Sign-up details will be posted here, and on all the usual rainbowR channels^[Slack, newsletter, [Mastodon](https://tech.lgbt/@rainbowR) -- fill in the community [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/) form for access to the first two], nearer the time.
 
