@@ -30,12 +30,21 @@ url = "https://us02web.zoom.us/meeting/register/tZYlcO2urDIuE9QAEGRAF_rUXgIWAktF
 
 **The book club is open to LGBTQ+ folk and allies**.
 
+:::{.callout-note}
+## Book discount code
+Kevin has very kindly offered a discount code for book club participants when purchasing the book directly from the publisher. 
+
+Once you register for the book club, we'll send you the code.
+:::
+
 ```{r}
 #| include: false
 library(distilltools)
 ```
 
-In our cohorts, we propose discussing the book in **five sessions** (though each cohort can decide in the first session whether that works for them and amend accordingly if not):
+In our cohorts, we propose discussing the book in **five sessions** (though each cohort can decide in the first session whether that works for them and amend accordingly if not). 
+
+We are very excited that, for the **final session**, in April, we will be joined by the author, Kevin Guyan, for a discussion on the concluding chapter and a Q&A. **For this session, we will combine the cohorts and the session will be at 5pm GMT**.
 
 | Date           | Chapters         |
 |----------------|------------------|
@@ -43,10 +52,10 @@ In our cohorts, we propose discussing the book in **five sessions** (though each
 | Dec 12th, 2024 | 1, 2             |
 | Jan 9th, 2025  | 3, 4             |
 | Feb 20th, 2025 | 5, 6             |
-| Mar 13th, 2025 | 7, 8, Conclusion |
+| Mar 13th, 2025 | 7, 8,            |
+| Apr 10th, 2025 | Conclusion, author Q&A |
 
 </br>
-We are then hoping for a **final session** with the author, Kevin Guyan. He'd love to join for a discussion/Q&A about the book once we're done reading it. We'll need to find a convenient date/time that suits him and as many book club participants as possible. It is likely we'll need to combine the two cohorts for this. 
 
 There are two channels in the rainbowR [Slack](https://rainbowr.slack.com) (one for each cohort) for further discussion and organisation. *In particular, it would be great to have volunteers to lead the discussion of a chapter*. For an invitation to the Slack, please [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
