@@ -44,12 +44,16 @@ website:
         file: CoC.qmd
       - icon: mastodon
         href: https://tech.lgbt/@rainbowR
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/rainbowr.bsky.social
       - icon: github
         href: https://github.com/r-lgbtq
       - icon: envelope
         href: mailto:hello@rainbowr.org
       - icon: slack
         href: https://rainbowr.slack.com
+      - icon: linkedin
+        href: https://www.linkedin.com/groups/13115940/
       
         
 format:
