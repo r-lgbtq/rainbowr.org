@@ -45,7 +45,7 @@ website:
       - icon: mastodon
         href: https://tech.lgbt/@rainbowR
       - text: "{{< iconify simple-icons bluesky >}}"
-        href: https://bsky.app/profile/rainbowr.bsky.social
+        href: https://bsky.app/profile/rainbowr.org
       - icon: github
         href: https://github.com/r-lgbtq
       - icon: envelope
