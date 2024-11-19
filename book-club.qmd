@@ -7,14 +7,14 @@ include-in-header:
 ![](images/book-club/queer-data.jpeg)
 :::
 
-Our first ever book club is almost underway! The book for discussion is **Queer Data: Using Gender, Sex and Sexuality Data for Action** by Kevin Guyan. See [kevinguyan.com/queer-data](https://kevinguyan.com/queer-data/){target="_blank"} for more about the book and a variety of gay-friendly places to purchase it.
+Our first ever book club is underway! The book for discussion is **Queer Data: Using Gender, Sex and Sexuality Data for Action** by Kevin Guyan. See [kevinguyan.com/queer-data](https://kevinguyan.com/queer-data/){target="_blank"} for more about the book and a variety of gay-friendly places to purchase it.
 
 Since rainbowR is an international community, we're running the book club in two cohorts, to accommodate a range of time-zones. For both cohorts, sessions will be on the **second Thursday of the month** (with the exception of February 2025, which will be on the third Thursday).
 
 - Cohort 1: **3pm GMT**
 - Cohort 2: **11pm GMT**
 
-The meetings will be held on Zoom. Click on the buttons below to register for a cohort (you only need to register once to sign-up for all sessions). 
+The meetings will be held on Zoom. Click on the buttons below to register for a cohort (you only need to register once to sign-up for all sessions). **Even though you register for all sessions, you are very welcome to attend as few (or as many) as you wish. You are also welcome to join at any point over the months that the book club runs.** 
 
 ```{r}
 #| include: false
@@ -34,7 +34,7 @@ url = "https://us02web.zoom.us/meeting/register/tZYlcO2urDIuE9QAEGRAF_rUXgIWAktF
 ## Book discount code
 Kevin has very kindly offered a discount code for book club participants when purchasing the book directly from the publisher. 
 
-Once you register for the book club, we'll send you the code.
+The codes are available in our Slack channel. Please [join](https://rainbowr.org/join) the community to receive an invitation, or email [hello@rainbowr.org](mailto:hello@rainbowr.org).
 :::
 
 ```{r}
@@ -56,6 +56,8 @@ We are very excited that, for the **final session**, in April, we will be joined
 | Apr 10th, 2025 | Conclusion, author Q&A |
 
 </br>
+
+You will get the most out of the book club if you read the proposed chapters in advance, but you're very welcome to attend even if you have not.
 
 There are two channels in the rainbowR [Slack](https://rainbowr.slack.com) (one for each cohort) for further discussion and organisation. *In particular, it would be great to have volunteers to lead the discussion of a chapter*. For an invitation to the Slack, please [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
