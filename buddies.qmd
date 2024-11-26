@@ -20,7 +20,7 @@ library(distilltools)
 
 The sign-up form is open for the next round of the buddy scheme.
 
-It closes on **Sunday December 1st, 2024** and e-mails introducing the buddy pairs will be sent on **Monday December 2nd.**
+It closes on **Sunday December 8th, 2024** and e-mails introducing the buddy pairs will be sent on **Monday December 9th.**
 
   
 
