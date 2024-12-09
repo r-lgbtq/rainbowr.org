@@ -25,21 +25,21 @@ website:
     right:
       - text: "About"
         href: about.qmd
-      - text: "Posts"
-        file: posts.qmd
       - text: "Join"
         href: https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/
         target: _blank
       - text: Activities
         menu:
-          - text: "Meetups"
-            href: meetups.qmd
-          - text: "Buddies"
-            href: buddies.qmd
-          - text: "Book club"
-            href: book-club.qmd
-          - text: tidyRainbow
-            href: https://github.com/r-lgbtq/tidyrainbow
+        - text: "Meetups"
+          href: meetups.qmd
+        - text: "Buddies"
+          href: buddies.qmd
+        - text: "Book club"
+          href: book-club.qmd
+        - text: tidyRainbow
+          href: https://github.com/r-lgbtq/tidyrainbow
+      - text: "Posts"
+        file: posts.qmd
       - text: "Code of Conduct"
         file: CoC.qmd
       - icon: mastodon
