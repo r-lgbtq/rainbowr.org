@@ -15,7 +15,7 @@ include-in-header:
 :::
 
 ::: {.column width="45%"}
-**Wednesday January 15th, 2025, 5pm UTC, Zoom**
+**Wednesday February 26th, 2025, 5pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -27,20 +27,20 @@ library(lubridate)
 
 `r icon_link(icon = "check",
 text = "register",
-url = "https://us02web.zoom.us/meeting/register/tZ0sfu-uqTwiG9PjsMlixAqH62sqyxBLAKsl")`
+url = "https://us02web.zoom.us/meeting/register/80kk1_lGSN69AIXK-X0OrA")`
 
 Get the time in your timezone, e.g.
 
 ```{r}
 #| echo: true
 library(lubridate)
-ymd_hms("2025-01-15 17:00:00") |>
+ymd_hms("2025-02-26 17:00:00") |>
 with_tz("Europe/Vienna")
 ```
 
 ```{r}
 #| echo: true
-ymd_hms("2025-01-15 17:00:00") |>
+ymd_hms("2025-02-26 17:00:00") |>
 with_tz("America/Los_Angeles")
 ```
 
@@ -48,21 +48,37 @@ with_tz("America/Los_Angeles")
 ::::
 
 ## Future meet-ups
+We hold online meetups, over Zoom. These will usually be on the 4th Wednesday of each month, at 5pm UK time (i.e. 4pm UTC in the summer, 5pm UTC in the winter).
 
-- [Wednesday January 15nd 2025, 5pm UTC, Zoom]((https://us02web.zoom.us/meeting/register/tZ0sfu-uqTwiG9PjsMlixAqH62sqyxBLAKsl)) (3rd Wednesday of the month, since the December one was early)
+We schedule the meet-ups as recurring Zoom meetings, with separate registration links for winter and summer series. The series switch when the clocks change in the UK. You only need to register once per series, and you'll get a calendar invitation for all the meet-ups in that series (though of course no requirement to come to all of them!).
 
-- [Wednesday February 26th 2025, 5pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZcrdu6pqTwqH9Nc5Jxm21fxgkEf-Ai0Zj3j)
+### Winter 2024/25 series (5pm UTC)
 
-- [Wednesday March 25th 2025, 5pm UTC, Zoom](https://us02web.zoom.us/meeting/register/tZIqdu6ppzwvH9Jw_HCNuGVCzLRoywXjVEf1)
+`r icon_link(icon = "check",
+text = "register for the winter series",
+url = "https://us02web.zoom.us/meeting/register/80kk1_lGSN69AIXK-X0OrA")`
 
-Click on the above links to register for future meet-ups. You'll need to register for each one separately.
+- Wednesday, **February 26th 2025**, 5pm UTC, Zoom
+- Wednesday, **March 26th 2025**, 5pm UTC, Zoom
 
-Sign-up links will also be shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"}, [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
+### Summer 2025 series (4pm UTC)
+
+`r icon_link(icon = "check",
+text = "register for the summer series",
+url = "https://us02web.zoom.us/meeting/register/RDGhjzoaQhCyFlB4qH74iQ")`
+
+- Wednesday, **April 23rd**, 4pm UTC, Zoom
+- Wednesday, **May 28th**, 4pm UTC, Zoom
+- Wednesday, **June 25th**, 4pm UTC, Zoom
+- Wednesday, **July 23rd**, 4pm UTC, Zoom
+- Wednesday, **August 27th**, 4pm UTC, Zoom
+- Wednesday, **September 24th**, 4pm UTC, Zoom
+
+Note that the October 2025 meet-up will be held on the 29th (the 5th Wednesday of the month) and will be part of the winter 2025/26 series.
+
+Registration links will also be shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"}, [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
 ## About our meet-ups
-
-We hold online meetups, over Zoom. These will usually be on the the 4th Wednesday of each month, at 5pm UK time (i.e. 4pm UTC in the summer, 5pm UTC in the winter).
-
 We usually promote meetups a couple of weeks before they take place.
 The best place to hear about them is on [Mastodon](https://tech.lgbt/@rainbowR), [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) or via our mailing list, which you can opt in to when you [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/).
 
@@ -73,6 +89,5 @@ The majority of the meetup is usually spent chatting about R. We invite particip
 It could be something they're working on, or a resource/package they've found that they're enjoying using. 
 It's also a chance to ask R-related questions -- there's probably someone on the call who can help! 
 Of course, you don't have to show something -- there's no pressure to do so!
-
 
 We require registration in advance. This helps keep the meetup safe.
