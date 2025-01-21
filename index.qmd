@@ -16,7 +16,7 @@ freeze: false
 ![](images/rainbowR-banner-thin1.svg)
 
 ::: {.center-h .top-quote}
-Our mission is to [support]{.red}, [promote]{.orange} and [connect]{.yellow} [LGBTQ+]{.green} people in the [R community]{.blue} and to spread awareness of LGBTQ+ issues through [data-driven activism]{.pink}
+Our mission is to [connect]{.red}, [support]{.orange} and [promote]{.yellow} [LGBTQ+]{.green} people in the [R community]{.blue} and to spread awareness of LGBTQ+ issues through [data-driven activism]{.pink}
 :::
 
 ![](images/rainbowR-banner-thin2.svg)
