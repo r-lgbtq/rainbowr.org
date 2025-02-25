@@ -44,7 +44,7 @@ url = "https://docs.google.com/forms/d/1OR4V_BCmknb08EwKQ50SYsSitN0TPrwQ8RTnKynJ
 
 ::: {.column width="40%"}
 
-![](images/rainbow-buddies.png)
+![](images/rainbowR-latest-buddies.png)
 
 :::
 
