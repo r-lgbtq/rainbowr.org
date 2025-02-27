@@ -8,14 +8,14 @@ include-in-header:
 
 :::: {.columns}
 ::: {.column width="45%"}
-![](images/rainbowR-latest-meetup.svg)
+![Image with meetup details (all text in image is elsewhere in text on this page)](images/rainbowR-latest-meetup.svg)
 :::
 
 ::: {.column width="10%"}
 :::
 
 ::: {.column width="45%"}
-**Wednesday February 26th, 2025, 5pm UTC, Zoom**
+**Wednesday March 26th, 2025, 5pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -34,13 +34,13 @@ Get the time in your timezone, e.g.
 ```{r}
 #| echo: true
 library(lubridate)
-ymd_hms("2025-02-26 17:00:00") |>
+ymd_hms("2025-03-26 17:00:00") |>
 with_tz("Europe/Vienna")
 ```
 
 ```{r}
 #| echo: true
-ymd_hms("2025-02-26 17:00:00") |>
+ymd_hms("2025-03-26 17:00:00") |>
 with_tz("America/Los_Angeles")
 ```
 
@@ -48,6 +48,7 @@ with_tz("America/Los_Angeles")
 ::::
 
 ## Future meet-ups
+
 We hold online meetups, over Zoom. These will usually be on the 4th Wednesday of each month, at 5pm UK time (i.e. 4pm UTC in the summer, 5pm UTC in the winter).
 
 We schedule the meet-ups as recurring Zoom meetings, with separate registration links for winter and summer series. The series switch when the clocks change in the UK. You only need to register once per series, and you'll get a calendar invitation for all the meet-ups in that series (though of course no requirement to come to all of them!).
@@ -58,7 +59,6 @@ We schedule the meet-ups as recurring Zoom meetings, with separate registration 
 text = "register for the winter series",
 url = "https://us02web.zoom.us/meeting/register/80kk1_lGSN69AIXK-X0OrA")`
 
-- Wednesday, **February 26th 2025**, 5pm UTC, Zoom
 - Wednesday, **March 26th 2025**, 5pm UTC, Zoom
 
 ### Summer 2025 series (4pm UTC)
@@ -79,15 +79,16 @@ Note that the October 2025 meet-up will be held on the 29th (the 5th Wednesday o
 Registration links will also be shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"}, [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
 ## About our meet-ups
+
 We usually promote meetups a couple of weeks before they take place.
 The best place to hear about them is on [Mastodon](https://tech.lgbt/@rainbowR), [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) or via our mailing list, which you can opt in to when you [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/).
 
 These are friendly, informal gatherings, to connect with fellow community members and chat (mostly about R).
 
 Each meetup starts with a round of introductions, followed by any updates from the rainbowR team, e.g. discussing initiatives for the group, community organisation etc.
-The majority of the meetup is usually spent chatting about R. We invite participants to 'show and tell' -- they can share something related to R or Quarto. 
-It could be something they're working on, or a resource/package they've found that they're enjoying using. 
-It's also a chance to ask R-related questions -- there's probably someone on the call who can help! 
+The majority of the meetup is usually spent chatting about R. We invite participants to 'show and tell' -- they can share something related to R or Quarto.
+It could be something they're working on, or a resource/package they've found that they're enjoying using.
+It's also a chance to ask R-related questions -- there's probably someone on the call who can help!
 Of course, you don't have to show something -- there's no pressure to do so!
 
 We require registration in advance. This helps keep the meetup safe.
