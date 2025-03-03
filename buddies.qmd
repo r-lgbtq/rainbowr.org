@@ -13,43 +13,23 @@ library(distilltools)
 ```
 
 :::: {.columns}
-
-::: {.column width="55%"}
-
-The sign-up form is open for the next round of the buddy scheme.
-
-It closes on **Sunday March 2nd, 2025** and e-mails introducing the buddy pairs will be sent on **Monday March 3rd.**
-
-  
-
-`r icon_link(icon = "list",
-
-text = "sign-up form",
-
-url = "https://docs.google.com/forms/d/1OR4V_BCmknb08EwKQ50SYsSitN0TPrwQ8RTnKynJemM/")`
-
-  
-
+::: {.column width="40%"}
+![](images/rainbowR-latest-buddies.png)
 :::
-
-  
 
 ::: {.column width="5%"}
 
-  
-
 :::
 
-  
+::: {.column width="55%"}
+The sign-up form is open for the next round of the buddy scheme.
 
-::: {.column width="40%"}
+It closes on **Monday June 2nd, 2025** and e-mails introducing the buddy pairs will be sent on **Tuesday June 3rd.**
 
-![](images/rainbowR-latest-buddies.png)
-
+`r icon_link(icon = "list",
+text = "sign-up form",
+url = "https://docs.google.com/forms/d/18lbn2jD-B2oj-pfMAfCMwLxaJJ1ssjkC502P2rz2aAo")`
 :::
-
-  
-
 ::::
 
 ## About the buddy scheme
