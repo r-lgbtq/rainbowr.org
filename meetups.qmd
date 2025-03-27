@@ -15,7 +15,7 @@ include-in-header:
 :::
 
 ::: {.column width="45%"}
-**Wednesday March 26th, 2025, 5pm UTC, Zoom**
+**Wednesday April 23rd, 2025, 4pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -27,20 +27,20 @@ library(lubridate)
 
 `r icon_link(icon = "check",
 text = "register",
-url = "https://us02web.zoom.us/meeting/register/80kk1_lGSN69AIXK-X0OrA")`
+url = "https://us02web.zoom.us/meeting/register/RDGhjzoaQhCyFlB4qH74iQ")`
 
 Get the time in your timezone, e.g.
 
 ```{r}
 #| echo: true
 library(lubridate)
-ymd_hms("2025-03-26 17:00:00") |>
+ymd_hms("2025-04-23 16:00:00") |>
 with_tz("Europe/Vienna")
 ```
 
 ```{r}
 #| echo: true
-ymd_hms("2025-03-26 17:00:00") |>
+ymd_hms("2025-04-23 16:00:00") |>
 with_tz("America/Los_Angeles")
 ```
 
@@ -52,14 +52,6 @@ with_tz("America/Los_Angeles")
 We hold online meetups, over Zoom. These will usually be on the 4th Wednesday of each month, at 5pm UK time (i.e. 4pm UTC in the summer, 5pm UTC in the winter).
 
 We schedule the meet-ups as recurring Zoom meetings, with separate registration links for winter and summer series. The series switch when the clocks change in the UK. You only need to register once per series, and you'll get a calendar invitation for all the meet-ups in that series (though of course no requirement to come to all of them!).
-
-### Winter 2024/25 series (5pm UTC)
-
-`r icon_link(icon = "check",
-text = "register for the winter series",
-url = "https://us02web.zoom.us/meeting/register/80kk1_lGSN69AIXK-X0OrA")`
-
-- Wednesday, **March 26th 2025**, 5pm UTC, Zoom
 
 ### Summer 2025 series (4pm UTC)
 
