@@ -14,7 +14,9 @@ Since rainbowR is an international community, we're running the book club in two
 - Cohort 1: **3pm GMT**
 - Cohort 2: **11pm GMT**
 
-The meetings will be held on Zoom. Click on the buttons below to register for a cohort (you only need to register once to sign-up for all sessions). **Even though you register for all sessions, you are very welcome to attend as few (or as many) as you wish. You are also welcome to join at any point over the months that the book club runs.** 
+The meetings will be held on Zoom. Click on the buttons below to register for a cohort (you only need to register once per cohort to sign-up for all sessions). **Even though you register for all sessions, you are very welcome to attend as few (or as many) as you wish. You are also welcome to join at any point over the months that the book club runs.** 
+
+We are very excited that, for the **final session on April 10th**, we will be joined by the author, Dr Kevin Guyan, for a discussion on the concluding chapter and a Q&A. **For this session, we will combine the cohorts and the session will be at 5pm GMT**. This requires a separate registration link.
 
 ```{r}
 #| include: false
@@ -27,6 +29,9 @@ url = "https://us02web.zoom.us/meeting/register/tZ0ode-gqDMsHdNEPsDFA83NUpESxT3Z
 `r icon_link(icon = "check",
 text = "register for cohort 2",
 url = "https://us02web.zoom.us/meeting/register/tZYlcO2urDIuE9QAEGRAF_rUXgIWAktFyZ1a")`
+`r icon_link(icon = "check",
+text = "register for author Q&A",
+url = "https://us02web.zoom.us/j/82680915095?pwd=T6uiNAJVHs8eCOKRLP9NXvQWjUlo3x.1")`
 
 **The book club is open to LGBTQ+ folk and allies**.
 
@@ -43,8 +48,6 @@ library(distilltools)
 ```
 
 In our cohorts, we propose discussing the book in **five sessions** (though each cohort can decide in the first session whether that works for them and amend accordingly if not). 
-
-We are very excited that, for the **final session**, in April, we will be joined by the author, Kevin Guyan, for a discussion on the concluding chapter and a Q&A. **For this session, we will combine the cohorts and the session will be at 5pm GMT**.
 
 | Date           | Chapters         |
 |----------------|------------------|
