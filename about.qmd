@@ -134,6 +134,40 @@ Daniel is a Senior Principal Data Scientist at Genentech. He is an avid develope
 ::::
 
 
+:::: {.columns}
+
+::: {.column width="25%"}
+![](images/people/rhian.jpg)
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+**Rhian Davies (she/her)**
+
+Rhian is a Senior Data Scientist at [The Strategy Unit (NHS)](https://www.strategyunitwm.nhs.uk/) where she uses R to build open-source Reproducible Analytical Pipelines. She supports public health analysts to work smarter with data, developing their skills, confidence, and championing data science best practices.
+
+`r icon_link(icon = "globe",
+          text = "website",
+          url = "https://rhian.rbind.io")
+`
+`r icon_link(icon = "github",
+          text = "GitHub",
+          url = "https://github.com/statsrhian")
+`
+`r icon_link(
+  icon = "mastodon",
+  text = "Mastodon",
+  url = "https://fosstodon.org/@statsrhian",
+  rel = "me noopener"
+)`
+:::
+
+::::
+
+
 ### Previous team members
 
 Zane Dax (she/they), community co-lead: [website](https://www.trans-can.ca), [GitHub](https://github.com/PythonCoderUnicorn)
