@@ -16,7 +16,7 @@ Since rainbowR is an international community, we're running the book club in two
 
 The meetings will be held on Zoom. Click on the buttons below to register for a cohort (you only need to register once per cohort to sign-up for all sessions). **Even though you register for all sessions, you are very welcome to attend as few (or as many) as you wish. You are also welcome to join at any point over the months that the book club runs.** 
 
-We are very excited that, for the **final session on April 10th**, we will be joined by the author, Dr Kevin Guyan, for a discussion on the concluding chapter and a Q&A. **For this session, we will combine the cohorts and the session will be at 5pm GMT**. This requires a separate registration link.
+We are very excited that, for the **final session on April 10th**, we will be joined by the author, Dr Kevin Guyan, for a discussion on the concluding chapter and a Q&A. **For this session, we will combine the cohorts and the session will be at 4pm UTC**. This requires a separate registration link.
 
 ```{r}
 #| include: false
