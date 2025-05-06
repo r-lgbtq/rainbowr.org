@@ -1,0 +1,75 @@
+---
+title: "Queer Data"
+include-in-header: 
+  - ../_includes/fontawesome.html
+---
+
+:::{.callout-note}
+The book club for **Queer Data: Using Gender, Sex and Sexuality Data for Action** is now finished. 
+
+For information about the current or upcoming book clubs, see the [book club](../book-club.qmd) page.
+:::
+
+:::{.aside}
+![](../images/book-club/queer-data.jpeg)
+:::
+
+Our first ever book club is underway! The book for discussion is **Queer Data: Using Gender, Sex and Sexuality Data for Action** by Kevin Guyan. See [kevinguyan.com/queer-data](https://kevinguyan.com/queer-data/){target="_blank"} for more about the book and a variety of gay-friendly places to purchase it.
+
+Since rainbowR is an international community, we're running the book club in two cohorts, to accommodate a range of time-zones. For both cohorts, sessions will be on the **second Thursday of the month** (with the exception of February 2025, which will be on the third Thursday).
+
+- Cohort 1: **3pm GMT**
+- Cohort 2: **11pm GMT**
+
+The meetings will be held on Zoom. Click on the buttons below to register for a cohort (you only need to register once per cohort to sign-up for all sessions). **Even though you register for all sessions, you are very welcome to attend as few (or as many) as you wish. You are also welcome to join at any point over the months that the book club runs.** 
+
+We are very excited that, for the **final session on April 10th**, we will be joined by the author, Dr Kevin Guyan, for a discussion on the concluding chapter and a Q&A. **For this session, we will combine the cohorts and the session will be at 4pm GMT/UTC**. This requires a separate registration link.
+
+```{r}
+#| include: false
+library(distilltools)
+```
+
+`r icon_link(icon = "check",
+text = "register for cohort 1",
+url = "https://us02web.zoom.us/meeting/register/tZ0ode-gqDMsHdNEPsDFA83NUpESxT3ZdBx5")`
+`r icon_link(icon = "check",
+text = "register for cohort 2",
+url = "https://us02web.zoom.us/meeting/register/tZYlcO2urDIuE9QAEGRAF_rUXgIWAktFyZ1a")`
+`r icon_link(icon = "check",
+text = "register for author Q&A",
+url = "https://us02web.zoom.us/j/82680915095?pwd=T6uiNAJVHs8eCOKRLP9NXvQWjUlo3x.1")`
+
+**The book club is open to LGBTQ+ folk and allies**.
+
+:::{.callout-note}
+## Book discount code
+Kevin has very kindly offered a discount code for book club participants when purchasing the book directly from the publisher. 
+
+The codes are available in our Slack channel. Please [join](https://rainbowr.org/join) the community to receive an invitation, or email [hello@rainbowr.org](mailto:hello@rainbowr.org).
+:::
+
+```{r}
+#| include: false
+library(distilltools)
+```
+
+In our cohorts, we propose discussing the book in **five sessions** (though each cohort can decide in the first session whether that works for them and amend accordingly if not). 
+
+| Date           | Chapters         |
+|----------------|------------------|
+| Nov 14th, 2024 | Introduction     |
+| Dec 12th, 2024 | 1, 2             |
+| Jan 9th, 2025  | 3, 4             |
+| Feb 20th, 2025 | 5, 6             |
+| Mar 13th, 2025 | 7, 8,            |
+| Apr 10th, 2025 | Conclusion, author Q&A |
+
+</br>
+
+You will get the most out of the book club if you read the proposed chapters in advance, but you're very welcome to attend even if you have not.
+
+There are two channels in the rainbowR [Slack](https://rainbowr.slack.com) (one for each cohort) for further discussion and organisation. *In particular, it would be great to have volunteers to lead the discussion of a chapter*. For an invitation to the Slack, please [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
+
+
+
