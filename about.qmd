@@ -78,7 +78,7 @@ Ella is a Research Software Engineer in the Department of Statistics at the Univ
 :::
 
 ::: {.column width="70%"}
-**Hanne Oberman (she/her, they/them)**, community co-lead
+**Hanne Oberman (they/them)**, community co-lead
 
 Hanne is a PhD candidate in the department of Methodology and Statistics at Utrecht University, The Netherlands. As part of their research on missing data methods, Hanne created and maintains R packages for valid analyses on incomplete datasets.
 
