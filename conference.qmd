@@ -1,0 +1,42 @@
+---
+title: Conference
+include-in-header: 
+  - _includes/fontawesome.html
+---
+
+We are in the early stages of planning rainbowR's *first ever conference*!
+
+We are looking for people to join the conference organising committee. If you're interested in being on the conference committee, read on for key details and, if you're still interested, please express that by answering a couple of questions in the form linked to below.
+
+```{r}
+#| echo: false
+library(distilltools)
+```
+
+`r icon_link(icon = "list",
+text = "conference committee sign-up form",
+url = "https://docs.google.com/forms/d/1Fd68aeywwhGhEvHMKcP75IfUIXr2Iguk7vnFP0aCiNY/")`
+
+**Why are we having a conference?** To connect, support and promote LGBTQ+ folks who code in R, to raise awareness of LGBTQ+ issues through data-driven activism, to share our work with R, and to bolster the rainbowR community.
+
+**When will the conference be?** Most likely late February or early March 2026.
+
+**Who is the conference for?** For LGBTQ+ folks who code in R, and allies, from across the world.
+
+**What is the conference length?** 1/2 day or whole day, TBD by the committee.
+
+**Where will the conference be?** Online.
+
+**What will the conference consist of?** TBD by the organising committee. Probably a mix of regular and lightning talks, and workshops.
+
+**Who will have overall oversight of the conference?** Ella Kaye, supported by her Software Sustainability Institute fellowship.
+
+**What is the time commitment for the organising committee?** We will have regular 1-hour committee meetings. These will likely be monthly until October, fortnightly from then until the end of 2025, and weekly in 2026 until the conference. In addition, the time it takes to complete any tasks you take on during those meetings. How much each member needs to do will depend on how many people there are to share the tasks between, and how much time each person is willing/able to commit!
+
+**Why should I join the conference organising committee?** There are so many good reasons including, in no particular order: playing an active role in a lovely community, gaining valuable organisational experience, connecting with other community members (those on the organising team, and speakers), making something wonderful happen!
+
+If you'd like to discuss, get in touch with us: [hello@rainbowr.org](mailto:hello@rainbowr.org). 
+
+`r icon_link(icon = "list",
+text = "conference committee sign-up form",
+url = "https://docs.google.com/forms/d/1Fd68aeywwhGhEvHMKcP75IfUIXr2Iguk7vnFP0aCiNY/")`
