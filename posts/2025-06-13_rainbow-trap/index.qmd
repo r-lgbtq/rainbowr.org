@@ -1,0 +1,56 @@
+---
+title: "Rainbow trap: How inclusive statistics still box us in"
+author: Kevin Guyan
+date: '2025-06-13'
+categories: ["inclusivity", "books", "data"]
+description: |
+  Writer and research Kevin Guyan introduces his new book, **Rainbow Trap: Queer Lives, Classifications and the Dangers of Inclusion**,
+  drawing attention to the cost of inclusivity for LGBTQ+ people.
+image: "rainbow-trap.jpg"
+code-tools: false
+---
+
+Sorry to be the killjoy at the party but there’s a lot wrong with inclusion. It’s a warm word that feels like a natural response to the historical problem of exclusion – where, for many decades, minoritised communities were actively kept outside of mainstream systems and institutions.
+
+For those working with data and statistics, a critique of inclusion (that comes from the left, not from the right) might seem unexpected. Surely, being counted in a dataset is always better than being ignored?
+
+I am unsure. As we have seen in the UK this year, LGBTQ equalities do not always progress in a forward direction. The UK Supreme Court ruling on the meaning of ‘sex’ in the 2010 Equality Act – as something exclusively ‘biological’ and determined at birth – may result in the undoing of rights and legal protections for trans people.
+
+The offer of inclusion – whether in law or a dataset – most often comes with strings attached. It is a form of inclusion that is qualified or can be revoked, forever contingent on the whims of who decides.
+
+Being sceptical about what inclusion can achieve does not justify any of the horrific attacks directed towards LGBTQ people (particularly, trans, queer and non-binary communities) but it can ensure that the work of data scientists and statisticians genuinely delivers for everyone.
+
+An inclusive approach to data and statistics therefore needs to achieve more than simply adding more rows and columns to existing datasets. Because, when the fundamental mechanics of data systems remain unchanged and when queer lives are incorporated as belated guests, they forever remain in the dreaded ‘last in – first out’ spot.
+
+In my new book, [Rainbow Trap: Queer Lives, Classifications and the Dangers of Inclusion](https://www.bloomsbury.com/uk/rainbow-trap-9781350429680/), I explore a variety of initiatives that have attempted to bring historically marginalised communities out of the shadows and into the heart of mainstream systems. 
+
+:::{.aside}
+![Book cover for "Rainbow Trap: Queer Lives, Classifications and the Dangers of Inclusion" by Kevin Guyan.](/posts/2025-06-13_rainbow-trap/rainbow-trap.jpg)
+:::
+
+When it comes to data – you will likely be familiar with efforts to create inclusive datasets, plug data gaps, recruit diverse research teams and meaningfully engage communities about whom we collect data. While the vast majority of these initiatives come with good intentions (…I have personally led or been involved in many of them!), they usually require the target of the intervention (i.e. the LGBTQ person) to jump through particular hoops or satisfy certain criteria.
+
+To accept the offer of inclusion, LGBTQ people first need to locate themselves in an ever-growing list of classifications, categories and labels that describe their lives in ways that ‘make sense’ to the system they are seeking to access. This requirement to be classified, as a condition of being included, catches LGBTQ communities in a rainbow trap
+
+In my new book, I investigate the design and management of categories, classifications and labels used to ‘make sense’ of queer lives across six sectors and industries. My research involved exploring categories of gender, sex and sexuality in the police; dating apps; film and television industry; borders; health and fitness; and the workplace. 
+
+Rather than doing a deep dive into a single field – for example, focusing on tech and AI – I wanted to identify common challenges that occur when queer lives meet classification machines not designed to accommodate them.
+
+My research uncovered recurring features, which I describe as a rainbow trap. These are approaches to classifications that:
+
+1.	Embed a partial and narrow account of gender, sex and sexuality categories.
+2.	Mask the who, how and where of classification practices.
+3.	Ignore information management challenges and the politics of the closet.
+4.	Promote solutions according to what is understood as a problem.
+5.	Exclude individuals who complicate classification systems.
+
+For data scientists and statisticians working with gender, sex and sexuality data – these principles need to guide your approach. Doing so will ensure that our tools and methods genuinely reflect the full diversity of people’s experiences and not erase those who sit outside a predefined list of genders, sexes and sexualities.
+
+
+**Dr Kevin Guyan is a writer and researcher whose work explores the intersection of data and identity. He is the author of [Rainbow Trap: Queer Lives, Classifications and the Dangers of Inclusion](https://www.bloomsbury.com/uk/rainbow-trap-9781350429680/) (Bloomsbury Academic, 2025) and [Queer Data: Using Gender, Sex and Sexuality Data for Action](https://www.bloomsbury.com/uk/queer-data-9781350230729/) (Bloomsbury Academic, 2022). Kevin is a Chancellor’s Fellow at the University of Edinburgh and Director of the Gender + Sexuality Data Lab.**
+
+:::{.aside}
+![Dr Kevin Guyan. Photo by [Daniel McGowan Photography](https://www.instagram.com/danielmcgowanphotography/)](/posts/2025-06-13_rainbow-trap/kevin-guyan.jpg.webp)
+:::
+
+**Kevin is sharing ideas from his new book Rainbow Trap at a special event hosted by the Royal Statistical Society Edinburgh and Celebrating Diversity Special Interest Group on 7 July 2025 at the Bayes Centre, University of Edinburgh. To register to attend the free event, visit: <https://rss.org.uk/training-events/events/events-2025/local-groups/rss-edinburgh-and-rss-celebrating-diversity-sig-ho/>**
