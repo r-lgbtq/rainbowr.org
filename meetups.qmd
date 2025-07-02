@@ -68,12 +68,12 @@ url = "https://us02web.zoom.us/meeting/register/RDGhjzoaQhCyFlB4qH74iQ")`
 
 Note that the October 2025 meet-up will be held on the 29th (the 5th Wednesday of the month) and will be part of the winter 2025/26 series.
 
-Registration links will also be shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"}, [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
+Registration links will also be shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"}, [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/company/rainbowr/) and our newsletter 2-3 weeks beforehand, which you can opt-in to when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.
 
 ## About our meet-ups
 
 We usually promote meetups a couple of weeks before they take place.
-The best place to hear about them is on [Mastodon](https://tech.lgbt/@rainbowR), [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) or via our mailing list, which you can opt in to when you [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/).
+The best place to hear about them is on [Mastodon](https://tech.lgbt/@rainbowR), [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/company/rainbowr/) or via our mailing list, which you can opt in to when you [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/).
 
 These are friendly, informal gatherings, to connect with fellow community members and chat (mostly about R).
 
