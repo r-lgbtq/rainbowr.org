@@ -15,7 +15,7 @@ include-in-header:
 :::
 
 ::: {.column width="45%"}
-**Wednesday June 25th, 2025, 4pm UTC, Zoom**
+**Wednesday July 23rd, 2025, 4pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -34,13 +34,13 @@ Get the time in your timezone, e.g.
 ```{r}
 #| echo: true
 library(lubridate)
-ymd_hms("2025-06-25 16:00:00") |>
+ymd_hms("2025-07-23 16:00:00") |>
 with_tz("Europe/Vienna")
 ```
 
 ```{r}
 #| echo: true
-ymd_hms("2025-06-25 16:00:00") |>
+ymd_hms("2025-07-23 16:00:00") |>
 with_tz("America/Los_Angeles")
 ```
 
@@ -73,7 +73,7 @@ Registration links will also be shared via [Mastodon](https://tech.lgbt/@rainbow
 ## About our meet-ups
 
 We usually promote meetups a couple of weeks before they take place.
-The best place to hear about them is on [Mastodon](https://tech.lgbt/@rainbowR), [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/groups/13115940/) or via our mailing list, which you can opt in to when you [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/).
+The best place to hear about them is on [Mastodon](https://tech.lgbt/@rainbowR), [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/company/rainbowr) or via our mailing list, which you can opt in to when you [join](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/).
 
 These are friendly, informal gatherings, to connect with fellow community members and chat (mostly about R).
 
