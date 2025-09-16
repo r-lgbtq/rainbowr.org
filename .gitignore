@@ -14,3 +14,4 @@ posts/.DS_Store
 /.vscode/settings.json/
 
 book-club_files
+**/*.quarto_ipynb
