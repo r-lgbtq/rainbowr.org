@@ -20,10 +20,12 @@ $blue: #02B3E3;
 $pink: #DA3AB3;
 $purple: #DA3AB3;
 $royal-blue: #01299F;
-$dark-blue: #001552;
+//$dark-blue: #001552;
+$dark-blue: #001247;
 //$very-dark-blue: #000B29;
 $very-dark-blue: #000D33;
 //$very-dark-blue: #000F3D;
+$light-yellow: #FFFBF1;
 //$light: #F2F5FF;
 $light: #FAFBFF;
 $lightish: #F5F7FF;
@@ -235,4 +237,15 @@ $callout-color-important: $red;
   .navbar .navbar-nav .nav-item:hover::after {
     width: 90%;
   }
+}
+
+/* bg-color on dropdown menu and tool items
+Note that there is currently only one dropdown, 
+from a navbar item that goes yellow when hovered on.
+If the hover cover of the dropdown header changes,
+or another dropdown is introduced, this CSS will need updating.
+*/
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.dropdown-item.quarto-navbar-tools-item:hover {
+  background-color: $yellow;
 }

@@ -24,11 +24,11 @@ library(distilltools)
 ::: {.column width="55%"}
 The sign-up form is open for the next round of the buddy scheme.
 
-It closes on **Monday September 1st, 2025** and e-mails introducing the buddy pairs will be sent on **Tuesday September 2nd.**
+It closes on **Monday December 1st, 2025** and e-mails introducing the buddy pairs will be sent on **Tuesday December 2nd.**
 
 `r icon_link(icon = "list",
 text = "sign-up form",
-url = "https://docs.google.com/forms/d/1glkiStYfpcf61GQ33fqB9ohdnJ_rm7Ax6HfVMKghSqM/")`
+url = "https://docs.google.com/forms/d/e/1FAIpQLSeIAC4gNA8KbnuHRz08Lq_lSnMTk7GT1Nw5mYT49W6eEDMJpw/viewform?usp=dialog")`
 :::
 ::::
 
@@ -38,7 +38,7 @@ The buddies scheme provides an opportunity to foster deeper connections between 
 
 ## How it works
 
-- Folks opt-in via this [sign-up form](https://docs.google.com/forms/d/1glkiStYfpcf61GQ33fqB9ohdnJ_rm7Ax6HfVMKghSqM/)
+- Folks opt-in via this [sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSeIAC4gNA8KbnuHRz08Lq_lSnMTk7GT1Nw5mYT49W6eEDMJpw/viewform?usp=dialog)
 - Buddy pairs are randomly assigned
 - E-mails are sent to each pair making the introduction.
 
