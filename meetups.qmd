@@ -15,7 +15,7 @@ include-in-header:
 :::
 
 ::: {.column width="45%"}
-**Wednesday October 29th, 2025, 4:30pm UTC, Zoom**
+**Wednesday November 26th, 2025, 4:30pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -34,13 +34,13 @@ Get the time in your timezone, e.g.
 ```{r}
 #| echo: true
 library(lubridate)
-ymd_hms("2025-10-29 16:30:00") |>
+ymd_hms("2025-11-26 16:30:00") |>
 with_tz("Europe/Vienna")
 ```
 
 ```{r}
 #| echo: true
-ymd_hms("2025-10-29 16:30:00") |>
+ymd_hms("2025-11-26 16:30:00") |>
 with_tz("America/Los_Angeles")
 ```
 
