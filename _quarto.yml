@@ -13,12 +13,12 @@ website:
   favicon: images/rainbow-hex-square.png
   open-graph: true
   site-url: "https://rainbowr.org"
-  # announcement:
-  #   icon: people-fill
-  #   dismissable: true
-  #   content: "**Join our conference organising committee!** See our [conference](https://rainbowr.org/conference.html) page for more info."
-  #   type: primary
-  #   position: below-navbar
+  announcement:
+    icon: people-fill
+    dismissable: true
+    content: "**Our conference website is now live!** [conference.rainbowr.org](https://conference.rainbowr.org/)"
+    type: primary
+    position: below-navbar
   
   navbar:
     logo: images/rainbow-hex.png
