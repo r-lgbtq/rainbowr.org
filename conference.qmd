@@ -9,7 +9,9 @@ include-in-header:
 library(distilltools)
 ```
 
-rainbowR's is having its first ever conference!
+![](images/conference-banner.png)
+
+rainbowR is having its first ever conference!
 
 `r icon_link(icon = "users",
 text = "visit the conference website",
