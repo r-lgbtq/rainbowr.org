@@ -24,11 +24,11 @@ library(distilltools)
 ::: {.column width="55%"}
 The sign-up form is open for the next round of the buddy scheme.
 
-It closes on **Monday December 1st, 2025** and e-mails introducing the buddy pairs will be sent on **Tuesday December 2nd.**
+It closes on **Monday March 2nd, 2026** and e-mails introducing the buddy pairs will be sent on **Tuesday March 3rd.**
 
 `r icon_link(icon = "list",
 text = "sign-up form",
-url = "https://docs.google.com/forms/d/e/1FAIpQLSeIAC4gNA8KbnuHRz08Lq_lSnMTk7GT1Nw5mYT49W6eEDMJpw/viewform?usp=dialog")`
+url = "https://docs.google.com/forms/d/e/1FAIpQLScXKExlwtmyElpT9MRWq6wdhVUpvONu8Wg_IvxGPsC9hHJI_A/viewform?usp=dialog")`
 :::
 ::::
 
