@@ -42,6 +42,8 @@ website:
           href: https://github.com/r-lgbtq/tidyrainbow
       - text: "Posts"
         file: posts.qmd
+      - text: "Committees"
+        file: committees.qmd
       - text: "Code of Conduct"
         file: CoC.qmd
       - icon: mastodon
