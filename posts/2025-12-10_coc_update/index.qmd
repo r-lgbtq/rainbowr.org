@@ -1,0 +1,61 @@
+---
+title: "Updates to the rainbowR Code of Conduct"
+author: 
+  - Ella Kaye
+  - Katlyn Bagley-Sepsey
+  - Yo Yehudi
+date: '2025-12-10'
+categories: ["rainbowR", "Code of Conduct"]
+description: |
+  Ensuring rainbowR is a safe and healthy community with an improved CoC and procedures, and dedicated CoC committee
+image: "pride-badges.jpg"
+code-tools: false
+---
+
+It is of upmost importance that rainbowR is a safe and healthy community.
+A Code of Conduct is essential for ensuring that. 
+
+When folks join rainbowR, or participate in any rainbowR event, they must agree to follow our [Code of Conduct (CoC)](../../CoC.qmd), 
+which contains the following pledge:
+
+> We as members, contributors, and leaders pledge to make participation in rainbowR a harassment-free experience for everyone, regardless of sexual identity and orientation, sex characteristics, gender identity and expression, age, body size, visible or invisible disability, ethnicity, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, or religion. We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+
+The CoC then sets out our standards (including examples of what constitutes both positive and unacceptable behaviour).
+It explains how to make a report, who will handle it and how, 
+and the consequences of breaches of the CoC, in proportion to the impact they have had on the community.
+
+## Why the update?
+
+rainbowR adopted a Code of Conduct when the community was relaunched in June 2022.
+We adapted the [Contributor Covenant, version 2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/), with additional material from the [R-Ladies Code of Conduct](https://rladies.org/coc/).
+We also adopted community impact guidelines inspired  [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/inclusion).
+
+It was fine for a fledgling community.
+
+As we've grown (we're now over 250 members at the time of writing), 
+we've realised there were gaps in our original version, that the reporting process was in need of improvement,
+and that we needed a dedicated CoC committee. 
+
+Most of all, we want to show, with these changes, that we are committed to the well-being of the community and its members.
+
+## What's changed?
+
+- We now have a dedicated **[Code of Conduct committee](../../committees.qmd)**, responsible for ensuring that our CoC is fit for purpose, reviewing complaints, and enforcement. This committee replaces the vaguer "Community leaders" from the previous version of the CoC.
+- We also now have external, independent advisors, who will handle any concerns that are not suitable for the CoC committee (for example, if the complaint is against a member of that committee).
+- There are now three ways to raise a concern:
+  - by e-mail to [coc@rainbowr.org](mailto:coc@rainbowr.org)
+  - via the [rainbowR Code of Conduct Incident Report Form](https://docs.google.com/forms/d/e/1FAIpQLSfOMgx43xj6DuWccAoA5D4Mc1y53EqfpWyOYZkle1z3A-XupQ/viewform?usp=dialog), which can be completed anonymously
+  - if necessary, directly to the external, independent advisors: [fellows-management@software.ac.uk](mailto:coc@rainbowr.org)
+- The following have been added as examples of unacceptable behaviour:
+  - Retaliation, such as punishing, intimidating, or excluding someone for reporting a concern or participating in an investigation
+  - Using religious or moral beliefs as a justification or excuse for behaviour that does not comply with this Code of Conduct
+- The Code of Conduct now contains an outline of the reporting, reviewing and appeals process, including a time frame for each step
+- The CoC committee has the right to remove a member of any rainbowR committee from their committee role
+- Increased scope: behavior that occurs outside rainbowR spaces may be considered when it involves a rainbowR member and creates a risk of harm within the rainbowR community. The Code of Conduct committee will use discretion and will only act on external behavior when it directly impacts the safety or well-being of the community.
+
+The full and exact changes can be seen in [this diff]().
+
+## How to comment
+
+We welcome feedback on the Code of Conduct, and suggestions for improvement.
+These can be raised either as a [issue on GitHub] or by email to [coc@rainbowr.org](mailto:coc@rainbowr.org).
