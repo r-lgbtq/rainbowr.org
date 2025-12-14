@@ -1,6 +1,11 @@
 ---
-title: "Code of Conduct"
+title: "Code of Conduct (CoC)"
+toc: true
 ---
+
+*Last modified: 2025-12-14*
+
+Participation in rainbowR activities, including membership, online engagement, and event attendance, indicates your agreement to follow this Code of Conduct and uphold our community standards. By taking part in our spaces, you commit to treating others with respect, contributing to a welcoming environment, and refraining from inappropriate solicitation or harassment.
 
 ## Our Pledge
 
@@ -26,7 +31,7 @@ Examples of unacceptable behavior include:
 
 -   The use of sexualized language or imagery, and sexual attention or advances of any kind
 
--   Trolling, insulting or derogatory comments, and personal or political attacks
+-   Trolling, insulting or derogatory comments, unwelcome profanity or vulgarity, and personal or political attacks
 
 -   Public or private harassment
 
@@ -50,48 +55,73 @@ Examples of unacceptable behavior include:
 
 -   Harassing photography or recording, including logging online activity for harassment purposes
 
--   Deliberate "outing" of any aspect of a person's identity without their consent except as necessary to protect vulnerable people from intentional abuse
+-   Deliberate "outing" of any aspect of a person's identity (including membership of rainbowR) without their consent except as necessary to protect vulnerable people from intentional abuse
+
+-   Retaliation, such as punishing, intimidating, or excluding someone for reporting a concern or participating in an investigation
+
+-   Using religious or moral beliefs as a justification or excuse for behaviour that does not comply with this Code of Conduct
 
 -   Other conduct which could reasonably be considered inappropriate in a professional setting
 
-rainbowR prioritizes marginalized people's safety over privileged people's comfort. Community leaders will not act on complaints regarding:
+rainbowR prioritizes marginalized people's safety over privileged people's comfort. The CoC committee will not act on complaints regarding:
 
--   'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' and 'cisphobia'
-
+-   'Reverse' -isms, including 'reverse racism,' 'reverse sexism,' 'reverse homophobia' and 'cisphobia'
 
 -   Reasonable communication of boundaries, such as "leave me alone," "go away," or "I'm not discussing this with you."
 
 -   Communicating in a 'tone' you don't find congenial
 
--   Criticizing racist, sexist, cissexist, or otherwise oppressive behavior or assumptions
+-   Criticizing racist, sexist, homophobic, cissexist, or otherwise oppressive behavior or assumptions
 
 ## Enforcement Responsibilities
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+The CoC committee is responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+The CoC committee have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+
+The CoC committee has the right to remove a member of any rainbowR committee from their committee role.
 
 ## Scope
 
-This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via a rainbowR social media account, or acting as an appointed representative at an online or offline event.
 
-## Enforcement
+Behavior that occurs outside rainbowR spaces may be considered when it involves a rainbowR member and creates a risk of harm within the rainbowR community. The Code of Conduct committee will use discretion and will only act on external behavior when it directly impacts the safety or well-being of the community.
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [hello\@rainbowr.org](mailto::hello@rainbowr.org).
+## Reporting
 
-All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the Code of Conduct committee, who are responsible for enforcement. This can be done by completing the [rainbowR Code of Conduct Incident Report Form](https://docs.google.com/forms/d/e/1FAIpQLSfOMgx43xj6DuWccAoA5D4Mc1y53EqfpWyOYZkle1z3A-XupQ/viewform?usp=dialog) (this can be anonymous) or by email to [coc@rainbowr.org](mailto::coc@rainbowr.org).
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+Members of the Code of Conduct committee are listed at <https://rainbowr.org/committees#code-of-conduct-committee>.
+
+If a report involves a member of the CoC committee, or there is any other reason why the person submitting the report does not want a member of this committee to see it, the report can instead be sent to our external, independent advisors, the Fellowship team at the [Software Sustainability Institute (SSI)](https://software.ac.uk). They can be reached at [fellows-management@software.ac.uk](mailto:fellows-management@software.ac.uk), and they will review and handle the report according to this Code of Conduct. Current members of the SSI Fellowship team are also listed at <https://rainbowr.org/committees#code-of-conduct-committee>.
+
+All Code of Conduct committee members, and our advisors, are obligated to respect the privacy and security of the reporter of any incident.
+
+## Timeline/process/appeal
+    
+1. **Report Submitted:** A concern is sent to the Code of Conduct committee.
+
+2. **Initial Review (within a week of receiving a report):** The committee determines whether the report falls under the Code of Conduct and whether more information is needed.
+
+3. **Information Gathering:** The committee collects any additional details needed to understand the situation.
+
+4. **Decision (within two weeks of information gathering completion):** The committee decides whether a violation occurred and what actions, if any, are appropriate.
+
+5. **Notification (at time of decision):** The committee informs the reporter (when possible) and the person involved of the outcome.
+
+6. **Appeal:** The person found in violation may request an appeal, which will be reviewed by committee members or advisors not involved in the original decision.
+
+7. **Follow-up:** If actions are required, the committee monitors for compliance and addresses any further concerns.
 
 ## Enforcement Guidelines
 
-Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
+Code of Conduct committee members will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
 
 ### 1. Correction
 
 **Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
 
-**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+**Consequence**: A private, written warning from the Code of Conduct committee, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
 
 ### 2. Warning
 
@@ -113,7 +143,7 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at <https://www.contributor-covenant.org/version/2/1/code_of_conduct.html> and the [RLadies Code of Conduct](https://rladies.org/code-of-conduct/).
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at <https://www.contributor-covenant.org/version/2/1/code_of_conduct.html> and the [R-Ladies Code of Conduct](https://rladies.org/code-of-conduct/).
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
 
