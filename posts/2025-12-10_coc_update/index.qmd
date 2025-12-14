@@ -53,7 +53,7 @@ Most of all, we want to show, with these changes, that we are committed to the w
 - The CoC committee has the right to remove a member of any rainbowR committee from their committee role
 - Increased scope: behavior that occurs outside rainbowR spaces may be considered when it involves a rainbowR member and creates a risk of harm within the rainbowR community. The Code of Conduct committee will use discretion and will only act on external behavior when it directly impacts the safety or well-being of the community.
 
-The full and exact changes can be seen in [this diff]().
+The full and exact changes can be seen in [this diff](https://github.com/r-lgbtq/rainbowr.org/commit/16945c2fcb08c97a26dea116c628b60104442e65).
 
 ## How to comment
 
