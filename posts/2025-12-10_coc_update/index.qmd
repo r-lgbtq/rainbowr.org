@@ -10,6 +10,7 @@ description: |
   Ensuring rainbowR is a safe and healthy community with an improved CoC and procedures, and dedicated CoC committee
 image: "pride-badges.jpg"
 code-tools: false
+draft: true
 ---
 
 It is of upmost importance that rainbowR is a safe and healthy community.
@@ -40,12 +41,12 @@ Most of all, we want to show, with these changes, that we are committed to the w
 
 ## What's changed?
 
-- We now have a dedicated **[Code of Conduct committee](../../committees.qmd)**, responsible for ensuring that our CoC is fit for purpose, reviewing complaints, and enforcement. This committee replaces the vaguer "Community leaders" from the previous version of the CoC.
-- We also now have external, independent advisors, who will handle any concerns that are not suitable for the CoC committee (for example, if the complaint is against a member of that committee).
+- We now have a dedicated **[Code of Conduct committee](../../committees#code-of-conduct-committee.qmd)**, responsible for ensuring that our CoC is fit for purpose, reviewing complaints, and enforcement. This committee replaces the vaguer "Community leaders" from the previous version of the CoC.
+- We also now have external, independent advisors, who will handle any concerns that are not suitable for the CoC committee (for example, if the complaint is against a member of that committee). This is the Fellowship team at the Software Sustainability Institute, with [Oscar Seip](https://www.software.ac.uk/our-people/oscar-seip) as the primary point of contact there.
 - There are now three ways to raise a concern:
   - by e-mail to [coc@rainbowr.org](mailto:coc@rainbowr.org)
   - via the [rainbowR Code of Conduct Incident Report Form](https://docs.google.com/forms/d/e/1FAIpQLSfOMgx43xj6DuWccAoA5D4Mc1y53EqfpWyOYZkle1z3A-XupQ/viewform?usp=dialog), which can be completed anonymously
-  - if necessary, directly to the external, independent advisors: [fellows-management@software.ac.uk](mailto:coc@rainbowr.org)
+  - if necessary, directly to the external, independent advisors: [oscar.seip@manchester.ac.uk](mailto:oscar.seip@manchester.ac.uk)
 - The following have been added as examples of unacceptable behaviour:
   - Retaliation, such as punishing, intimidating, or excluding someone for reporting a concern or participating in an investigation
   - Using religious or moral beliefs as a justification or excuse for behaviour that does not comply with this Code of Conduct
