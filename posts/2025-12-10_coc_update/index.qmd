@@ -58,4 +58,4 @@ The full and exact changes can be seen in [this diff](https://github.com/r-lgbtq
 ## How to comment
 
 We welcome feedback on the Code of Conduct, and suggestions for improvement.
-These can be raised either as a [issue on GitHub] or by email to [coc@rainbowr.org](mailto:coc@rainbowr.org).
+These can be raised either as an [issue in our governance repo on GitHub](https://github.com/r-lgbtq/governance) or by email to [coc@rainbowr.org](mailto:coc@rainbowr.org).
