@@ -3,7 +3,7 @@ title: "Code of Conduct (CoC)"
 toc: true
 ---
 
-*Last modified: 2025-12-14*
+*Last modified: 2025-12-15*
 
 Participation in rainbowR activities, including membership, online engagement, and event attendance, indicates your agreement to follow this Code of Conduct and uphold our community standards. By taking part in our spaces, you commit to treating others with respect, contributing to a welcoming environment, and refraining from inappropriate solicitation or harassment.
 
@@ -89,11 +89,11 @@ Behavior that occurs outside rainbowR spaces may be considered when it involves 
 
 ## Reporting
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the Code of Conduct committee, who are responsible for enforcement. This can be done by completing the [rainbowR Code of Conduct Incident Report Form](https://docs.google.com/forms/d/e/1FAIpQLSfOMgx43xj6DuWccAoA5D4Mc1y53EqfpWyOYZkle1z3A-XupQ/viewform?usp=dialog) (this can be anonymous) or by email to [coc@rainbowr.org](mailto::coc@rainbowr.org).
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the Code of Conduct committee, who are responsible for review and enforcement. This can be done by completing the [rainbowR Code of Conduct Incident Report Form](https://docs.google.com/forms/d/e/1FAIpQLSfOMgx43xj6DuWccAoA5D4Mc1y53EqfpWyOYZkle1z3A-XupQ/viewform?usp=dialog) (this can be anonymous) or by email to [coc@rainbowr.org](mailto::coc@rainbowr.org).
 
 Members of the Code of Conduct committee are listed at <https://rainbowr.org/committees#code-of-conduct-committee>.
 
-If a report involves a member of the CoC committee, or there is any other reason why the person submitting the report does not want a member of this committee to see it, the report can instead be sent to our external, independent advisors, the Fellowship team at the [Software Sustainability Institute (SSI)](https://software.ac.uk). They can be reached at [fellows-management@software.ac.uk](mailto:fellows-management@software.ac.uk), and they will review and handle the report according to this Code of Conduct. Current members of the SSI Fellowship team are also listed at <https://rainbowr.org/committees#code-of-conduct-committee>.
+If a report involves a member of the CoC committee, or there is any other reason why the person submitting the report does not want a member of this committee to see it, the report can instead be sent to our external, independent advisors, the Fellowship team at the [Software Sustainability Institute (SSI)](https://software.ac.uk). They can be reached, via the primary point of contact, at [oscar.seip@manchester.ac.uk](mailto:oscar.seip@manchester.ac.uk), and they will review and handle the report according to this Code of Conduct. Current members of the SSI Fellowship team are listed on the [Fellowship page](https://www.software.ac.uk/programmes/fellowship-programme) of the SSI website, under "Meet our Team, Fellow, and Explore the Impact of the Programme" -> "Our Team".
 
 All Code of Conduct committee members, and our advisors, are obligated to respect the privacy and security of the reporter of any incident.
 

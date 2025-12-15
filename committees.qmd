@@ -160,5 +160,8 @@ Rhian is a Senior Data Scientist at [The Strategy Unit (NHS)](https://www.strate
 - [Katlyn Bagley-Sepsey](https://www.linkedin.com/in/katlyn-bagley-sepsey/)
 - [Yo Yehudi](https://yo-yehudi.com/ )
 
-The external, independent advisors to the Code of Conduct committee are the Fellows Management team at the [Software Sustainability Institute](https://software.ac.uk): [Oscar Seip](https://www.software.ac.uk/our-people/oscar-seip) (main point of contact), [Shoaib Sufi](https://www.software.ac.uk/our-people/shoaib-sufi), and [Kathleen Glass](https://www.software.ac.uk/our-people/kathleen-glass).
+The external, independent advisors to the Code of Conduct committee are the Fellows Management team at the [Software Sustainability Institute](https://software.ac.uk).
+The primary point of contact is [Oscar Seip](https://www.software.ac.uk/our-people/oscar-seip). 
+Current members of the team are listed on the [Fellowship page](https://www.software.ac.uk/programmes/fellowship-programme) of the SSI website, 
+under "Meet our Team, Fellow, and Explore the Impact of the Programme" -> "Our Team".
 
