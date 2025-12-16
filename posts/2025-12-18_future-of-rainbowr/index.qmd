@@ -1,0 +1,106 @@
+---
+title: "The future of rainbowR"
+author: 
+  - Ella Kaye
+  - Hanne Oberman
+  - Daniel Sjoberg
+  - Rhian Davies
+date: '2025-12-18'
+categories: ["rainbowR", "governance", "Code of Conduct"]
+description: |
+  New structures and governance to ensure the long-term sustainability of rainbowR
+image: "rainbow-field.jpg"
+code-tools: false
+---
+
+Since [rainbowR was relaunched](../2022-06-20_relaunching-rainbowr/index.qmd) in 2022,
+the community has grown and is now flourishing. As we write now, we have over 250 members. 
+We run monthly [meet-ups](../../meetups.qmd), a quarterly [buddies](../../buddies.qmd) scheme, and are gearing up for our first [conference](https://conference.rainbowr.org).
+
+As rainbowR has become more established, 
+it has become imperative to ensure the community is sustainable for the long-term.
+From our initial figuring-it-out-as-we-go-along approach, 
+we're moving to **formalise our governance, democratise our leadership, secure our finances, and ensure that rainbowR is a healthy and safe community**.
+
+After months of consideration and preparation by us, the rainbowR leadership team, 
+supported by Ella's Software Sustainability Institute Fellowship, 
+we're delighted to share our proposals.
+
+## Formalising our governance
+We believe rainbowR needs a governing document, and an elected leadership team. 
+It also needs a bank account, and therefore needs to be a type of entity that can get a bank account in the UK^[We are basing rainbowR in the UK because two of the current leadership team members are there, which will simplify the process of getting a bank account.]. 
+After much consideration of various company and charitable entity types, 
+we have opted to propose the simplest which will meet our needs, that rainbowR becomes an [unincorporated association](https://www.gov.uk/unincorporated-associations).
+
+To be an unincorporated association, rainbowR must have a constitution, 
+and this constitution must be formally adopted by rainbowR members at an Inaugural General Meeting.
+
+**We will hold this Inaugural General Meeting on Wednesday January 28th, at 4:30pm UTC, as part of our reguarly online monthly meet-up.**
+
+We have published our [proposed constitution](https://github.com/r-lgbtq/governance/blob/main/constitution.md) on our new governance repo. It is a standard consistition for a small unincorporated association: we have adapted it from [this example](https://www.resourcecentre.org.uk/information/constitutions/#sample). 
+
+We also need a way to formally define our membership. 
+We take our current membership to be anyone who has filled in our [join form](https://docs.google.com/forms/d/e/1FAIpQLSepXotTnoEDaIaflIWXCZNB7dptPqzQsCL6ha2VVHIqgAxXDA/viewform?usp=dialog) to date.[^1]
+
+[^1]: In future, it will be anyone who has had their request for membership approved. At present, we understand that as someone filling in our join form and subsequently receiving a 'welcome' e-mail from the rainbowR committee. The join form opened in June 2022. We started sending welcome e-mails in April 2024. We believe everyone who has filled in the join form to date satisfies the conditions for membership.
+
+## Electing the leadership committee
+The current leadership committee is comprised of the authors of this post.[^2]
+We all want to expand and democratise the rainbowR leadership, 
+and ensure that all members of the community who would like a role in running the it have an opportunity to put themselves forward to do so (we strongly encourage this!). 
+
+[^2]: For a year or so after the relaunch, rainbowR was run just by Ella. 
+In September 2023, Ella asked Hanne to help out, and Daniel shortly thereafter, 
+at which point we had a committee. 
+In April 2025, Ella asked Rhian to join, 
+to help with the process of transitioning rainbowR towards a sustainable future.
+
+We therefore propose that we move to annual elections of the leadship committee.
+The fundamentals of how this would work are set out in the proposed [constitution](https://github.com/r-lgbtq/governance/blob/main/constitution.md) 
+and expanded upon in our new [committee policy](https://github.com/r-lgbtq/governance/blob/main/committee_policy.md).[^3]
+
+[^3]: We have separated the committee policy from the constitution because there is a high bar for amending the constitution (it requires a General Meeting, and the approval of two-thirds majority of those present and eligible to vote), whereas the committee policy is a more nimble document, in that it can be amended at a committee meeting, in accordance with the rules of procudure for meetings, as set out in the constitution.
+
+The current committee members have thought hard about how to balance the need and wish for new leaders and in the community, bringing new ideas and enthusiam, with the importance of ensuring that the community stays safe and that there is some degree of continuity and building on what we already have. 
+
+The constition allows for electing a committee of up to eight members (doubling our current size). The criteria for eligibility to stand is being an engaged member in good standing of the rainbowR community (e.g. have participated in rainbowR activities such as the buddies scheme or meetups, have been a member of a rainbowR committee, have been active in Slack), and having been a member for at least one month. 
+
+We can all vouch that being on the rainbowR committee is fantastically rewarding, 
+and a wonderful way to be part of growing this community that we care so deeply about. 
+
+**If you would like to be on the leadership committee, please fill out the [nomination form](https://docs.google.com/forms/d/e/1FAIpQLSeDim51GGagStX7wcY8x1MuNcKVW1TkNuYMi2zNtZZ8O30ZNw/viewform?usp=dialog).**
+
+## Securing our finances
+If the proposal for rainbowR to become an unincorporated association is agreed at the Inaugral General Meeting, once the constitution is in place, and the community has a Treasurer, we can apply for a bank account and hold and be responsible for our own funds.[^4]
+
+rainbowR has not previously attempted to raise funds, but we have an opportunity to do so with our upcoming conference. 
+The conference will be free to attend. 
+That said, we would like to give folks who wish to support the community financially, and have the means to do so, the opportunity to purchase a donation ticket. 
+We hope this will raise sufficient funds to tide rainbowR over for the near to medium term, 
+at which point the committee at that time can consider further income-generating opportunities.
+
+The timing of the conference means that we'll need to open registration prior to the Inaugral General Meeting, and therefore before we have a bank account. 
+Ella is an Incubator Fellow of [OLS](https://we-are-ols.org) and has a contract with them whereby they will hold money on behalf of rainbowR until we have our own bank account.
+
+[^4]: To date, rainbowR has been financially supported by Ella's employment[^4], by her Software Sustainability Fellowship grant, and by Ella personally, none of which are long-term sustainable sources of funding. 
+
+## Ensuring the rainbowR is a safe and healthy community
+We are committed to the well-being of rainbowR and its members. It is of upmost importance that rainbowR is a safe and healthy community, one which is open, welcoming, diverse, and inclusive. A community where members treat each other with respect and kindness. 
+A robust Code of Conduct (CoC) is essential for ensuring this.
+
+We have now established a dedicated [CoC committee](../../committees#code-of-conduct-committee) and updated our [CoC](../../CoC.qmd) and procedures. The CoC committee wrote about what has changed, and why, in [this blog post](../2025-12-16_coc-update/index.qmd).
+
+## Conclusion
+We invite all rainbowR members to review the proposed [constitution](https://github.com/r-lgbtq/governance/blob/main/constitution.md) and [committee policy](https://github.com/r-lgbtq/governance/blob/main/committee_policy.md). 
+We welcome feedback,
+either as an [issue in the repo](https://github.com/r-lgbtq/governance/issues), 
+or by e-mail to [hello@rainbowr.org](mailto:hello@rainbowr.org).
+
+This is a pivotal time for rainbowR.
+We're excited for the future of the community, long may it continue!
+
+
+
+
+
+
