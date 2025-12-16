@@ -4,17 +4,19 @@ author:
   - Ella Kaye
   - Katlyn Bagley-Sepsey
   - Yo Yehudi
-date: '2025-12-10'
+date: '2025-12-16'
 categories: ["rainbowR", "Code of Conduct"]
 description: |
   Ensuring rainbowR is a safe and healthy community with an improved CoC and procedures, and dedicated CoC committee
 image: "pride-badges.jpg"
 code-tools: false
-draft: true
 ---
 
-It is of upmost importance that rainbowR is a safe and healthy community.
-A Code of Conduct is essential for ensuring that. 
+We are committed to the well-being of rainbowR and its members.
+It is of upmost importance that rainbowR is a safe and healthy community, 
+one which is open, welcoming, diverse, and inclusive.
+A community where members treat each other with respect and kindness.
+A Code of Conduct is essential for ensuring this. 
 
 When folks join rainbowR, or participate in any rainbowR event, they must agree to follow our [Code of Conduct (CoC)](../../CoC.qmd), 
 which contains the following pledge:
@@ -37,11 +39,10 @@ As we've grown (we're now over 250 members at the time of writing),
 we've realised there were gaps in our original version, that the reporting process was in need of improvement,
 and that we needed a dedicated CoC committee. 
 
-Most of all, we want to show, with these changes, that we are committed to the well-being of the community and its members.
-
 ## What's changed?
 
-- We now have a dedicated **[Code of Conduct committee](../../committees#code-of-conduct-committee.qmd)**, responsible for ensuring that our CoC is fit for purpose, reviewing complaints, and enforcement. This committee replaces the vaguer "Community leaders" from the previous version of the CoC.
+- We now have a dedicated **[Code of Conduct committee](../../committees#code-of-conduct-committee)**, responsible for ensuring that our CoC is fit for purpose, reviewing complaints, and enforcement. This committee replaces the vaguer "Community leaders" from the previous version of the CoC.
+- A dedicated e-mail for contacting the CoC committee, [coc@rainbowr.org](mailto:coc@rainbowr.org).
 - We also now have external, independent advisors, who will handle any concerns that are not suitable for the CoC committee (for example, if the complaint is against a member of that committee). This is the Fellowship team at the Software Sustainability Institute, with [Oscar Seip](https://www.software.ac.uk/our-people/oscar-seip) as the primary point of contact there.
 - There are now three ways to raise a concern:
   - by e-mail to [coc@rainbowr.org](mailto:coc@rainbowr.org)
@@ -54,7 +55,7 @@ Most of all, we want to show, with these changes, that we are committed to the w
 - The CoC committee has the right to remove a member of any rainbowR committee from their committee role, if they consider it an appropriate consequence for any action they deem in violation of this Code of Conduct by that person.
 - Increased scope: behavior that occurs outside rainbowR spaces may be considered when it involves a rainbowR member and creates a risk of harm within the rainbowR community. The Code of Conduct committee will use discretion and will only act on external behavior when it directly impacts the safety or well-being of the community.
 
-The full and exact changes can be seen in [this diff](https://github.com/r-lgbtq/rainbowr.org/commit/16945c2fcb08c97a26dea116c628b60104442e65).
+The majority of the changes can be seen in [this diff](https://github.com/r-lgbtq/rainbowr.org/commit/16945c2fcb08c97a26dea116c628b60104442e65), with further tweaks in [this diff](https://github.com/r-lgbtq/rainbowr.org/commit/24aff83bc956d82b725936c158447ca464dd0c57) and [this diff](https://github.com/r-lgbtq/rainbowr.org/commit/584b1242d59560aaf5783b25b24de764d75d17bb).
 
 ## How to comment
 
