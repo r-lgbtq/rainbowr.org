@@ -51,7 +51,7 @@ Most of all, we want to show, with these changes, that we are committed to the w
   - Retaliation, such as punishing, intimidating, or excluding someone for reporting a concern or participating in an investigation
   - Using religious or moral beliefs as a justification or excuse for behaviour that does not comply with this Code of Conduct
 - The Code of Conduct now contains an outline of the reporting, reviewing and appeals process, including a time frame for each step
-- The CoC committee has the right to remove a member of any rainbowR committee from their committee role
+- The CoC committee has the right to remove a member of any rainbowR committee from their committee role, if they consider it an appropriate consequence for any action they deem in violation of this Code of Conduct by that person.
 - Increased scope: behavior that occurs outside rainbowR spaces may be considered when it involves a rainbowR member and creates a risk of harm within the rainbowR community. The Code of Conduct committee will use discretion and will only act on external behavior when it directly impacts the safety or well-being of the community.
 
 The full and exact changes can be seen in [this diff](https://github.com/r-lgbtq/rainbowr.org/commit/16945c2fcb08c97a26dea116c628b60104442e65).

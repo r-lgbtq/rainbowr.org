@@ -77,9 +77,10 @@ rainbowR prioritizes marginalized people's safety over privileged people's comfo
 
 The CoC committee is responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
-The CoC committee have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+The CoC committee has the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
-The CoC committee has the right to remove a member of any rainbowR committee from their committee role.
+The CoC committee has the right to remove a member of any rainbowR committee from their committee role, 
+if they consider it an appropriate consequence for any action they deem in violation of this Code of Conduct by that person.
 
 ## Scope
 
