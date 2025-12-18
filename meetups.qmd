@@ -6,6 +6,12 @@ include-in-header:
 
 ## Next meet-up
 
+::: {.callout-note}
+Our January meet-up with also be our **Inaugural Annual General Meeting**.
+
+See our blog-post on [securing the future of rainbowR](posts/2025-12-18_future-of-rainbowr/index.qmd) for more on what we're planning and why.
+:::
+
 :::: {.columns}
 ::: {.column width="45%"}
 ![Image with meetup details (all text in image is elsewhere in text on this page)](images/rainbowR-latest-meetup.svg)
@@ -15,7 +21,7 @@ include-in-header:
 :::
 
 ::: {.column width="45%"}
-**Wednesday December 17th, 2025, 4:30pm UTC, Zoom**
+**Wednesday January 28th, 2026, 4:30pm UTC, Zoom**
 
 ```{r}
 #| echo: false
@@ -34,13 +40,13 @@ Get the time in your timezone, e.g.
 ```{r}
 #| echo: true
 library(lubridate)
-ymd_hms("2025-12-17 16:30:00") |>
+ymd_hms("2026-01-28 16:30:00") |>
 with_tz("Europe/Vienna")
 ```
 
 ```{r}
 #| echo: true
-ymd_hms("2025-12-17 16:30:00") |>
+ymd_hms("2026-01-28 16:30:00") |>
 with_tz("America/Los_Angeles")
 ```
 
