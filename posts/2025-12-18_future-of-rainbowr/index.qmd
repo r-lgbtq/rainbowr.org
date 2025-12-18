@@ -14,18 +14,17 @@ code-tools: false
 ---
 
 Since [rainbowR was relaunched](../2022-06-20_relaunching-rainbowr/index.qmd) in 2022,
-the community has grown and is now flourishing. As we write now, we have over 250 members. 
+the community has grown--we have over 250 members--and is now flourishing. 
 
 To make sure rainbowR is sustainable, safe, and community-led in the long term, we're working to:
 
-- formalise our governance
-- expand and open up the leadership committee
-- secure our finances
-- ensure that rainbowR is a healthy and welcoming community
+- formalise our governance by adopting a constitution
+- expand and open up the leadership committee by holding elections
+- secure our finances by becoming an entity that can have our own bank account
+- ensure that rainbowR is a healthy and welcoming community by updating our Code of Conduct and having a dedicated CoC committee
 
 After months of consideration and preparation by us, the rainbowR leadership team, 
-supported by Ella's Software Sustainability Institute Fellowship, 
-we're delighted to share our proposals.
+we're delighted to share our proposals, and let you know the next steps towards adopting them.
 
 ## Formalising our governance
 We believe rainbowR needs a governing document, and an elected leadership team. 
@@ -35,7 +34,9 @@ After exploring several options, we believe the simplest and most appropriate st
 This requires members to formally adopt a constitution at an Inaugural General Meeting.
 
 ::: {.callout-note}
-We will hold this Inaugural General Meeting on Wednesday January 28th, at 4:30pm UTC, as part of our reguarly online monthly meet-up.
+We will hold this Inaugural General Meeting on Wednesday January 28th, at 4:30pm UTC, as part of our regular online monthly meet-up.
+
+See our [meetups](../../meetups.qmd) page for details on how to register.
 :::
 
 We have published our [proposed constitution](https://github.com/r-lgbtq/governance/blob/main/constitution.md) on our new governance repository. It is a standard consistition for a small unincorporated association: we have adapted it from [this example](https://www.resourcecentre.org.uk/information/constitutions/#sample). 
