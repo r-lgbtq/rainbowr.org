@@ -16,12 +16,12 @@ code-tools: false
 Since [rainbowR was relaunched](../2022-06-20_relaunching-rainbowr/index.qmd) in 2022,
 the community has grown--we have over 250 members--and is now flourishing. 
 
-To make sure rainbowR is sustainable, safe, and community-led in the long term, we're working to:
+To make sure rainbowR is sustainable, safe, and community-led in the long term, we're working to
 
 - formalise our governance by adopting a constitution
 - expand and open up the leadership committee by holding elections
 - secure our finances by becoming an entity that can have our own bank account
-- ensure that rainbowR is a healthy and welcoming community by updating our Code of Conduct and having a dedicated CoC committee
+- ensure that rainbowR is a healthy and welcoming community by updating our [Code of Conduct](../../CoC.qmd) and having a dedicated CoC committee.
 
 After months of consideration and preparation by us, the rainbowR leadership team, 
 we're delighted to share our proposals, and let you know the next steps towards adopting them.
