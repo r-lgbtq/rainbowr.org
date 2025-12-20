@@ -42,9 +42,7 @@ See our [meetups](../../meetups.qmd) page for details on how to register.
 We have published our [proposed constitution](https://github.com/r-lgbtq/governance/blob/main/constitution.md) on our new governance repository. It is a standard consistition for a small unincorporated association: we have adapted it from [this example](https://www.resourcecentre.org.uk/information/constitutions/#sample). 
 
 We also need a way to formally define our membership. 
-We take our current membership to be anyone who has filled in our [join form](https://docs.google.com/forms/d/e/1FAIpQLSepXotTnoEDaIaflIWXCZNB7dptPqzQsCL6ha2VVHIqgAxXDA/viewform?usp=dialog) to date.[^1]
-
-[^1]: In future, it will be anyone who has had their request for membership approved. At present, we understand that as someone filling in our join form and subsequently receiving a 'welcome' e-mail from the rainbowR committee. The join form opened in June 2022. We started sending welcome e-mails in April 2024. 
+We take our current membership to be anyone who has filled in our [join form](https://docs.google.com/forms/d/e/1FAIpQLSepXotTnoEDaIaflIWXCZNB7dptPqzQsCL6ha2VVHIqgAxXDA/viewform?usp=dialog) and subsequently received an invitation to join the rainbowR Slack.
 
 ## Opening up the leadership committee
 We want rainbowR to be lead by its community.
