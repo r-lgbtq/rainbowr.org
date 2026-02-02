@@ -6,12 +6,11 @@ include-in-header:
 
 ## Next meet-up
 
-::: {.callout-note}
-Our January meet-up with also be our **Inaugural Annual General Meeting**.
-
-See our blog-post on [securing the future of rainbowR](posts/2025-12-18_future-of-rainbowr/index.qmd) for more on what we're planning and why.
+::: {.callout-tip}
+There will be no regular meet-up in Februrary, as we have our [conference](https://conference.rainbowr.org) instead!
 :::
 
+<!--
 :::: {.columns}
 ::: {.column width="45%"}
 ![Image with meetup details (all text in image is elsewhere in text on this page)](images/rainbowR-latest-meetup.svg)
@@ -52,6 +51,7 @@ with_tz("America/Los_Angeles")
 
 :::
 ::::
+-->
 
 ## Future meet-ups
 
@@ -75,7 +75,7 @@ url = "https://us02web.zoom.us/meeting/register/zhP9C3K9TY22REx_ggMejg")`
 - Wednesday, **November 26th**, 4:30pm UTC, Zoom
 - Wednesday, **December 17th**, 4:30pm UTC, Zoom
 - Wednesday, **January 28th**, 4:30pm UTC, Zoom
-- Wednesday, **February 25th**, 4:30pm UTC, Zoom
+- ~~Wednesday, **February 25th**, 4:30pm UTC, Zoom~~ Conference instead!
 - Wednesday, **March 25th**, 4:30pm UTC, Zoom
 
 Details will also be shared via [Mastodon](https://tech.lgbt/@rainbowR){target="_blank"}, [Bluesky](https://bsky.app/profile/rainbowr.org), [LinkedIn](https://www.linkedin.com/company/rainbowr/) and our newsletter^[You can opt-in to the newsletter when you [join the community](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/){target="_blank"}.] in the run-up to each meet-up.
