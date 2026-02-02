@@ -25,4 +25,11 @@ If you are LGBTQ+ and want to join the rainbowR community, please fill in the [j
 
 We welcome everyone, LGBTQ+ or not, who is interested in promoting LGBTQ+ people and issues in the R community and beyond, to follow and engage with us on [Mastodon](https://tech.lgbt/@rainbowR), [Bluesky](https://bsky.app/profile/rainbowr.org) or [LinkedIn](https://www.linkedin.com/company/rainbowr/).
 
+## Governance
+
+rainbowR is governed by a [constitution](https://github.com/r-lgbtq/governance/blob/main/constitution.md). 
+We are an ['unincorporated association'](https://www.gov.uk/unincorporated-associations) in the UK.
+
+The rainbowR leadership [committee](committees.qmd) acts according to our [committee policy](https://github.com/r-lgbtq/governance/blob/main/committee_policy.md).
+
 ![](images/rainbowR-banner-thin2.svg)
