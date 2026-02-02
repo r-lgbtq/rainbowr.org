@@ -16,6 +16,9 @@ rainbowR is having its first ever conference!
 `r icon_link(icon = "users",
 text = "visit the conference website",
 url = "https://conference.rainbowr.org")`
+`r icon_link(icon = "calendar",
+text = "register for the conference",
+url = "https://pretix.eu/rainbowr/conference-2026/")`
 
 **Why are we having a conference?** To connect, support and promote LGBTQ+ folks who code in R, to raise awareness of LGBTQ+ issues through data-driven activism, to share our work with R, and to bolster the rainbowR community.
 

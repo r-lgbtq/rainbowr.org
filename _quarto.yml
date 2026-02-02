@@ -14,9 +14,9 @@ website:
   open-graph: true
   site-url: "https://rainbowr.org"
   announcement:
-    icon: people-fill
+    icon: calendar-check
     dismissable: true
-    content: "**Our conference website is now live!** [conference.rainbowr.org](https://conference.rainbowr.org/)"
+    content: "**[Registration for the rainbowR conference 2026 is now open!](https://pretix.eu/rainbowr/conference-2026/)**"
     type: primary
     position: below-navbar
   
@@ -28,6 +28,8 @@ website:
       - text: "Join"
         href: https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/
         target: _blank
+      - text: "Conference"
+        href: https://conference.rainbowr.org
       - text: Activities
         menu:
         - text: "Meetups"
