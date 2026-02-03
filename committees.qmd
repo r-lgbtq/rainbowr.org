@@ -147,9 +147,63 @@ Rhian is a Senior Data Scientist at [The Strategy Unit (NHS)](https://www.strate
 
 ::::
 
-::: {.callout-note}
-Tina Rozsos and Katlyn Bagley-Sepsey recently joined the leadership committee and this page will be updated with their profiles shortly.
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](images/people/tina.jpg)
 :::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+**Tina Rozsos (she/her)**
+
+Tina is an applied microeconomist with an interest in the economics of (higher) education. She is currently a PhD student at the Vrije Universiteit Amsterdam in the Netherlands. She is also a Graduate Fellow at the University College Roosevelt Data Center and the Data Manager of CORE Econ.
+
+`r icon_link(icon = "globe",
+          text = "website",
+          url = "https://tinarozsos.github.io")
+`
+`r icon_link(icon = "github",
+          text = "GitHub",
+          url = "https://github.com/tinarozsos")
+`
+`r icon_link(
+  icon = "linkedin",
+  text = "LinkedIn",
+  url = "https://www.linkedin.com/in/tina-rozsos/"
+)`
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="25%"}
+![](images/people/katlyn.png)
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+**Katlyn Bagley-Sepsey (she/her)**
+
+As Director of Institutional Research, Reporting, and Data Stewardship at Furman University, Katlyn focuses on institutional data strategy, governance, and compliance. Responsibilities include aligning data systems with decision-making needs, developing and maintaining data warehousing processes, and ensuring adherence to FERPA standards. She also oversees federal and state reporting, institutional dashboards, and participation in national data exchanges. 
+
+`r icon_link(
+  icon = "linkedin",
+  text = "LinkedIn",
+  url = "https://www.linkedin.com/in/katlyn-bagley-sepsey/"
+)`
+:::
+
+::::
+
 
 **Previous members**
 
