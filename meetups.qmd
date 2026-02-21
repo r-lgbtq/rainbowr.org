@@ -72,9 +72,21 @@ with_tz("America/Los_Angeles")
 
 We hold online meetups, over Zoom. 
 
-For the EMEA/AMER meet-up, these will usually be on the **last Wednesday of each month, at 4:30pm UK time** (i.e. 3:30pm UTC in the summer, 4:30pm UTC in the winter).
+::: {.callout-note}
+## EMEA/AMER meet-up
+These will usually be on the **last Wednesday of each month, at 4:30pm UK time** (i.e. 3:30pm UTC in the summer, 4:30pm UTC in the winter).
 
-For the APAC meet-up, these will usually be on the **last Monday of each month, at 1pm Canberra time** (i.e. 2am UTC in the summer, 3am UTC in the winter). *Note that although we're calling this the APAC region meet-up, this timezone could also work well for folks on the Western side of the Americas.*
+[{{< iconify bi:calendar-check >}} Register EMEA/AMER](https://us06web.zoom.us/meeting/register/auyxlxNdQvq5FyXG2CbcuQ){.btn .icon-link}
+:::
+
+::: {.callout-note}
+## APAC meet-up
+These will usually be on the **last Monday of each month, at 1pm Canberra time** (i.e. 2am UTC in the summer, 3am UTC in the winter). 
+
+*Note that although we're calling this the APAC region meet-up, this timezone could also work well for folks on the Western side of the Americas.*
+
+[{{< iconify bi:calendar-check >}} Register APAC](https://us06web.zoom.us/meeting/register/yIiwa8CzQ9S1ErB5y-XDgg){.btn .icon-link}
+:::
 
 We schedule the meet-ups as recurring Zoom meetings. You only need to register once (per meetup series) you'll get a calendar invitation for all future scheduled meet-ups (though of course no requirement to come to all of them!).
 
