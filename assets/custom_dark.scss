@@ -46,6 +46,8 @@ $callout-color-caution: $purple;
 $callout-color-warning: $orange;
 $callout-color-important: $red;
 
+/*-- scss:rules --*/
+
 .top-quote {
   font-family: $headings-font-family;
   font-size: 275%;
@@ -62,7 +64,7 @@ $callout-color-important: $red;
     margin-top: 4px;
     margin-right: 8px;
     margin-bottom: 4px;
-    border-radius: 5px; 
+    border-radius: 5px;
     display: inline-block;
     text-decoration: none;
 }
@@ -151,11 +153,11 @@ $callout-color-important: $red;
   a.nav-link {
     position: relative;
   }
-  
+
   .navbar .navbar-nav .nav-item {
     position: relative;
   }
-  
+
   .navbar .navbar-nav .nav-item::after {
     position: absolute;
     bottom: 0;
@@ -168,27 +170,27 @@ $callout-color-important: $red;
     height: 4px;
     transition: all 0.3s;
   }
-  
+
   .navbar .navbar-nav .nav-item:nth-child(2)::after,
   .navbar .navbar-nav .nav-item:nth-child(8)::after {
     background-color: $orange;
   }
-  
+
   .navbar .navbar-nav .nav-item:nth-child(3)::after,
   .navbar .navbar-nav .nav-item:nth-child(9)::after {
     background-color: $yellow;
   }
-  
+
     .navbar .navbar-nav .nav-item:nth-child(4)::after,
     .navbar .navbar-nav .nav-item:nth-child(10)::after {
     background-color: $green;
   }
-  
+
     .navbar .navbar-nav .nav-item:nth-child(5)::after,
     .navbar .navbar-nav .nav-item:nth-child(11)::after {
     background-color: $blue;
   }
-  
+
     .navbar .navbar-nav .nav-item:nth-child(6)::after,
     .navbar .navbar-nav .nav-item:nth-child(12)::after {
     background-color: $pink;
@@ -200,7 +202,7 @@ $callout-color-important: $red;
 }
 
 /* bg-color on dropdown menu and tool items
-Note that there is currently only one dropdown, 
+Note that there is currently only one dropdown,
 from a navbar item that goes yellow when hovered on.
 If the hover cover of the dropdown header changes,
 or another dropdown is introduced, this CSS will need updating.
