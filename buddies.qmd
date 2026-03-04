@@ -1,16 +1,9 @@
 ---
 title: The buddy scheme
 toc: true
-include-in-header: 
-  - _includes/fontawesome.html
 ---
 
 ## Next buddy pairings
-
-```{r}
-#| echo: false
-library(distilltools)
-```
 
 :::: {.columns}
 ::: {.column width="40%"}
@@ -18,17 +11,14 @@ library(distilltools)
 :::
 
 ::: {.column width="5%"}
-
 :::
 
 ::: {.column width="55%"}
 The sign-up form is open for the next round of the buddy scheme.
 
-It closes on **Monday March 2nd, 2026** and e-mails introducing the buddy pairs will be sent on **Tuesday March 3rd.**
+It closes on **Monday June 1st, 2026** and e-mails introducing the buddy pairs will be sent on **Tuesday June 2nd.**
 
-`r icon_link(icon = "list",
-text = "sign-up form",
-url = "https://docs.google.com/forms/d/e/1FAIpQLScXKExlwtmyElpT9MRWq6wdhVUpvONu8Wg_IvxGPsC9hHJI_A/viewform?usp=dialog")`
+[{{< iconify bi:calendar-check >}} sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSf7G1Ltli9HdRw_GGw9muo2knkV8N2IigFXxltxIRh6h6Meqw/viewform?usp=dialog){.btn .icon-link}
 :::
 ::::
 
