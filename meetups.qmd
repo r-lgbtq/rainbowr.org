@@ -4,10 +4,9 @@ toc: true
 
 ## Next meet-ups
 
-::: {.callout-tip}
-There will be no regular meet-up in Februrary, as we have our [conference](https://conference.rainbowr.org) instead!
+::: {.callout-warning}
+March is a tricky month for scheduling because of clock changes happening on different dates in different parts of the world. Please make sure to double-check the times of the March meet-ups for wherever you are!
 :::
-
 
 :::: {.columns}
 ::: {.column width="45%"}
