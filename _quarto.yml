@@ -13,12 +13,12 @@ website:
   favicon: images/rainbow-hex-square.png
   open-graph: true
   site-url: "https://rainbowr.org"
-  announcement:
-    icon: calendar-check
-    dismissable: true
-    content: "**[Registration for the rainbowR conference 2026 is now open!](https://pretix.eu/rainbowr/conference-2026/)**"
-    type: primary
-    position: below-navbar
+  # announcement:
+  #   icon: calendar-check
+  #   dismissable: true
+  #   content: "**[Registration for the rainbowR conference 2026 is now open!](https://pretix.eu/rainbowr/conference-2026/)**"
+  #   type: primary
+  #   position: below-navbar
   
   navbar:
     logo: images/rainbow-hex.png
