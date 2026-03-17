@@ -4,39 +4,23 @@ toc: true
 
 ## Next meet-ups
 
-::: {.callout-warning}
-March is a tricky month for scheduling because of clock changes happening on different dates in different parts of the world. Please make sure to double-check the times of the March meet-ups for wherever you are!
+::: {.callout-note}
+We're using the new Quarto extension [`localtime`](https://github.com/EllaKaye/localtime) to render the meeting times in your local time in the browser! These appear just under the flier image. The UTC times are shown in the fliers, for comparison.
+
+Please note that `localtime` is currently experimental. Please [let us know](https://github.com/EllaKaye/localtime/issues) if something doesn't look right.
+
+Note that March is a particularly tricky month, with clock-changes on different dates in different parts of the world.
 :::
 
 :::: {.columns}
 ::: {.column width="45%"}
 ![](images/rainbowR-latest-meetup.png)
 
-**Weds Mar 25, 2026, 4:30pm UTC**
-
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
-library(lubridate)
-```
+**{{< localtime 2026-03-25 16:30 UTC format="%a, %b %d, %Y, %I:%M%p %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register EMEA/AMER](https://us06web.zoom.us/meeting/register/auyxlxNdQvq5FyXG2CbcuQ){.btn .icon-link}
 
-Get the date/time in your timezone, e.g.
 
-```{r}
-#| echo: true
-library(lubridate)
-ymd_hms("2026-03-25 16:30:00") |>
-with_tz("Europe/Vienna")
-```
-
-```{r}
-#| echo: true
-ymd_hms("2026-03-25 16:30:00") |>
-with_tz("America/New_York")
-```
 :::
 
 ::: {.column width="10%"}
@@ -45,24 +29,10 @@ with_tz("America/New_York")
 ::: {.column width="45%"}
 ![](images/rainbowR-latest-meetup-apac.png)
 
-**Mon Mar 30, 2026, 2am UTC**
+
+**{{< localtime 2026-03-30 13:00 AEST format="%a, %b %d, %Y, %I:%M%p %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register APAC](https://us06web.zoom.us/meeting/register/yIiwa8CzQ9S1ErB5y-XDgg){.btn .icon-link}
-
-Get the date/time in your timezone, e.g.
-
-```{r}
-#| echo: true
-library(lubridate)
-ymd_hms("2026-03-30 02:00:00") |>
-with_tz("Australia/Canberra")
-```
-
-```{r}
-#| echo: true
-ymd_hms("2026-03-30 02:00:00") |>
-with_tz("America/Los_Angeles")
-```
 :::
 ::::
 
