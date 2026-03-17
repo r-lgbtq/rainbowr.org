@@ -16,7 +16,7 @@ Note that March is a particularly tricky month, with clock-changes on different 
 ::: {.column width="45%"}
 ![](images/rainbowR-latest-meetup.png)
 
-**{{< localtime 2026-03-25 16:30 UTC format="%a, %b %d, %Y, %I:%M%p %Z" >}}**
+**{{< localtime 2026-03-25 16:30 UTC format="%a %b %d, %Y, %I:%M%p %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register EMEA/AMER](https://us06web.zoom.us/meeting/register/auyxlxNdQvq5FyXG2CbcuQ){.btn .icon-link}
 
@@ -30,7 +30,7 @@ Note that March is a particularly tricky month, with clock-changes on different 
 ![](images/rainbowR-latest-meetup-apac.png)
 
 
-**{{< localtime 2026-03-30 13:00 AEST format="%a, %b %d, %Y, %I:%M%p %Z" >}}**
+**{{< localtime 2026-03-30 13:00 AEST format="%a %b %d, %Y, %I:%M%p %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register APAC](https://us06web.zoom.us/meeting/register/yIiwa8CzQ9S1ErB5y-XDgg){.btn .icon-link}
 :::
