@@ -16,7 +16,7 @@ Note that March is a particularly tricky month, with clock-changes on different 
 ::: {.column width="45%"}
 ![](images/rainbowR-latest-meetup.png)
 
-**{{< localtime 2026-03-25 16:30 Europe/London format="%A %B %d, %Y, %-I:%M%P %Z" >}}**
+**{{< localtime 2026-04-29 16:30 Europe/London format="%A %B %d, %Y, %-I:%M%P %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register EMEA/AMER](https://us06web.zoom.us/meeting/register/auyxlxNdQvq5FyXG2CbcuQ){.btn .icon-link}
 
