@@ -14,7 +14,7 @@ Please note that `localtime` is currently experimental. Please [let us know](htt
 ::: {.column width="45%"}
 ![](images/rainbowR-latest-meetup.png)
 
-**{{< localtime 2026-07-29 16:30 Europe/London format="%A %B %d, %Y, %-I:%M%P %Z" >}}**
+**{{< localtime 2026-08-26 16:30 Europe/London format="%A %B %d, %Y, %-I:%M%P %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register EMEA/AMER](https://us06web.zoom.us/meeting/register/auyxlxNdQvq5FyXG2CbcuQ){.btn .icon-link}
 
@@ -28,7 +28,7 @@ Please note that `localtime` is currently experimental. Please [let us know](htt
 ![](images/rainbowR-latest-meetup-apac.png)
 
 
-**{{< localtime 2026-07-27 13:00 Australia/Sydney format="%A %B %d, %Y, %-I%P %Z" >}}**
+**{{< localtime 2026-08-28 13:00 Australia/Sydney format="%A %B %d, %Y, %-I%P %Z" >}}**
 
 [{{< iconify bi:calendar-check >}} Register APAC](https://us06web.zoom.us/meeting/register/yIiwa8CzQ9S1ErB5y-XDgg){.btn .icon-link}
 :::
@@ -48,7 +48,7 @@ These will usually be on the **last Wednesday of each month, at 4:30pm Europe/Lo
 
 ::: {.callout-note}
 ## APAC meet-up
-These will usually be on the **last Monday of each month, at 1pm Australia/Sydney time**.
+These will usually be on the **last Friday of each month, at 1pm Australia/Sydney time**.
 
 *Note that although we're calling this the APAC region meet-up, this timezone could also work well for folks on the Western side of the Americas.*
 
