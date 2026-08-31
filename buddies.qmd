@@ -16,7 +16,7 @@ toc: true
 ::: {.column width="55%"}
 The sign-up form is open for the next round of the buddy scheme.
 
-It closes on **Thursday Sept 3rd, 2026** and e-mails introducing the buddy pairs will be sent on **Friday Sept 2nd.**
+It closes on **Thursday Sept 3rd, 2026** and e-mails introducing the buddy pairs will be sent on **Friday Sept 4th.**
 
 [{{< iconify bi:calendar-check >}} sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSc7jyz56ChH4H9k96RqPcTkK7p3QabwLYdggAX8L4ceg4MfSA/viewform?usp=dialog){.btn .icon-link}
 :::
