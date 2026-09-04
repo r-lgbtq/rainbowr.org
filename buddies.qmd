@@ -16,9 +16,9 @@ toc: true
 ::: {.column width="55%"}
 The sign-up form is open for the next round of the buddy scheme.
 
-It closes on **Thursday Sept 3rd, 2026** and e-mails introducing the buddy pairs will be sent on **Friday Sept 4th.**
+It closes on **Tuesday December 1st, 2026** and e-mails introducing the buddy pairs will be sent on **Wednesday December 2nd.**
 
-[{{< iconify bi:calendar-check >}} sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSc7jyz56ChH4H9k96RqPcTkK7p3QabwLYdggAX8L4ceg4MfSA/viewform?usp=dialog){.btn .icon-link}
+[{{< iconify bi:calendar-check >}} sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSezYTYdBkZml0iX2mEsxeV0nukjGf19zrChL-_fBK0b6cCsqQ/viewform?usp=dialog){.btn .icon-link}
 :::
 ::::
 
@@ -28,7 +28,7 @@ The buddies scheme provides an opportunity to foster deeper connections between 
 
 ## How it works
 
-- Folks opt-in via this [sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSc7jyz56ChH4H9k96RqPcTkK7p3QabwLYdggAX8L4ceg4MfSA/viewform?usp=dialog)
+- Folks opt-in via this [sign-up form](https://docs.google.com/forms/d/e/1FAIpQLSezYTYdBkZml0iX2mEsxeV0nukjGf19zrChL-_fBK0b6cCsqQ/viewform?usp=dialog)
 - Buddy pairs are randomly assigned
 - E-mails are sent to each pair making the introduction.
 
