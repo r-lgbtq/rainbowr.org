@@ -16,7 +16,7 @@ website:
   announcement:
     icon: calendar-check
     dismissable: true
-    content: "**rainbowR conference 2027 is going ahead in late spring/early summer! If you're interested in helping organise, please fill in [this form](https://docs.google.com/forms/d/e/1FAIpQLSdIEr_NpZZ0XAOcEOvr2jO-coP66Hx6bUXxz0w44iShD1563w/viewform?usp=dialog).**"
+    content: "**rainbowR conference 2027 is set for June 8-9th! If you're interested in helping organise, please fill in [this form](https://docs.google.com/forms/d/e/1FAIpQLSdIEr_NpZZ0XAOcEOvr2jO-coP66Hx6bUXxz0w44iShD1563w/viewform?usp=dialog).**"
     type: primary
     position: below-navbar
   
